@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This repository contains a Next.js application that allows users to create products and submit feedback, with secure authentication powered by NextAuth.
 
 ## Getting Started
 
