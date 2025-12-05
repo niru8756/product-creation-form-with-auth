@@ -398,7 +398,7 @@ function ProductForm() {
     }
   }, [gender, productTypeValue]);
 
-  const enabledChannels = [];
+  const enabledChannels = [] as any;
 
   // TODO: handle error state
   const handleCheckProductValidation = async () => {
