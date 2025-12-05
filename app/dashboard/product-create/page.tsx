@@ -589,7 +589,7 @@ function ProductForm() {
         <div className="flex flex-col items-start md:z-30 z-10 sticky sm:top-0 top-[52px] bg-[#FCFCFD] py-12">
           <div className="flex justify-between items-start w-full mt-1">
             <div className="flex flex-col gap-1">
-              <h1 className="text-[#101828] md:text-xl text-lg font-semibold">
+              <h1 className="text-[#101828] md:text-3xl text-lg font-semibold">
                 {singleProductData.id ? "Edit" : "Add"} Product
               </h1>
               <p className="text-sm hidden md:block -text-Gray-500">

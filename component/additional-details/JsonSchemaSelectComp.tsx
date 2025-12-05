@@ -72,11 +72,11 @@ function JsonSchemaSelectComp({
         <div>
           <label
             onClick={() => setFocusDiv(!focusDiv)}
-            className="-text-Gray-500 text-sm font-medium"
+            className="text-Gray-500 text-sm font-medium"
           >
             {title}
           </label>
-          {requiredError && <span className="-text-Error-500">*</span>}
+          {requiredError && <span className="text-Error-500">*</span>}
         </div>
         <div
           ref={tooltipRef}
@@ -89,16 +89,16 @@ function JsonSchemaSelectComp({
       <div className="relative w-full" ref={divRef}>
         <div
           className={cn(
-            "border -border-Gray-300 rounded-lg bg-white shadow-shadow-xs py-2 px-3 flex gap-2 items-center",
+            "border border-Gray-300 rounded-lg bg-white shadow-xs py-2 px-3 flex gap-2 items-center",
             {
-              "-border-Secondary-Blue-200 shadow-ring-brand-shadow-xs":
+              "border-Secondary-Blue-200 shadow-ring-brand-shadow-xs":
                 focusDiv,
             },
-            { "-border-Error-300": error || parentKeyError },
+            { "border-Error-300": error || parentKeyError },
           )}
           onClick={focusDivHandle}
         >
-          <div className="w-full -text-Gray-500 font-medium">
+          <div className="w-full text-Gray-500 font-medium">
             {options[String(value)] ? options[String(value)] : "Select option"}
           </div>
           <div className="relative w-fit inputSecondSymbol cursor-pointer flex justify-end">
@@ -106,11 +106,11 @@ function JsonSchemaSelectComp({
           </div>
         </div>
         {focusDiv && (
-          <ul className="absolute top-full bg-white w-full mt-1 rounded-lg py-1 px-1.5 border -border-Gray-200 shadow-shadow-lg flex flex-col gap-1 overflow-auto max-h-[300px] scrollStyle z-10">
+          <ul className="absolute top-full bg-white w-full mt-1 rounded-lg py-1 px-1.5 border border-Gray-200 shadow-lg flex flex-col gap-1 overflow-auto max-h-[300px] scrollStyle z-10">
             {Object.entries(options).map(([key, Value], idx) => {
               return (
                 <li
-                  className="py-2.5 px-2 bg-white hover:-bg-Gray-50 rounded-md transition-all duration-300 ease-in-out cursor-pointer font-medium -text-Gray-500"
+                  className="py-2.5 px-2 bg-white hover:bg-Gray-50 rounded-md transition-all duration-300 ease-in-out cursor-pointer font-medium text-Gray-500"
                   key={idx}
                   onClick={() => {
                     selectOptionHandle(key);

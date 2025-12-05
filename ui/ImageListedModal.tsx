@@ -41,6 +41,7 @@ import { getStoreId, getToken } from "@/lib/cookies";
 import { RowAssetsMapType } from "./PublishChannelDataGrid";
 import { set } from "date-fns";
 import { errorToast, successToast } from "./Toast";
+import { AxiosError } from "axios";
 
 const storeId = getStoreId();
 interface ImageListedModalProps {
@@ -670,10 +671,10 @@ function ImageListedModal({
       onOpenAutoFocus={(e) => {
         e.preventDefault();
       }}
-      hideCross={true}
+      hidecross="true"
       className="lg:min-w-[1006px] min-w-full p-6 gap-8 flex flex-col h-fit"
     >
-      <DialogClose
+      {/* <DialogClose
         className="absolute right-6 top-6 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground"
         onClick={() => {
           cancleHandle();
@@ -695,18 +696,18 @@ function ImageListedModal({
           <line x1="6" y1="6" x2="18" y2="18"></line>
         </svg>
         <span className="sr-only">Close</span>
-      </DialogClose>
+      </DialogClose> */}
       <DialogHeader className="text-left">
         <div className="flex md:flex-row flex-col items-center gap-2">
-          <DialogTitle className="text-[#0C111D] text-[20px] leading-[30px] font-semibold">
+          <DialogTitle className="text-Gray-950 text-[20px] leading-[30px] font-semibold">
             {`Product Images `}
           </DialogTitle>
-          <p className="text-[#667085] text-sm font-normal">
+          <p className="text-Gray-500 text-sm font-normal">
             {" "}
             (Minimum 3 images are required)
           </p>
         </div>
-        <DialogDescription className="text-[#667085] md:text-sm text-xs font-normal">
+        <DialogDescription className="text-Gray-500 md:text-sm text-xs font-normal">
           Upload product images that highlight the key features and details of
           your item.
         </DialogDescription>
@@ -723,7 +724,7 @@ function ImageListedModal({
           >
             <button
               disabled={selectedAssets.length == 0}
-              className="-bg-Error-600 shadow-shadow-xs -border-brand-600-orange-p-1 rounded-lg py-2 px-3 text-white text-sm font-semibold hover:-bg-Error-700 transition-all duration-300 ease-in-out disabled:-bg-Gray-100 disabled:-text-Gray-400 disabled:-border-Gray-200"
+              className="bg-Error-600 shadow-shadow-xs border-brand-600-orange-p-1 rounded-lg py-2 px-3 text-white text-sm font-semibold hover:bg-Error-700 transition-all duration-300 ease-in-out disabled:bg-Gray-100 disabled:text-Gray-400 disabled:border-Gray-200"
             >
               Delete
             </button>
@@ -731,7 +732,7 @@ function ImageListedModal({
           <button
             disabled={selectedAssets.length != 1}
             type="button"
-            className="border -border-Brand-300 -bg-Brand-50 shadow-shadow-xs px-3 py-2 flex justify-center items-center rounded-lg font-semibold text-sm disabled:-bg-Gray-100 disabled:-text-Gray-400 disabled:-border-Gray-200 -text-Brand-700"
+            className="border border-Brand-300 bg-Brand-50 shadow-shadow-xs px-3 py-2 flex justify-center items-center rounded-lg font-semibold text-sm disabled:bg-Gray-100 disabled:text-Gray-400 disabled:border-Gray-200 text-Brand-700"
             onClick={backImageHandle}
           >
             Mark as back Image
@@ -765,7 +766,7 @@ function ImageListedModal({
         <Button
           onClick={cancleHandle}
           type="button"
-          className="w-44 px-4 py-2.5 rounded-lg bg-white text-[#667085] text-[16px] hover:text-[#182230] border transition-all duration-300 ease-in-out border-[#D0D5DD] hover:bg-transparent shadow-[0_1px_2px_0px_rgba(16,24,40,0.05)] focus:text-[#182230] focus:shadow-[0_1px_2px_0px_#FCD8CD,0_0px_0px_4px_#FCD8CD]"
+          className="w-44 px-4 py-2.5 rounded-lg bg-white text-Gray-500 text-[16px] hover:text-Gray-800 border transition-all duration-300 ease-in-out border-Gray-300 hover:bg-transparent shadow-xs focus:text-Gray-800 focus:shadow-ring-gray-shadow-xs"
         >
           Cancel
         </Button>
@@ -773,7 +774,7 @@ function ImageListedModal({
           disabled={!isSaveDisable}
           onClick={saveHandle}
           type="button"
-          className="w-44 px-4 py-2.5 rounded-lg bg-[#F75A27] text-[#fff] text-[16px] border border-[#D0D5DD] hover:bg-[#CA491E] shadow-[0_1px_2px_0px_rgba(16,24,40,0.05)] transition-all duration-300 ease-in-out focus:shadow-[0_1px_2px_0px_#BFD7DF,0_0px_0px_4px_rgba(191,215,223,0.24)] disabled:-bg-Gray-100 disabled:-text-Gray-400 disabled:-border-Gray-200"
+          className="w-44 px-4 py-2.5 rounded-lg bg-brand-600-orange-p-1 text-white text-[16px] border border-Gray-300 hover:bg-Brand-700 shadow-xs transition-all duration-300 ease-in-out focus:shadow-ring-brand-shadow-xs disabled:bg-Gray-200 disabled:text-Gray-500 disabled:border-Gray-300"
         >
           Save
         </Button>

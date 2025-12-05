@@ -23,7 +23,7 @@ function SecondaryButton({
       type={type}
       onClick={OnClick}
       className={cn(
-        "bg-white rounded-lg border flex justify-center items-center -border-Gray-300 shadow-shadow-xs text-sm font-semibold -text-Gray-500 hover:-bg-Gray-50 hover:-text-Gray-700  transition-all duration-300 ease-in-out focus:shadow-ring-gray-shadow-xs focus:bg-white",
+        "bg-white rounded-lg border flex justify-center items-center border-Gray-300 shadow-shadow-xs text-sm font-semibold text-Gray-500 hover:bg-Gray-50 hover:text-Gray-700  transition-all duration-300 ease-in-out focus:shadow-ring-gray-shadow-xs focus:bg-white",
         disabled && 'bg-gray-100 text-gray-300 hover:bg-gray-100 hover:text-gray-300',
         className,
       )}

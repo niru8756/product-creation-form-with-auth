@@ -8,11 +8,12 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
-import CalenderIcon from "@/assets/icons/CalenderIcon";
+import CalendarIcon from "@/assets/images/calendar.svg";
 import ChevronLeftIcon from "@/assets/icons/ChevronLeftIcon";
 import ChevronRightIcon from "@/assets/icons/ChevronRightIcon";
 import ChevronDownIcon from "@/assets/icons/ChevronDownIcon";
 import { DateRange } from "react-day-picker";
+import Image from "next/image";
 
 interface SingleDatePickerProps {
   alignIcon?: "left" | "right";
@@ -182,7 +183,7 @@ function SingleDatePicker({
       <div className="p-5 w-64">
         <div className="flex items-center justify-between mb-4">
           <button
-            className="p-1 rounded-sm outline-none hover:bg-[#EAECF0]"
+            className="p-1 rounded-sm outline-none hover:bg-Gray-200"
             onClick={handlePrevious}
           >
             <ChevronLeftIcon />
@@ -196,7 +197,7 @@ function SingleDatePicker({
             className={cn(
               "p-1 rounded-sm outline-none",
               canGoNext
-                ? "hover:bg-[#EAECF0]"
+                ? "hover:bg-Gray-200"
                 : "opacity-50 cursor-not-allowed",
             )}
             onClick={canGoNext ? handleNext : undefined}
@@ -230,8 +231,8 @@ function SingleDatePicker({
                     disabled
                       ? "opacity-50 cursor-not-allowed text-gray-400"
                       : isSelected
-                        ? "-bg-brand-600-orange-p-1 text-white"
-                        : "hover:bg-[#EAECF0]",
+                        ? "bg-brand-600-orange-p-1 text-white"
+                        : "hover:bg-Gray-200",
                   )}
                 >
                   {monthName}
@@ -265,8 +266,8 @@ function SingleDatePicker({
                     disabled
                       ? "opacity-50 cursor-not-allowed text-gray-400"
                       : isSelected
-                        ? "-bg-brand-600-orange-p-1 text-white"
-                        : "hover:bg-[#EAECF0]",
+                        ? "bg-brand-600-orange-p-1 text-white"
+                        : "hover:bg-Gray-200",
                   )}
                 >
                   {year}
@@ -374,24 +375,28 @@ return (
         <Button
           variant={"outline"}
           className={cn(
-            "justify-start text-left font-normal px-3 py-2 border border-[#D0D5DD] rounded-lg shadow-[0_1px_1px_0px_rgba(16,24,40,0.05)] gap-2 w-full text-base hover:-text-Gray-700 hover:bg-transparent transition-all duration-300 ease-in-out  focus:bg-white focus:-border-Secondary-Blue-200 h-[42px]",
+            "justify-start text-left font-normal px-3 py-2 border border-Gray-300 rounded-lg shadow-[0_1px_1px_0px_rgba(16,24,40,0.05)] gap-2 w-full text-base hover:text-Gray-700 hover:bg-transparent transition-all duration-300 ease-in-out  focus:bg-white focus:-border-Secondary-Blue-200 h-[42px]",
             !(date || dateRange?.from) && "text-muted-foreground",
-            {"!pe-7": (date || dateRange?.from)},
+            { "pe-7!": date || dateRange?.from },
             className,
             {
-              "shadow-ring-brand-shadow-xs -border-Secondary-Blue-200":
+              "shadow-ring-brand-shadow-xs border-Secondary-Blue-200":
                 isOpen && monthYearOnly,
             },
-            { "shadow-ring-gray-shadow-xs": isOpen && !monthYearOnly },
+            { "shadow-ring-gray-shadow-xs": isOpen && !monthYearOnly }
           )}
         >
-          {alignIcon === "left" && <CalenderIcon />}
+          {alignIcon === "left" && (
+            <Image
+              src={CalendarIcon}
+              alt="calendar-icon"
+              width={24}
+              height={24}
+            />
+          )}
           <span className="flex-1">{getButtonText()}</span>
           {alignIcon === "right" && !(date || dateRange?.from) && (
-            <ChevronDownIcon
-              size={14}
-              className="text-black w-3.5! h-3.5!"
-            />
+            <ChevronDownIcon size={14} className="text-black w-3.5! h-3.5!" />
           )}
         </Button>
       </PopoverTrigger>

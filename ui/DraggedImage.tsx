@@ -4,6 +4,7 @@ import DotsGridIcon from "@/assets/icons/DotGridIcon";
 import InputCheckbox from "./InputCheckbox";
 import { useEffect, useRef } from "react";
 import tippy from "tippy.js";
+import Image from "next/image";
 
 function DraggedImage({
   id,
@@ -56,20 +57,22 @@ function DraggedImage({
             checked={checked}
           />
         </div>
-        <img
-          src={image}
-          className="w-full h-full object-cover rounded-lg"
+        <Image
+          src={image} // can be a static import or URL string
           alt="image"
+          className="rounded-lg object-cover"
+          fill // makes the image cover the parent container
+          style={{ objectFit: "cover" }} // fallback for object-cover
         />
         <div
           ref={tooltipRef}
-          className="shadow-[0_1px_2px_0px_rgba(16,24,40,0.05)] absolute top-2 right-2 bg-[#fff] border border-[#D0D5DD] rounded-lg p-2 h-9 actionMenu hidden inputSecondSymbol"
+          className="shadow-xs absolute top-2 right-2 bg-white border border-Gray-300 rounded-lg p-2 h-9 actionMenu hidden inputSecondSymbol"
         >
           <DotsGridIcon />
         </div>
         <div className="flex justify-center">
           {id === backImageId && (
-            <button className="absolute py-[3px] bottom-[13px] px-2 rounded-md text-xs font-medium w-fit border -border-Brand-300 -bg-Brand-50 shadow-shadow-xs -text-Brand-700">
+            <button className="absolute py-[3px] bottom-[13px] px-2 rounded-md text-xs font-medium w-fit border border-Brand-300 bg-Brand-50 shadow-shadow-xs text-Brand-700">
               Back View
             </button>
           )}

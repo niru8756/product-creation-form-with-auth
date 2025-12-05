@@ -214,7 +214,7 @@ const Control = (props: ControlProps<OptionVariantType, true>) => {
           {props.children}
           {noOption && (
             <div
-              className="-text-Brand-700 text-sm font-semibold flex justify-center items-center gap-1.5 -bg-Brand-25 rounded-b-lg py-2.5 cursor-pointer"
+              className="text-Brand-700 text-sm font-semibold flex justify-center items-center gap-1.5 bg-Brand-25 rounded-b-lg py-2.5 cursor-pointer"
               onClick={() => setModalOpen?.(true)}
             >
               {/* <img src={PlusIcon} alt="plus-icon" /> */}
@@ -241,7 +241,7 @@ const Control = (props: ControlProps<OptionVariantType, true>) => {
   const NoOptionsMessage = () => {
     return (
       <div className="bg-white flex gap-2 justify-between items-center">
-        <p className="text--Gray-500 font-medium text-base leading-7 py-2.5 ps-2 pe-2.5">
+        <p className="text-Gray-500 font-medium text-base leading-7 py-2.5 ps-2 pe-2.5">
           No option found
         </p>
       </div>

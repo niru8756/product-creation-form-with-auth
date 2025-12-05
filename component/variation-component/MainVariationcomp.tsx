@@ -93,7 +93,7 @@ function MainVariationcomp({ schema, errors = {} }: MainVariationcompType) {
                 mainKey={rootKey}
               />
               {errors && errors[rootKey] && (
-                <p className="-text-Error-500 text-sm">
+                <p className="text-Error-500 text-sm">
                   {errors[rootKey].message}
                 </p>
               )}
@@ -109,7 +109,7 @@ function MainVariationcomp({ schema, errors = {} }: MainVariationcompType) {
                 mainKey={rootKey}
               />
               {errors && errors[rootKey] && (
-                <p className="-text-Error-500 text-sm">
+                <p className="text-Error-500 text-sm">
                   {errors[rootKey].message}
                 </p>
               )}
@@ -125,7 +125,7 @@ function MainVariationcomp({ schema, errors = {} }: MainVariationcompType) {
                 mainKey={rootKey}
               />
               {errors && errors[rootKey] && (
-                <p className="-text-Error-500 text-sm">
+                <p className="text-Error-500 text-sm">
                   {errors[rootKey].message}
                 </p>
               )}
@@ -141,7 +141,7 @@ function MainVariationcomp({ schema, errors = {} }: MainVariationcompType) {
                 mainKey={rootKey}
               />
               {errors && errors[rootKey] && (
-                <p className="-text-Error-500 text-sm">
+                <p className="text-Error-500 text-sm">
                   {errors[rootKey].message}
                 </p>
               )}
@@ -157,7 +157,7 @@ function MainVariationcomp({ schema, errors = {} }: MainVariationcompType) {
                 mainKey={rootKey}
               />
               {errors && errors[rootKey] && (
-                <p className="-text-Error-500 text-sm">
+                <p className="text-Error-500 text-sm">
                   {errors[rootKey].message}
                 </p>
               )}
@@ -173,7 +173,7 @@ function MainVariationcomp({ schema, errors = {} }: MainVariationcompType) {
                 mainKey={rootKey}
               />
               {errors && errors[rootKey] && (
-                <p className="-text-Error-500 text-sm">
+                <p className="text-Error-500 text-sm">
                   {errors[rootKey].message}
                 </p>
               )}

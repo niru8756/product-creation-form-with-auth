@@ -31,7 +31,7 @@ function InputRadioSelect({
           checked={checked}
           name={inputName}
           type="radio"
-          className="peer h-4 w-4 cursor-pointer appearance-none rounded-full border checked:-border-brand-600-orange-p-1 transition-all checked:-bg-brand-600-orange-p-1 -border-Gray-300"
+          className="peer h-4 w-4 cursor-pointer appearance-none rounded-full border checked:border-brand-600-orange-p-1 transition-all checked:bg-brand-600-orange-p-1 border-Gray-300"
           id={htmlFor}
           value={value}
           onChange={(e) => {
@@ -41,7 +41,7 @@ function InputRadioSelect({
         <span className="absolute bg-white w-1.5 h-1.5 rounded-full opacity-0 peer-checked:opacity-100 transition-opacity duration-200 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"></span>
       </label>
       <label
-        className={cn("-text-Gray-700 text-sm font-medium cursor-pointer", labelClass)}
+        className={cn("text-Gray-700 text-sm font-medium cursor-pointer", labelClass)}
         htmlFor={htmlFor}
       >
         {labelText}

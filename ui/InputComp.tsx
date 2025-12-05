@@ -10,6 +10,7 @@ import {
 import TooltipComp from "./TooltipComp";
 import { WheelEvent } from "react";
 import { cn } from "@/lib/helper";
+import Image from "next/image";
 
 type InputType = "text" | "password" | "email" | "number";
 
@@ -59,7 +60,7 @@ const InputComp = <TFieldValues extends FieldValues = FieldValues>({
   readOnly,
   value,
   rules,
-  autoFocus=false
+  autoFocus = false,
 }: InputProps<TFieldValues>) => {
   const preventWheelChange = (e: WheelEvent<HTMLInputElement>) => {
     // Prevent the input value change
@@ -78,25 +79,30 @@ const InputComp = <TFieldValues extends FieldValues = FieldValues>({
     <>
       <div
         className={cn(
-          "border -border-Gray-300 rounded-lg px-3 py-2  flex items-center justify-between w-full gap-2 focusRing ",
-          { "-border-Error-300": error ? true : false },
-          { "-bg-Gray-50": disabled },
-          className,
+          "border border-Gray-300 rounded-lg px-3 py-2  flex items-center justify-between w-full gap-2 focusRing ",
+          { "border-Error-300": error ? true : false },
+          { "bg-Gray-50": disabled },
+          className
         )}
       >
         <div className="flex items-center gap-2 w-full">
           {startSymbol ? (
-            <img src={startSymbol} alt="symbolic-icon" />
+            <Image
+              src={startSymbol}
+              alt="symbolic-icon"
+              width={24}
+              height={24}
+            />
           ) : StartIcon ? (
             StartIcon
-        ) : null}
+          ) : null}
           <input
             min={0}
             disabled={disabled}
             type={type}
             className={cn(
-              "bg-transparent placeholder:bg-transparent input w-full border-none focus:outline-none -text-Gray-900 disabled:-bg-Gray-50 disabled:-text-Gray-400 disabled:placeholder:-bg-Gray-50",
-              inputClassName,
+              "bg-transparent placeholder:bg-transparent input w-full border-none focus:outline-none text-Gray-900 disabled:bg-Gray-50 disabled:text-Gray-400 disabled:placeholder:bg-Gray-50",
+              inputClassName
             )}
             placeholder={placeHolder}
             id={inputid}
@@ -111,20 +117,27 @@ const InputComp = <TFieldValues extends FieldValues = FieldValues>({
         <div
           className={cn(
             "relative inputSecondSymbol cursor-pointer flex justify-end",
-            { "cursor-default": error },
+            { "cursor-default": error }
           )}
         >
           {error && <AlertIcon />}
           {EndIcon && !error ? EndIcon : null}
 
-{endSymbol && !error && <img src={endSymbol} alt="symbolic-icon" />}
+          {endSymbol && !error && (
+            <Image
+              src={endSymbol} // local import or URL
+              alt="symbolic-icon"
+              width={24} // specify width
+              height={24} // specify height
+            />
+          )}
           {!error && tooltip && (
             <TooltipComp tooltipText={tooltipText || "Info Something..."} />
           )}
         </div>
       </div>
       {error && (
-        <span className="-text-Error-500 text-sm">
+        <span className="text-Error-500 text-sm">
           {(error as FieldError).message || "Invalid input"}
         </span>
       )}

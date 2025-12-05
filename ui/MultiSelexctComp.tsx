@@ -88,7 +88,7 @@ function SelectComp({
   const NoOptionsMessage = () => {
     return (
       <div className="bg-white flex gap-2 justify-between items-center">
-        <p className="text--Gray-500 font-medium text-base leading-7 py-2.5 ps-2 pe-2.5">
+        <p className="text-Gray-500 font-medium text-base leading-7 py-2.5 ps-2 pe-2.5">
           No option found
         </p>
       </div>
@@ -314,7 +314,7 @@ function SelectComp({
         control: (state) =>
           `border !border-[#D0D5DD] pe-[12px] py-[8px] ${
             state.isFocused ? "focusSelectRing" : ""
-          } ${searchIcon && "ps-[12px]"} ${state.isDisabled && "!-bg-Gray-50 disabled:!-text-Gray-400"} ${isError && "!-border-Error-300"}`,
+          } ${searchIcon && "ps-[12px]"} ${state.isDisabled && "!bg-Gray-50 disabled:!text-Gray-400"} ${isError && "!border-Error-300"}`,
       }}
       isMulti={isMulti}
       blurInputOnSelect={true}

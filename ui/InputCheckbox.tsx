@@ -20,7 +20,7 @@ function InputCheckbox({
       <label className={cn("flex items-center cursor-pointer relative",{"cursor-not-allowed":disabled})}>
         <input
           type="checkbox"
-          className="peer h-[18px] w-[18px] transition-all appearance-none rounded  border -border-Gray-300 bg-white checked:-bg-brand-600-orange-p-1 checked:-border-brand-600-orange-p-1 cursor-pointer disabled:opacity-80"
+          className="peer h-[18px] w-[18px] transition-all appearance-none rounded  border border-Gray-300 bg-white checked:bg-brand-600-orange-p-1 checked:border-brand-600-orange-p-1 cursor-pointer disabled:opacity-80"
           id={inputId}
           checked={checked}
           onChange={(e) =>

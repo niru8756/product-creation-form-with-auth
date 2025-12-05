@@ -202,7 +202,7 @@ export const singleProductDataConverter = (
       0,
     );
 
-  const firstChannelData = firstVariant?.channelData?.[0] ?? {};
+  const firstChannelData = firstVariant?.channelData?.[0] ?? ({} as ChannelData);
 
   const publishChannelData = convertChannelData(firstVariant?.channels ?? []);
   const sizeVariant = convertVariationDefaultValue(variants, "size");
@@ -228,15 +228,15 @@ export const singleProductDataConverter = (
     ...data,
     gender: genderExtract,
     type: firstVariant?.option?.type ?? "",
-    discountedPrice: firstChannelData.mrp ?? 0,
-    productPrice: firstChannelData.price ?? 0,
+    discountedPrice: firstChannelData?.mrp ?? 0,
+    productPrice: firstChannelData?.price ?? 0,
     sizeVariant,
     colorVariant,
     variation: [
       ...(sizeVariant.length > 1 ? [{ label: "Size", value: "size" }] : []),
       ...(colorVariant.length > 1 ? [{ label: "Color", value: "color" }] : []),
     ],
-    inventory: totalOnHand ?? firstChannelData.onHand ?? 0,
+    inventory: totalOnHand ?? firstChannelData?.onHand ?? 0,
     heightDimensions: data.productMeasurement?.height ?? "",
     weightDimensions: data.productMeasurement?.weight ?? "",
     widthDimensions: data.productMeasurement?.width ?? "",

@@ -42,9 +42,9 @@ function JsonSchemaInputComp({
     <div className="flex flex-col items-start w-full h-full">
       <div
         className={cn(
-          "border w-full -border-Gray-300 rounded-lg bg-white shadow-shadow-xs py-2 px-3 flex gap-2 focus-within:-border-Secondary-Blue-200 focus-within:shadow-ring-brand-shadow-xs items-center",
+          "border w-full border-Gray-300 rounded-lg bg-white shadow-shadow-xs py-2 px-3 flex gap-2 focus-within:border-Secondary-Blue-200 focus-within:shadow-ring-brand-shadow-xs items-center",
           { "mt-1": idx },
-          { "-border-Error-300": error || parentKeyError },
+          { "border-Error-300": error || parentKeyError },
         )}
       >
         <input
@@ -53,7 +53,7 @@ function JsonSchemaInputComp({
           }}
           id={id}
           type={type}
-          className="border-none w-full placeholder:-text-Gray-400 placeholder:text-base focus:outline-none -text-Gray-900"
+          className="border-none w-full placeholder:text-Gray-400 placeholder:text-base focus:outline-none text-Gray-900"
           placeholder={placeholder}
           value={typeof value === "boolean" ? String(value) : value}
           onChange={(e) =>
@@ -67,9 +67,9 @@ function JsonSchemaInputComp({
           ""
         )}
       </div>
-      {error && <span className="-text-Error-500 text-sm">{error}</span>}
+      {error && <span className="text-Error-500 text-sm">{error}</span>}
       {parentKeyError && (
-        <span className="-text-Error-500 text-sm">{parentKeyError}</span>
+        <span className="text-Error-500 text-sm">{parentKeyError}</span>
       )}
     </div>
   );

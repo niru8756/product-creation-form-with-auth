@@ -20,7 +20,7 @@ function LabelComp({ asterisk, name, htmlfor, className, errors }: LabelProps) {
       >
         {name}
         {asterisk && (
-          <span className={cn({ "-text-Error-500": errors })}>*</span>
+          <span className={cn({ "text-Error-500": errors })}>*</span>
         )}
       </label>
     </div>

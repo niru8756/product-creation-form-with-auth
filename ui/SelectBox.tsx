@@ -43,8 +43,8 @@ const SelectBox = ({
       <div className="flex flex-col items-center gap-4">
         <SelectTrigger
           className={cn(
-            "w-full h-11 select-focus-ring data-[placeholder]:-text-Gray-400 text-base disabled:cursor-default disabled:opacity-100",
-            error != "" && "-border-Error-300",
+            "w-full h-11 select-focus-ring data-placeholder:text-Gray-400 text-base disabled:cursor-default disabled:opacity-100",
+            error != "" && "border-Error-300",
           )}
         >
           <SelectValue placeholder={placeHolder} />
@@ -59,7 +59,7 @@ const SelectBox = ({
           ))}
       </SelectContent>
       {error && error != "" && (
-        <div className="-text-Error-500 text-sm mt-1">
+        <div className="text-Error-500 text-sm mt-1">
           {error || "Invalid input"}
         </div>
       )}

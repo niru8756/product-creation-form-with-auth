@@ -8,6 +8,7 @@ import {
 } from "react-hook-form";
 import { cn } from "@/lib/utils";
 import React from "react";
+import Image from "next/image";
 
 type InputLabel = {
   endSymbol?: string | React.ElementType;
@@ -39,20 +40,22 @@ function InputWithLabel({
     <>
       <div
         className={`-border-Gray-300 ${
-          error ? "border-[#FDA29B]" : "focusRing"
-        } flex justify-between rounded-lg border ${disabled ? "-bg-Gray-50" : ""}`}
+          error ? "border-Error-300" : "focusRing"
+        } flex justify-between rounded-lg border ${
+          disabled ? "bg-Gray-50" : ""
+        }`}
       >
         <div
           className={` ${
             error ? "" : "border-e"
-          } rounded-s-lg py-[10px] px-[14px] flex items-center justify-between gap-2 w-full border-e`}
+          } rounded-s-lg py-2.5 px-3.5 flex items-center justify-between gap-2 w-full border-e`}
         >
           <div className="flex gap-2 w-full">
             <input
               disabled={disabled}
               value={value ?? ""}
               type="number"
-              className="input w-full focus-visible:outline-none disabled:-bg-Gray-50 disabled:placeholder:-bg-Gray-50 disabled:-text-Gray-400"
+              className="input w-full focus-visible:outline-none disabled:bg-Gray-50 disabled:placeholder:bg-Gray-50 disabled:text-Gray-400"
               placeholder={placeholder}
               id={inputId}
               {...(register && register(name, rules))}
@@ -66,17 +69,22 @@ function InputWithLabel({
           <div
             className={cn(
               "relative inputSecondSymbol cursor-pointer flex justify-end",
-              { "cursor-default": error },
+              { "cursor-default": error }
             )}
           >
             {error && <AlertIcon />}
-            {!error && endSymbol && (
-  typeof endSymbol === "string" ? (
-    <img src={endSymbol} alt="symbolic-icon" />
-  ) : (
-    React.createElement(endSymbol)
-  )
-)}
+            {!error &&
+              endSymbol &&
+              (typeof endSymbol === "string" ? (
+                <Image
+                  src={endSymbol} // local import or URL
+                  alt="symbolic-icon"
+                  width={24} // specify width
+                  height={24} // specify height
+                />
+              ) : (
+                React.createElement(endSymbol)
+              ))}
             {!error && tooltip && (
               <TooltipComp tooltipText={tooltipText || "Info Something..."} />
             )}
@@ -84,13 +92,13 @@ function InputWithLabel({
         </div>
         <button
           type="button"
-          className="py-[10px] btn px-4 -text-Gray-400 border-[#D0D5DD] rounded-e-lg border-s-0 cursor-default font-semibold"
+          className="py-2.5 btn px-4 text-Gray-400 border-Gray-300 rounded-e-lg border-s-0 cursor-default font-semibold"
         >
           Qty.
         </button>
       </div>
       {error && (
-        <span className="-text-Error-500 text-sm">
+        <span className="text-Error-500 text-sm">
           {(error as FieldError).message || "Invalid input"}
         </span>
       )}

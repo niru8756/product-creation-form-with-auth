@@ -35,14 +35,14 @@ function DescriptionTextArea({
         value={value}
         {...(register && register(name ? name : "description"))}
         className={cn(
-          "border -border-Gray-300 rounded-lg px-3 py-2 flex items-center justify-between w-full gap-2 focus-visible:outline-none focus:-border-Secondary-Blue-200 focus:shadow-ring-brand-shadow-xs resize-none h-44 scrollStyle",className,
-          { "-border-Error-300": error ? true : false },
-          { "-bg-Gray-50 -text-Gray-400": disabled },
+          "border border-Gray-300 rounded-lg px-3 py-2 flex items-center justify-between w-full gap-2 focus-visible:outline-none focus:border-Secondary-Blue-200 focus:shadow-ring-brand-shadow-xs resize-none h-44 scrollStyle",className,
+          { "border-Error-300": error ? true : false },
+          { "bg-Gray-50 text-Gray-400": disabled },
         )}
         id="description"
       ></textarea>
       {errorMessage && (
-        <span className="-text-Error-500 text-sm">
+        <span className="text-Error-500 text-sm">
           {errorMessage || "Invalid input"}
         </span>
       )}

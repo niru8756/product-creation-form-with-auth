@@ -268,9 +268,9 @@ function ProductPackage() {
   ]);
 
   return (
-    <div className="md:p-6 p-3 flex flex-col md:gap-5 gap-2.5 border border-[Gray-200] bg-white rounded-xl shadow-shadow-xs">
+    <div className="md:p-6 p-3 flex flex-col md:gap-5 gap-2.5 border border-Gray-200 bg-white rounded-xl shadow-xs">
       <div className="">
-        <h3 className="-text-Gray-700 md:text-lg text-base font-semibold">Package</h3>
+        <h3 className="text-Gray-700 md:text-lg text-base font-semibold">Package</h3>
       </div>
       <div className="grid md:grid-cols-4 grid-cols-2 gap-4">
         <div className="flex flex-col gap-1.5">

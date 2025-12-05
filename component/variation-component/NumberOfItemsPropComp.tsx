@@ -17,7 +17,7 @@ function NumberOfItemsPropComp<T extends NumberOfItemsVariationType>({
   optionsRef,
 }: VariationSchemaType<T>) {
   const [numberOfOItemsModal, setNumberOfOItemsModal] = useState(false);
-  const [isMulti, setIsMulti] = useState<Boolean | undefined>(undefined);
+  const [isMulti, setIsMulti] = useState<boolean | undefined>(undefined);
   const {
     variation,
     numberOfItems,

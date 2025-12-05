@@ -24,6 +24,7 @@ function ProductStatus() {
   }, [productStatus]);
 
   const handleStatus = (val: string) => {
+    console.log("vlll: ", val);
     setProductStatus(val);
   };
 
@@ -38,14 +39,16 @@ function ProductStatus() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [singleProductData?.status]);
 
+  console.log("productStatus: ", productStatus)
+
 
   return (
-    <div className="bg-white md:p-6 p-3 py-4 rounded-xl border -border-Gray-200 shadow-shadow-xs flex flex-col md:gap-5 gap-2.5">
+    <div className="bg-white md:p-6 p-3 py-4 rounded-xl border border-Gray-200 shadow-xs flex flex-col md:gap-5 gap-2.5">
       <LabelComp
         name="Product Status"
         htmlfor="status"
         asterisk={true}
-        className="md:text-lg text-base font-semibold -text-Gray-700"
+        className="md:text-lg text-base font-semibold text-Gray-700"
         errors={productListError && productListError.status}
       />
       <div className="grid grid-cols-2">

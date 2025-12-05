@@ -42,14 +42,14 @@ function VariationInputComp({
     <div className="flex flex-col items-start w-full">
       <div
         className={cn(
-          "border w-full -border-Gray-300 rounded-lg bg-white shadow-shadow-xs py-2 px-3 flex gap-2 focus-within:-border-Secondary-Blue-200 focus-within:shadow-ring-brand-shadow-xs items-center",
+          "border w-full border-Gray-300 rounded-lg bg-white shadow-shadow-xs py-2 px-3 flex gap-2 focus-within:border-Secondary-Blue-200 focus-within:shadow-ring-brand-shadow-xs items-center",
         )}
       >
         <input
           onChange={(e) => handleOnChange(id, e.target.value)}
           id={id}
           type={type}
-          className="border-none w-full placeholder:-text-Gray-400 placeholder:text-base focus:outline-none -text-Gray-900"
+          className="border-none w-full placeholder:text-Gray-400 placeholder:text-base focus:outline-none text-Gray-900"
           placeholder={placeholder}
           value={changeValue}
         />

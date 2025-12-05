@@ -37,8 +37,8 @@ function SelectComp({
     <>
       <div
         className={cn(
-          "relative border rounded-lg py-2 px-3 flex items-center border-[#D0D5DD] justify-between focusRing",
-          { "-bg-Gray-50": disabled },
+          "relative border rounded-lg py-2 px-3 flex items-center border-Gray-300 justify-between focusRing",
+          { "bg-Gray-50": disabled },
           className,
         )}
       >

@@ -82,7 +82,7 @@ function SingleSelectItem({
     <>
       <div
         ref={triggerRef}
-        className={`flex ${select ? "w-full" : "w-14"} justify-between items-center ${disabled ?"-bg-Gray-50":""}`}
+        className={`flex ${select ? "w-full" : "w-14"} justify-between items-center ${disabled ?"bg-Gray-50":""}`}
         onClick={showItemHandle}
       >
         <input
@@ -90,7 +90,7 @@ function SingleSelectItem({
           type="text"
           id={inputId}
           className={cn(
-            "placeholder:bg-white input w-full border-none focus:outline-none text-Gray-900 disabled:-bg-Gray-50 disabled:placeholder:-bg-Gray-50 disabled:-text-Gray-400 cursor-pointer",
+            "placeholder:bg-white input w-full border-none focus:outline-none text-Gray-900 disabled:bg-Gray-50 disabled:placeholder:bg-Gray-50 disabled:text-Gray-400 cursor-pointer",
           )}
           value={showMenuItem}
           placeholder={placeHolder}
@@ -102,12 +102,12 @@ function SingleSelectItem({
       {menuItem && (
         <ul
           ref={selectRef}
-          className="z-20 absolute w-full mt-1 top-full py-1 px-[6px] flex flex-col gap-1 bg-white border border-[#EAECF0] rounded-lg shadow-[0_1px_1px_0_rgba(16,24,40,0.05)] left-0 max-h-[250px] overflow-y-auto scrollStyle"
+          className="z-20 absolute w-full mt-1 top-full py-1 px-1.5 flex flex-col gap-1 bg-white border border-Gray-200 rounded-lg shadow-[0_1px_1px_0_rgba(16,24,40,0.05)] left-0 max-h-[250px] overflow-y-auto scrollStyle"
         >
           {items.map((item, i) => (
             <li
-              className={`py-[10px] px-2 options rounded-md hover:bg-[#F9FAFB] cursor-pointer ${
-                item.id === showMenuItem ? "bg-[#F9FAFB]" : ""
+              className={`py-2.5px px-2 options rounded-md hover:bg-Gray-50 cursor-pointer ${
+                item.id === showMenuItem ? "bg-Gray-50" : ""
               }`}
               key={i}
               onClick={() => menuItemHandle(item.id)}

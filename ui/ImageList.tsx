@@ -7,6 +7,7 @@ import { Dialog, DialogTrigger } from "@/components/ui/dialog";
 import ImageListedModal from "./ImageListedModal";
 import ImageUploadSection from "@/component/ImageUploadSection";
 import { errorToast } from "./Toast";
+import Image from "next/image";
 
 interface ImageListProps {
   assets: DataFileType[];
@@ -29,18 +30,21 @@ const DisplayImage = ({ imageData, size }: DisplayImageProps) => {
     mimeType?.includes("image") || imageData?.fileType === "IMAGE";
 
   return isImage ? (
-    <img
-      src={imageData.assetUrl}
+    <div
       className={cn(
-        "rounded-lg object-cover w-full",
-        size == "small"
-          ? "max-h-[86px] h-[86px] min-h-[86px]"
-          : "max-h-[180px] h-[180px] min-h-[180px]",
+        "relative rounded-lg w-full overflow-hidden",
+        size === "small" ? "h-[86px]" : "h-[180px]"
       )}
-      alt="image-list"
-      onError={(e) => {}}
-      crossOrigin="anonymous"
-    />
+    >
+      <Image
+        src={imageData.assetUrl}
+        alt="image-list"
+        fill
+        style={{ objectFit: "cover" }}
+        onError={(e) => {}}
+        crossOrigin="anonymous"
+      />
+    </div>
   ) : (
     <div className="relative">
       <video
@@ -49,14 +53,16 @@ const DisplayImage = ({ imageData, size }: DisplayImageProps) => {
           "rounded-lg object-cover w-full",
           size == "small"
             ? "max-h-[86px] h-[86px] min-h-[86px]"
-            : "max-h-[180px] h-[180px] min-h-[180px]",
+            : "max-h-[180px] h-[180px] min-h-[180px]"
         )}
         crossOrigin="anonymous"
       />
-      <img
-        src={PlayIcon}
+      <Image
+        src={PlayIcon} // local import or URL
         alt="play-icon"
-        className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[32px] h-[32px]"
+        className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+        width={32}
+        height={32}
       />
     </div>
   );
@@ -138,9 +144,9 @@ function ImageList({ assets, setAssets }: ImageListProps) {
                 {i + 3 === 6 && (
                   <Dialog open={open} onOpenChange={setOpen}>
                     <DialogTrigger asChild>
-                      <button className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-white text-[#344054] pe-1 ps-2 py-[3px] rounded-md text-xs border border-[#D0D5DD] font-medium min-w-[70px] max-w-full">
+                      <button className="absolute bottom-2 left-1/2 -translate-x-1/2 bg-white text-Gray-700 pe-1 ps-2 py-[3px] rounded-md text-xs border border-Gray-300 font-medium min-w-[70px] max-w-full">
                         More{" "}
-                        <span className="px-1 rounded-[3px] bg-[#F2F4F7]">
+                        <span className="px-1 rounded-[3px] bg-Gray-100">
                           {data.length}
                         </span>
                       </button>

@@ -318,9 +318,9 @@ const errorEan = Object.values(errors).map((err) =>
   }
 
   return (
-    <div className="p-3 md:p-6 flex flex-col gap-5 border -border-Gray-200 bg-white rounded-xl shadow-shadow-xs">
+    <div className="p-3 md:p-6 flex flex-col gap-5 border border-Gray-200 bg-white rounded-xl shadow-xs">
       <div className="">
-        <h3 className="-text-Gray-700 md:text-lg text-base font-semibold">Ean Number</h3>
+        <h3 className="text-Gray-700 md:text-lg text-base font-semibold">Ean Number</h3>
       </div>
       <div className="border border-gray-200 rounded-xl shadow-sm p-2 pb-0">
         <table className="table-fixed w-full">
@@ -341,7 +341,7 @@ const errorEan = Object.values(errors).map((err) =>
                 className="border-b border-gray-200"
               >
                 <td className="p-4">
-                  <div className="text-sm -text-Gray-950">
+                  <div className="text-sm text-Gray-950">
                     {variant.option?.data && variantTitle(variant.option.data)}
                   </div>
                 </td>

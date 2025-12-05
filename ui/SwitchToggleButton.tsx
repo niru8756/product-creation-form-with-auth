@@ -19,7 +19,7 @@ function SwitchToggleButton({
       <input
         id={inputId}
         type="checkbox"
-        className="peer appearance-none w-9 h-[1.3rem] -bg-Gray-100 rounded-full checked:-bg-brand-600-orange-p-1 cursor-pointer transition-colors duration-300 p-0.5"
+        className="peer appearance-none w-9 h-[1.3rem] bg-Gray-100 rounded-full checked:bg-brand-600-orange-p-1 cursor-pointer transition-colors duration-300 p-0.5"
         checked={checked}
         onChange={(event) => toggleHandle(event.target.checked)}
       />

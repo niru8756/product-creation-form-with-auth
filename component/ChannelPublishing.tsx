@@ -79,13 +79,13 @@ function ChannelPublishing() {
 
   return (
     <div className="flex flex-col gap-5">
-      <div className="p-3 md:p-6 flex flex-col gap-5 border border-[Gray-200] bg-white rounded-xl shadow-shadow-xs">
+      <div className="p-3 md:p-6 flex flex-col gap-5 border border-Gray-200 bg-white rounded-xl shadow-xs">
         <div className="">
-          <h3 className="-text-Gray-700 md:text-lg text-base font-semibold">
+          <h3 className="text-Gray-700 md:text-lg text-base font-semibold">
             Publishing Channels
             <span
               className={cn({
-                "-text-Error-500": productListError?.channelPublishing,
+                "text-Error-500": productListError?.channelPublishing,
               })}
             >
               *
@@ -105,7 +105,7 @@ function ChannelPublishing() {
                 <LabelComp
                   htmlfor="ondc"
                   name="ONDC"
-                  className="-text-Gray-700"
+                  className="text-Gray-700"
                 />
               </div>
             )}
@@ -120,7 +120,7 @@ function ChannelPublishing() {
                 <LabelComp
                   htmlfor="deafult"
                   name="Default"
-                  className="-text-Gray-700"
+                  className="text-Gray-700"
                 />
               </div>
             )}
@@ -135,7 +135,7 @@ function ChannelPublishing() {
                 <LabelComp
                   htmlfor="amazon"
                   name="Amazon"
-                  className="-text-Gray-700"
+                  className="text-Gray-700"
                 />
               </div>
             )}
@@ -150,7 +150,7 @@ function ChannelPublishing() {
                 <LabelComp
                   htmlfor="woocommerce"
                   name="WOO-COMMERCE"
-                  className="-text-Gray-700"
+                  className="text-Gray-700"
                 />
               </div>
             )}
@@ -165,7 +165,7 @@ function ChannelPublishing() {
                 <LabelComp
                   htmlfor="shopify"
                   name="SHOPIFY"
-                  className="-text-Gray-700"
+                  className="text-Gray-700"
                 />
               </div>
             )}
@@ -181,7 +181,7 @@ function ChannelPublishing() {
                 <LabelComp
                   htmlfor="wix"
                   name="WIX"
-                  className="-text-Gray-700"
+                  className="text-Gray-700"
                 />
               </div>
             )}

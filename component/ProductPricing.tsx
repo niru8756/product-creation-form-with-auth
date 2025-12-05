@@ -256,9 +256,9 @@ useEffect(() => {
   ]);
 
   return (
-    <div className="md:p-6 p-3 flex flex-col md:gap-5 gap-2.5 border -border-Gray-200 bg-white rounded-xl shadow-shadow-xs">
+    <div className="md:p-6 p-3 flex flex-col md:gap-5 gap-2.5 border border-Gray-200 bg-white rounded-xl shadow-xs">
       <div className="">
-        <h3 className="-text-Gray-700 md:text-lg text-base font-semibold">Pricing</h3>
+        <h3 className="text-Gray-700 md:text-lg text-base font-semibold">Pricing</h3>
       </div>
       <div className="grid grid-cols-2 gap-5">
         <div className="flex flex-col gap-1.5">
@@ -310,7 +310,7 @@ useEffect(() => {
         <LabelComp
           htmlfor="samePrice"
           name="Use the same pricing across all sales channels"
-          className="-text-Gray-700"
+          className="text-Gray-700"
         />
       </div>
       <div className="flex flex-col gap-1.5">
@@ -331,7 +331,7 @@ useEffect(() => {
             // value={hsnCode as string}
           />
         </div>
-        <p className="md:text-sm text-xs -text-Gray-600">
+        <p className="md:text-sm text-xs text-Gray-600">
           Product pricing will be inclusive of taxes but you would need HSN
           code.
         </p>

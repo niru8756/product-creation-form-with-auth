@@ -28,6 +28,7 @@ import AddVarinatModal from "./AddVarinatModal";
 import { productApi } from "@/lib/axios";
 import { useQuery } from "@tanstack/react-query";
 import { PRODUCT_MAPPED_ARRRIBUTES } from "@/constant";
+import Image from "next/image";
 
 type InputErrorType = {
   quantity?: string;
@@ -994,11 +995,14 @@ function PublishChannelDataGrid({
         >
           {rowAssets.length > 0 && rowAssets[0].assetUrl ? (
             <div className="flex items-center justify-center w-10 h-10">
-              <img
-                src={rowAssets[0].assetUrl}
-                className="rounded-lg w-full h-full object-cover"
-                alt=""
-              />
+              <div className="relative w-full h-full rounded-lg overflow-hidden">
+                <Image
+                  src={rowAssets[0].assetUrl} // URL or local import
+                  alt=""
+                  fill
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
             </div>
           ) : (
             <ImageUploadSection
@@ -1953,7 +1957,7 @@ function PublishChannelDataGrid({
                     <InfoIcon />
                     <TooltipComp
                       tooltipText="You can’t change individual quantity as inventory management is unified at the moment."
-                      className=" !min-w-64"
+                      className="min-w-64!"
                     />
                   </div>
                 </div>
@@ -2085,7 +2089,7 @@ function PublishChannelDataGrid({
                         </div>
                       </div>
                     </td>
-                    <td className="text-sm -text-Gray-400 p-4">
+                    <td className="text-sm text-Gray-400 p-4">
                       <div className="p-2">
                         {groupedData[groupKey].reduce((acc, item) => {
                           if (inventoryStrategy === "SPLIT") {
@@ -2438,7 +2442,7 @@ function PublishChannelDataGrid({
                             className={cn(
                               "w-[74px] border border-gray-300 rounded-lg focus:outline-none p-2 text-gray-500",
                               {
-                                "-border-Error-300":
+                                "border-Error-300":
                                   rowErrors[item.id]?.quantity &&
                                   inventoryStrategy === "UNIFIED",
                               },
@@ -2487,9 +2491,9 @@ function PublishChannelDataGrid({
                                   <input
                                     type="text"
                                     className={cn(
-                                      "w-[50px] border -border-Gray-300 rounded-lg focus:outline-none p-2 -text-Gray-500",
+                                      "w-[50px] border border-Gray-300 rounded-lg focus:outline-none p-2 text-Gray-500",
                                       {
-                                        "-border-Error-300":
+                                        "border-Error-300":
                                           rowErrors[item.id]?.ondcQuantity,
                                       },
                                     )}
@@ -2515,9 +2519,9 @@ function PublishChannelDataGrid({
                                   type="text"
                                   disabled={isPriceSameAllChannel}
                                   className={cn(
-                                    "w-24 border -border-Gray-300 rounded-lg focus:outline-none p-2 -text-Gray-500",
+                                    "w-24 border border-Gray-300 rounded-lg focus:outline-none p-2 text-Gray-500",
                                     {
-                                      "-border-Error-300":
+                                      "border-Error-300":
                                         rowErrors[item.id]?.ondcPrice,
                                     },
                                   )}
@@ -2556,9 +2560,9 @@ function PublishChannelDataGrid({
                                   <input
                                     type="text"
                                     className={cn(
-                                      "w-[50px] border -border-Gray-300 rounded-lg focus:outline-none p-2 -text-Gray-500",
+                                      "w-[50px] border border-Gray-300 rounded-lg focus:outline-none p-2 text-Gray-500",
                                       {
-                                        "-border-Error-300":
+                                        "border-Error-300":
                                           rowErrors[item.id]?.defaultQuantity,
                                       },
                                     )}
@@ -2586,9 +2590,9 @@ function PublishChannelDataGrid({
                                   disabled={isPriceSameAllChannel}
                                   type="text"
                                   className={cn(
-                                    "w-24 border -border-Gray-300 rounded-lg focus:outline-none p-2 -text-Gray-500",
+                                    "w-24 border border-Gray-300 rounded-lg focus:outline-none p-2 text-Gray-500",
                                     {
-                                      "-border-Error-300":
+                                      "border-Error-300":
                                         rowErrors[item.id]?.defaultPrice,
                                     },
                                   )}
@@ -2626,9 +2630,9 @@ function PublishChannelDataGrid({
                                   <input
                                     type="text"
                                     className={cn(
-                                      "w-[50px] border -border-Gray-300 rounded-lg focus:outline-none p-2 -text-Gray-500",
+                                      "w-[50px] border border-Gray-300 rounded-lg focus:outline-none p-2 text-Gray-500",
                                       {
-                                        "-border-Error-300":
+                                        "border-Error-300":
                                           rowErrors[item.id]?.amazonQuantity,
                                       },
                                     )}
@@ -2656,9 +2660,9 @@ function PublishChannelDataGrid({
                                   disabled={isPriceSameAllChannel}
                                   type="text"
                                   className={cn(
-                                    "w-24 border -border-Gray-300 rounded-lg focus:outline-none p-2 -text-Gray-500",
+                                    "w-24 border border-Gray-300 rounded-lg focus:outline-none p-2 text-Gray-500",
                                     {
-                                      "-border-Error-300":
+                                      "border-Error-300":
                                         rowErrors[item.id]?.amazonPrice,
                                     },
                                   )}
@@ -2696,9 +2700,9 @@ function PublishChannelDataGrid({
                                   <input
                                     type="text"
                                     className={cn(
-                                      "w-[50px] border -border-Gray-300 rounded-lg focus:outline-none p-2 -text-Gray-500",
+                                      "w-[50px] border border-Gray-300 rounded-lg focus:outline-none p-2 text-Gray-500",
                                       {
-                                        "-border-Error-300":
+                                        "border-Error-300":
                                           rowErrors[item.id]
                                             ?.wooCommerceQuantity,
                                       },
@@ -2727,9 +2731,9 @@ function PublishChannelDataGrid({
                                   disabled={isPriceSameAllChannel}
                                   type="text"
                                   className={cn(
-                                    "w-24 border -border-Gray-300 rounded-lg focus:outline-none p-2 -text-Gray-500",
+                                    "w-24 border border-Gray-300 rounded-lg focus:outline-none p-2 text-Gray-500",
                                     {
-                                      "-border-Error-300":
+                                      "border-Error-300":
                                         rowErrors[item.id]?.wooCommercePrice,
                                     },
                                   )}
@@ -2767,9 +2771,9 @@ function PublishChannelDataGrid({
                                   <input
                                     type="text"
                                     className={cn(
-                                      "w-[50px] border -border-Gray-300 rounded-lg focus:outline-none p-2 -text-Gray-500",
+                                      "w-[50px] border border-Gray-300 rounded-lg focus:outline-none p-2 text-Gray-500",
                                       {
-                                        "-border-Error-300":
+                                        "border-Error-300":
                                           rowErrors[item.id]?.shopifyQuantity,
                                       },
                                     )}
@@ -2797,9 +2801,9 @@ function PublishChannelDataGrid({
                                   disabled={isPriceSameAllChannel}
                                   type="text"
                                   className={cn(
-                                    "w-24 border -border-Gray-300 rounded-lg focus:outline-none p-2 -text-Gray-500",
+                                    "w-24 border border-Gray-300 rounded-lg focus:outline-none p-2 text-Gray-500",
                                     {
-                                      "-border-Error-300":
+                                      "border-Error-300":
                                         rowErrors[item.id]?.shopifyPrice,
                                     },
                                   )}
@@ -2837,9 +2841,9 @@ function PublishChannelDataGrid({
                                   <input
                                     type="text"
                                     className={cn(
-                                      "w-[50px] border -border-Gray-300 rounded-lg focus:outline-none p-2 -text-Gray-500",
+                                      "w-[50px] border border-Gray-300 rounded-lg focus:outline-none p-2 text-Gray-500",
                                       {
-                                        "-border-Error-300":
+                                        "border-Error-300":
                                           rowErrors[item.id]?.wixQuantity,
                                       },
                                     )}
@@ -2867,9 +2871,9 @@ function PublishChannelDataGrid({
                                   disabled={isPriceSameAllChannel}
                                   type="text"
                                   className={cn(
-                                    "w-24 border -border-Gray-300 rounded-lg focus:outline-none p-2 -text-Gray-500",
+                                    "w-24 border border-Gray-300 rounded-lg focus:outline-none p-2 text-Gray-500",
                                     {
-                                      "-border-Error-300":
+                                      "border-Error-300":
                                         rowErrors[item.id]?.wixPrice,
                                     },
                                   )}

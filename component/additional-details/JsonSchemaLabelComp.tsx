@@ -32,10 +32,10 @@ function JsonSchemaLabelComp({
   return (
     <div className="flex gap-1.5 items-center">
       <div>
-        <label htmlFor={htmlFor} className="-text-Gray-500 text-sm font-medium">
+        <label htmlFor={htmlFor} className="text-Gray-500 text-sm font-medium">
           {value}
         </label>
-        {requiredError && <span className="-text-Error-500">*</span>}
+        {requiredError && <span className="text-Error-500">*</span>}
       </div>
       {description && (
         <div

@@ -53,8 +53,8 @@ function InputSelect({
     <div className="relative">
       <div
         className={cn(
-          "border border-[#D0D5DD] rounded-lg py-2 px-3 flex items-center justify-between focusRing ",
-          { "-border-Error-300": error ? true : false },
+          "border border-Gray-300 rounded-lg py-2 px-3 flex items-center justify-between focusRing ",
+          { "border-Error-300": error ? true : false },
         )}
       >
         <input
@@ -77,7 +77,7 @@ function InputSelect({
         />
       </div>
       {error && (
-        <span className="-text-Error-500 text-sm">
+        <span className="text-Error-500 text-sm">
           {(error as FieldError).message || "Invalid input"}
         </span>
       )}

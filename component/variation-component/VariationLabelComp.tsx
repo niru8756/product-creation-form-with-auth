@@ -19,15 +19,15 @@ function VariationLabelComp({
     <div className="flex gap-1 py-1">
       <label
         htmlFor={htmlFor}
-        className="-text-Gray-500 text-sm font-medium pb-1.5"
+        className="text-Gray-500 text-sm font-medium pb-1.5"
       >
         {value}
          {asterisk && (
-          <span className="-text-Gray-500 text-sm">*</span>
+          <span className="text-Gray-500 text-sm">*</span>
         )}
       </label>
       {(count as number) > 0 && (
-        <span className="-text-Gray-700 text-xs font-medium border -border-Gray-200 -bg-Gray-50 px-4 py-0.5 rounded-2xl flex items-center justify-center">
+        <span className="text-Gray-700 text-xs font-medium border border-Gray-200 bg-Gray-50 px-4 py-0.5 rounded-2xl flex items-center justify-center">
           +{count}
         </span>
       )}

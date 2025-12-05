@@ -37,6 +37,7 @@ import { getStoreId, getToken } from "@/lib/cookies";
 import InputCheckbox from "@/ui/InputCheckbox";
 import { AxiosError } from "axios";
 import { errorToast, successToast } from "@/ui/Toast";
+import Image from "next/image";
 
 type AddVarinatModalProps = {
   modalOpen: boolean;
@@ -769,10 +770,12 @@ function AddVarinatModal({ modalOpen, setModalOpen }: AddVarinatModalProps) {
                               checked={selectedAssets.includes(url.assetId)}
                             />
                           </div>
-                          <img
-                            src={url.url}
-                            width={80}
+
+                          <Image
+                            src={url.url} // URL or local import
                             alt="variantimage"
+                            width={80} // set width
+                            height={80} // set height to maintain aspect ratio
                             className="h-full"
                           />
                           <div className="flex justify-center">
@@ -798,14 +801,14 @@ function AddVarinatModal({ modalOpen, setModalOpen }: AddVarinatModalProps) {
                   <button
                     onClick={deleteHandle}
                     disabled={selectedAssets.length == 0}
-                    className="-bg-Error-600 shadow-shadow-xs -border-brand-600-orange-p-1 rounded-lg py-1 px-3 text-white font-semibold hover:-bg-Error-700 transition-all duration-300 ease-in-out disabled:-bg-Gray-100 disabled:-text-Gray-400 disabled:-border-Gray-200 text-xs"
+                    className="bg-Error-600 shadow-xs border-brand-600-orange-p-1 rounded-lg py-1 px-3 text-white font-semibold hover:bg-Error-700 transition-all duration-300 ease-in-out disabled:bg-Gray-100 disabled:text-Gray-400 disabled:border-Gray-200 text-xs"
                   >
                     Delete
                   </button>
                   <button
                     disabled={selectedAssets.length != 1}
                     type="button"
-                    className="border -border-Brand-300 -bg-Brand-50 shadow-shadow-xs px-3 py-1 flex justify-center items-center rounded-lg font-semibold disabled:-bg-Gray-100 disabled:-text-Gray-400 disabled:-border-Gray-200 -text-Brand-700 text-xs"
+                    className="border border-Brand-300 bg-Brand-50 shadow-xs px-3 py-1 flex justify-center items-center rounded-lg font-semibold disabled:bg-Gray-100 disabled:text-Gray-400 disabled:border-Gray-200 text-Brand-700 text-xs"
                     onClick={backImageHandle}
                   >
                     Mark as back Image
@@ -835,40 +838,39 @@ function AddVarinatModal({ modalOpen, setModalOpen }: AddVarinatModalProps) {
                   />
                 </div>
               </div>
-              {publishChannel?.map((_, idx) => {
-                return (
-                  <div className="grid grid-cols-2 gap-5">
-                    <div className="flex flex-col gap-1.5">
-                      <LabelComp
-                        name="Quantity"
-                        htmlfor={`variantQuantity-${idx}`}
-                      />
-                      <InputComp
-                        placeHolder="0"
-                        type="number"
-                        name={`variantQuantity-${idx}`}
-                        inputid={`variantQuantity-${idx}`}
-                        register={register}
-                        error={errors[`variantQuantity-${idx}`]}
-                      />
-                    </div>
-                    <div className="flex flex-col gap-1.5">
-                      <LabelComp name="Price" htmlfor={`variantPrice-${idx}`} />
-                      <InputComp
-                        placeHolder="0.00"
-                        type="number"
-                        name={`variantPrice-${idx}`}
-                        inputid={`variantPrice-${idx}`}
-                        register={register}
-                        error={errors[`variantPrice-${idx}`]}
-                      />
-                    </div>
+              {publishChannel?.map((_, idx) => (
+                <div key={idx} className="grid grid-cols-2 gap-5">
+                  <div className="flex flex-col gap-1.5">
+                    <LabelComp
+                      name="Quantity"
+                      htmlfor={`variantQuantity-${idx}`}
+                    />
+                    <InputComp
+                      placeHolder="0"
+                      type="number"
+                      name={`variantQuantity-${idx}`}
+                      inputid={`variantQuantity-${idx}`}
+                      register={register}
+                      error={errors[`variantQuantity-${idx}`]}
+                    />
                   </div>
-                );
-              })}
 
-              <DialogFooter className="!justify-normal !w-full mt-4 sticky bottom-0 left-0 bg-white pt-2">
-                <div className="grid grid-cols-2 gap-3 !w-full">
+                  <div className="flex flex-col gap-1.5">
+                    <LabelComp name="Price" htmlfor={`variantPrice-${idx}`} />
+                    <InputComp
+                      placeHolder="0.00"
+                      type="number"
+                      name={`variantPrice-${idx}`}
+                      inputid={`variantPrice-${idx}`}
+                      register={register}
+                      error={errors[`variantPrice-${idx}`]}
+                    />
+                  </div>
+                </div>
+              ))}
+
+              <DialogFooter className="justify-normal! w-full! mt-4 sticky bottom-0 left-0 bg-white pt-2">
+                <div className="grid grid-cols-2 gap-3 w-full!">
                   <button
                     type="button"
                     onClick={() => {
@@ -878,13 +880,13 @@ function AddVarinatModal({ modalOpen, setModalOpen }: AddVarinatModalProps) {
                         setModalOpen(false);
                       }
                     }}
-                    className="px-4 py-2.5 rounded-lg bg-white text-[#667085] text-[16px] hover:text-[#182230] border transition-all duration-300 ease-in-out border-[#D0D5DD] hover:bg-transparent shadow-[0_1px_2px_0px_rgba(16,24,40,0.05)] focus:text-[#182230] focus:shadow-[0_1px_2px_0px_#FCD8CD,0_0px_0px_4px_#FCD8CD]"
+                    className="px-4 py-2.5 rounded-lg bg-white text-Gray-500 text-[16px] hover:text-Gray-800 border transition-all duration-300 ease-in-out border-Gray-300 hover:bg-transparent shadow-xs focus:text-Gray-800 focus:shadow-ring-gray-shadow-xs"
                   >
                     Cancel
                   </button>
                   <button
                     type="submit"
-                    className="px-4 py-2.5 rounded-lg bg-[#F75A27] text-[#fff] text-[16px] border border-[#D0D5DD] hover:bg-[#CA491E] shadow-[0_1px_2px_0px_rgba(16,24,40,0.05)] transition-all duration-300 ease-in-out focus:shadow-[0_1px_2px_0px_#BFD7DF,0_0px_0px_4px_rgba(191,215,223,0.24)] disabled:-bg-Gray-100 disabled:-text-Gray-400 disabled:-border-Gray-200"
+                    className="px-4 py-2.5 rounded-lg bg-brand-600-orange-p-1 text-white text-[16px] border border-Gray-300 hover:bg-Brand-700 shadow-xs transition-all duration-300 ease-in-out focus:shadow-ring-brand-shadow-xs disabled:-bg-Gray-100 disabled:-text-Gray-400 disabled:-border-Gray-200"
                   >
                     Submit
                   </button>

@@ -436,19 +436,19 @@ function AddtionalFormModal({ open, setOpen }: AddtionalFormModalType) {
   return (
     <>
       {open && (
-        <div className="fixed top-0 flex w-full h-screen -bg-Gray-950 bg-opacity-70 backdrop-blur-sm z-40 left-0 justify-center items-center py-9 px-8">
+        <div className="fixed top-0 flex w-full h-screen bg-Gray-950 bg-opacity-70 backdrop-blur-sm z-40 left-0 justify-center items-center py-9 px-8">
           <div
             ref={popUpRef}
-            className="-bg-Gray-25 w-full h-full rounded-lg p-3 md:p-6 flex flex-col justify-between md:gap-8 gap-2"
+            className="bg-Gray-25 w-full h-full rounded-lg p-3 md:p-6 flex flex-col justify-between md:gap-8 gap-2"
           >
             <div className="flex justify-between items-start">
               <div className="flex flex-col gap-1">
-                <p className="-text-Gray-950 md:text-xl text-base font-semibold">
+                <p className="text-Gray-950 md:text-xl text-base font-semibold">
                   {isCreationMode
                     ? "Add additional details to list your product"
                     : "Edit additional details of your product"}
                 </p>
-                <p className="md:text-sm text-xs -text-Gray-500">
+                <p className="md:text-sm text-xs text-Gray-500">
                   Enhance your product listing with essential details.
                 </p>
               </div>
@@ -470,12 +470,12 @@ function AddtionalFormModal({ open, setOpen }: AddtionalFormModalType) {
                     onClick={() => activateTabHandle(idx, tab)}
                     key={idx}
                     className={cn(
-                      "-bg-Base-White border -border-Gray-300 -text-Gray-700 text-sm font-semibold px-4 py-2",
+                      "bg-white border border-Gray-300 text-Gray-700 text-sm font-semibold px-4 py-2",
                       {
                         "rounded-l-lg": idx === 0,
                         "rounded-r-lg": idx === channelTabs.length - 1,
                         "border-x": idx !== 0 && idx !== channelTabs.length - 1,
-                        "-bg-Brand-25 -text-brand-600-orange-p-1":
+                        "bg-Brand-25 text-brand-600-orange-p-1":
                           idx === active,
                       },
                     )}
@@ -489,7 +489,7 @@ function AddtionalFormModal({ open, setOpen }: AddtionalFormModalType) {
             <div className="flex flex-col justify-between h-full pe-2 overflow-auto scrollStyle">
               {shouldShowLoading() && (
                 <div className="flex items-center justify-center h-full">
-                  <p className="text-lg -text-Gray-500">
+                  <p className="text-lg text-Gray-500">
                     {activeTab === "AMAZON"
                       ? !amazonSchemaData
                         ? "Loading Amazon schema..."

@@ -139,12 +139,12 @@ function ProductVariants() {
     <div className="flex flex-col">
       <div
         className={cn(
-          "p-6 flex flex-col gap-5 border border-[Gray-200] bg-white rounded-xl shadow-shadow-xs",
+          "p-6 flex flex-col gap-5 border border-Gray-200 bg-white rounded-xl shadow-xs",
           { "rounded-br-none rounded-bl-none border-b-0": variantEnable },
         )}
       >
         <div>
-          <h3 className="-text-Gray-700 text-lg font-semibold">Variants</h3>
+          <h3 className="text-Gray-700 text-lg font-semibold">Variants</h3>
         </div>
 
         {variantEnable && (
@@ -153,7 +153,7 @@ function ProductVariants() {
               return (
                 <Fragment key={idx}>
                   <div className="flex justify-start items-center gap-2">
-                    <div className="-text-Gray-700 text-sm font-medium">
+                    <div className="text-Gray-700 text-sm font-medium">
                       {variant.variantName}
                     </div>
                     <button onClick={() => editVAriant(variant.id)}>
@@ -166,7 +166,7 @@ function ProductVariants() {
                         return (
                           <div
                             key={idx}
-                            className="text-sm font-medium -text-Gray-700 px-1.5 -bg-Gray-100 rounded-sm"
+                            className="text-sm font-medium text-Gray-700 px-1.5 bg-Gray-100 rounded-sm"
                           >
                             {value.label}
                           </div>
@@ -177,13 +177,13 @@ function ProductVariants() {
                         return (
                           <div
                             key={idx}
-                            className="border -border-Gray-300 bg-white rounded-lg flex gap-2 px-2.5 py-1 items-center"
+                            className="border border-Gray-300 bg-white rounded-lg flex gap-2 px-2.5 py-1 items-center"
                           >
                             <div
                               className="w-3 h-3 rounded-full"
                               style={{ backgroundColor: value.color }}
                             ></div>
-                            <div className="text-sm -text-Gray-700 font-medium">
+                            <div className="text-sm text-Gray-700 font-medium">
                               {value.value}
                             </div>
                           </div>
@@ -226,7 +226,7 @@ function ProductVariants() {
             <div className="flex justify-end gap-2 items-center">
               <SecondaryButton text={"Discard"} className="py-2 px-3 h-9" />
               <button
-                className="py-2 px-3 border -border-brand-600-orange-p-1 shadow-shadow-xs text-white -bg-brand-600-orange-p-1 rounded-lg h-9 flex items-center justify-center hover:-bg-Brand-700 focus:-bg-brand-600-orange transition-all duration-300 ease-in-out text-sm font-semibold"
+                className="py-2 px-3 border border-brand-600-orange-p-1 shadow-xs text-white bg-brand-600-orange-p-1 rounded-lg h-9 flex items-center justify-center hover:bg-Brand-700 focus:bg-brand-600-orange transition-all duration-300 ease-in-out text-sm font-semibold"
                 onClick={saveVariantHandle}
               >
                 Save
@@ -237,10 +237,10 @@ function ProductVariants() {
       </div>
       {variantEnable && (
         <button
-          className="flex justify-center items-center py-2.5 gap-1.5 -text-Brand-700 text-sm font-semibold -bg-Brand-25 rounded-br-xl rounded-bl-xl border -border-Gray-200 border-t-0"
+          className="flex justify-center items-center py-2.5 gap-1.5 text-Brand-700 text-sm font-semibold bg-Brand-25 rounded-br-xl rounded-bl-xl border border-Gray-200 border-t-0"
           onClick={addOptionHandle}
         >
-          <PlusIcon className="-text-Brand-700" />
+          <PlusIcon className="text-Brand-700" />
           Add Another Option
         </button>
       )}

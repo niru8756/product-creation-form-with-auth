@@ -84,12 +84,12 @@ export const VariationRenderForm = ({
                   <DialogContent className="max-w-[538px] w-full">
                     <DialogHeader>
                       <DialogTitle>
-                        <p className="-text-Gray-900 text-lg font-semibold">
+                        <p className="text-Gray-900 text-lg font-semibold">
                           Add Custom option
                         </p>
                       </DialogTitle>
                       <DialogDescription>
-                        <p className="-text-Gray-600 font-normal text-sm">
+                        <p className="text-Gray-600 font-normal text-sm">
                           You can add your custom option
                         </p>
                       </DialogDescription>
@@ -110,20 +110,20 @@ export const VariationRenderForm = ({
                         />
                       }
                     </div>
-                    <DialogFooter className="!justify-normal !w-full">
-                      <div className="grid grid-cols-2 gap-3 !w-full">
+                    <DialogFooter className="justify-normal! w-full!">
+                      <div className="grid grid-cols-2 gap-3 w-full!">
                         <button
                           onClick={() => {
                             if (typeof setModalOpen === "function") {
                               setModalOpen(false);
                             }
                           }}
-                          className="px-4 py-2.5 rounded-lg bg-white text-[#667085] text-[16px] hover:text-[#182230] border transition-all duration-300 ease-in-out border-[#D0D5DD] hover:bg-transparent shadow-[0_1px_2px_0px_rgba(16,24,40,0.05)] focus:text-[#182230] focus:shadow-[0_1px_2px_0px_#FCD8CD,0_0px_0px_4px_#FCD8CD]"
+                          className="px-4 py-2.5 rounded-lg bg-white text-Gray-500text-[16px] hover:text-Gray-800 border transition-all duration-300 ease-in-out border-Gray-300 hover:bg-transparent shadow-xs focus:text-Gray-800 focus:shadow-ring-gray-shadow-xs"
                         >
                           Cancel
                         </button>
                         <button
-                          className="px-4 py-2.5 rounded-lg bg-[#F75A27] text-[#fff] text-[16px] border border-[#D0D5DD] hover:bg-[#CA491E] shadow-[0_1px_2px_0px_rgba(16,24,40,0.05)] transition-all duration-300 ease-in-out focus:shadow-[0_1px_2px_0px_#BFD7DF,0_0px_0px_4px_rgba(191,215,223,0.24)] disabled:-bg-Gray-100 disabled:-text-Gray-400 disabled:-border-Gray-200"
+                          className="px-4 py-2.5 rounded-lg bg-brand-600-orange-p-1 text-white text-[16px] border border-Gray-300 hover:bg-Brand-700 shadow-xs transition-all duration-300 ease-in-out focus:shadow-ring-brand-shadow-xsdisabled:bg-Gray-100 disabled:text-Gray-400 disabled:border-Gray-200"
                           onClick={AddOption}
                         >
                           Submit

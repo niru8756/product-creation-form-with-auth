@@ -113,7 +113,7 @@ function JsonSchemaMultiSelect({
   const NoOptionsMessage = () => {
     return (
       <div className="bg-white flex gap-2 justify-between items-center">
-        <p className="text--Gray-500 font-medium text-base leading-7 py-2.5 ps-2 pe-2.5">
+        <p className="text-Gray-500 font-medium text-base leading-7 py-2.5 ps-2 pe-2.5">
           No Option Found
         </p>
       </div>
@@ -240,9 +240,9 @@ function JsonSchemaMultiSelect({
         onChange={valueChangeHandle}
         styles={styles}
       />
-      {error && <span className="-text-Error-500 text-sm">{error}</span>}
+      {error && <span className="text-Error-500 text-sm">{error}</span>}
       {parentKeyError && (
-        <span className="-text-Error-500 text-sm">{parentKeyError}</span>
+        <span className="text-Error-500 text-sm">{parentKeyError}</span>
       )}
     </div>
   );
