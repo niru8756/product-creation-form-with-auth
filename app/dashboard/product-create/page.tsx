@@ -584,12 +584,12 @@ function ProductForm() {
 
   return (
     <form>
-      <div className="bg-[#FCFCFD] pb-7">
+      <div className="bg-Gray-25 pb-7">
         {/* heading */}
-        <div className="flex flex-col items-start md:z-30 z-10 sticky sm:top-0 top-[52px] bg-[#FCFCFD] py-12">
+        <div className="flex flex-col items-start md:z-30 z-10 sticky sm:top-0 top-[52px] bg-Gray-25 py-12">
           <div className="flex justify-between items-start w-full mt-1">
             <div className="flex flex-col gap-1">
-              <h1 className="text-[#101828] md:text-3xl text-lg font-semibold">
+              <h1 className="text-Gray-900 md:text-3xl text-lg font-semibold">
                 {singleProductData.id ? "Edit" : "Add"} Product
               </h1>
               <p className="text-sm hidden md:block -text-Gray-500">
@@ -616,7 +616,7 @@ function ProductForm() {
                 type="button"
                 onClick={submitHandle}
                 disabled={submitBtnDisable}
-                className="px-4 py-2 bg-[#F75A27] rounded-lg border -border-brand-600-orange-p-1 shadow-shadow-xs text-sm font-semibold text-white hover:-bg-Brand-700 focus:-bg-brand-600-orange-p-1 transition-all duration-300 ease-in-out disabled:-bg-Gray-100 disabled:-text-Gray-400 disabled:-border-Gray-200"
+                className="px-4 py-2 bg-brand-600-orange-p-1 rounded-lg border -border-brand-600-orange-p-1 shadow-shadow-xs text-sm font-semibold text-white hover:-bg-Brand-700 focus:-bg-brand-600-orange-p-1 transition-all duration-300 ease-in-out disabled:-bg-Gray-100 disabled:-text-Gray-400 disabled:-border-Gray-200"
               >
                 {singleProductData.id ? "Update" : "Save"}
               </button>
@@ -625,7 +625,7 @@ function ProductForm() {
           <div className="w-full mt-2">
             {/* Error Accordion - Full Width */}
             {showProductErrorReport && (
-              <div className="bg-gradient-to-r from-Error-50 to-Error-25 rounded-lg border -border-Error-300 overflow-hidden">
+              <div className="bg-linear-to-r from-Error-50 to-Error-25 rounded-lg border -border-Error-300 overflow-hidden">
                 <div
                   onClick={() => setIsErrorAccordionOpen(!isErrorAccordionOpen)}
                   className="w-full flex items-center justify-between px-6 py-4 cursor-pointer transition-colors duration-200 hover:bg-Error-100/30"
@@ -652,7 +652,7 @@ function ProductForm() {
                   <ChevronDown
                     size={22}
                     className={cn(
-                      "-text-Error-600 transition-transform duration-300 flex-shrink-0",
+                      "-text-Error-600 transition-transform duration-300 shrink-0",
                       isErrorAccordionOpen && "rotate-180",
                     )}
                   />

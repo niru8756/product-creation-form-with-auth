@@ -26,6 +26,12 @@ const refreshTokenSingleton = async () => {
     return refreshTokenPromise;
   }
 
+  console.log("BASE_URL ==>", BASE_URL);
+
+  if (!BASE_URL) {
+  throw new Error("❌ BASE_URL is missing in environment variables.");
+}
+
   // Otherwise, create a new refresh promise
   refreshTokenPromise = axios
     .get(`${BASE_URL}/auth/refresh`, { withCredentials: true })

@@ -1,7 +1,7 @@
 export const STRAPI_URL = process.env.VITE_STRAPI_URL;
 
 // export const BASE_URL = "http://192.168.29.253:3001";
-export const BASE_URL = process.env.VITE_BASE_URL;
+export const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 // export const BASE_URL = "https://dev-api.unisouk.com";
 
 export const GOOGLE_AUTH_URL = `${BASE_URL}/auth/google`;
