@@ -310,26 +310,15 @@ model VariantOption {
 }
 
 model Store {
-  id                        BigInt                       @id @default(dbgenerated("public.next_id()"))
-  title                     String
-  description               String?
-  email                     String
-  phone                     String?
-  status                    StoreStatus                  @default(ACTIVE)
-  image                     String?
-  billingAddress            Json?                        @map("billing_address") @db.JsonB()
-  pickupAddress             Json?                        @map("pickup_address") @db.JsonB()
-  inventoryStrategy         InventoryStrategyType        @default(UNIFIED) @map("inventory_strategy")
-  priceStrategy             PriceStrategyType            @default(UNIFIED) @map("price_strategy")
-  createdAt                 DateTime                     @default(now()) @map("created_at")
-  updatedAt                 DateTime                     @updatedAt @map("updated_at")
-  enabledChannels           ChannelType[]                @map("enabled_channels")
-  selectedSalesChannels     ChannelType[]                @map("selected_sales_channels")
-  enabledPaymentGateways    PaymentGatewayProviderType[] @map("enabled_payment_gateways")
-  enabledLogisticsProviders LogisticsProviderType[]      @map("enabled_logistics_providers")
-  metadata                  Json?                        @db.JsonB
+  id     BigInt @id @default(dbgenerated("public.next_id()"))
+  userId BigInt @unique
 
-  @@map("store_setting")
+  enabledChannels ChannelType[] @map("enabled_channels")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("store")
 }
 
 model Asset {
@@ -410,96 +399,6 @@ model ExternalProductIdentifier {
 
   @@unique([storeId, type, value])
   @@map("external_product_identifier")
-}
-
-model OrderItem {
-  orderId   BigInt @map("order_id")
-  storeId   BigInt @map("store_id")
-  variantId BigInt @map("variant_id")
-  quantity  Int
-  price     Int
-
-  order Order @relation(fields: [orderId], references: [id])
-
-  @@id([orderId, variantId])
-  @@map("order_item")
-}
-
-model Order {
-  id                  BigInt            @id @default(dbgenerated("public.next_id()"))
-  storeId             BigInt            @map("store_id")
-  customerId          BigInt?           @map("customer_id")
-  channelType         ChannelType       @map("channel_type")
-  status              OrderStatus       @default(PENDING)
-  fulfillmentStatus   FulfillmentStatus @default(PENDING) @map("fulfillment_status")
-  purchaseDate        DateTime          @map("purchase_date")
-  paymentMethod       PaymentMethod     @map("payment_method")
-  paymentDetail       Json              @map("payment_detail") @db.JsonB()
-  buyerInfo           Json              @map("buyer_info") @db.JsonB()
-  shippingDetail      Json              @map("shipping_detail") @db.JsonB()
-  address             Json              @db.JsonB()
-  packageMeasurement  Json              @map("package_measurement") @db.JsonB()
-  totalAmount         Int               @map("total_amount")
-  externalOrderId     String            @map("external_order_id")
-  externalOrderStatus String            @map("external_order_status")
-  extraData           Json              @map("extra_data") @db.JsonB()
-  createdAt           DateTime          @default(now()) @map("created_at")
-  updatedAt           DateTime          @updatedAt @map("updated_at")
-
-  orderItems OrderItem[]
-
-  @@unique([storeId, channelType, externalOrderId])
-  @@map("order")
-}
-
-model CartItem {
-  cartId    BigInt @map("cart_id")
-  storeId   BigInt @map("store_id")
-  variantId BigInt @map("variant_id")
-  quantity  Int
-  price     Int
-
-  cart Cart @relation(fields: [cartId], references: [id])
-
-  @@id([cartId, variantId])
-  @@map("cart_item")
-}
-
-model Cart {
-  id          BigInt     @id @default(dbgenerated("public.next_id()"))
-  storeId     BigInt     @map("store_id")
-  customerId  BigInt     @map("customer_id")
-  totalAmount Int        @map("total_amount")
-  items       CartItem[]
-
-  @@unique([storeId, customerId])
-  @@map("cart")
-}
-
-model ZohoConnect {
-  id            BigInt @id @default(dbgenerated("public.next_id()"))
-  storeId       BigInt @unique @map("store_id")
-  zohoAccountId String @map("account_id")
-
-  createdAt DateTime @default(now()) @map("created_at")
-
-  ZohoContact ZohoContact[]
-
-  @@map("zoho_account")
-}
-
-model ZohoContact {
-  id            BigInt @id @default(dbgenerated("public.next_id()"))
-  zohoConnectId BigInt @map("zoho_connect_id")
-  zohoContactId String @map("zoho_contact_id")
-  zohoAccountId String @map("zoho_account_id")
-  email         String
-  firstName     String
-  lastName      String
-
-  account ZohoConnect @relation(fields: [zohoConnectId], references: [id])
-
-  @@unique([email, zohoAccountId])
 }
 
 enum InventoryTransactionType {

@@ -22,7 +22,11 @@ export async function POST(request: NextRequest) {
 
     const errors = await validate(dto);
     if (errors.length > 0) {
-      return errorResponse("Validation failed", 400, formatValidationErrors(errors));
+      return errorResponse(
+        "Validation failed",
+        400,
+        formatValidationErrors(errors)
+      );
     }
 
     const { email, password } = body;
@@ -56,6 +60,10 @@ export async function POST(request: NextRequest) {
       },
     });
 
+    const store = await prisma.store.findUnique({
+      where: { userId: user.id },
+    });
+
     return successResponse(
       {
         accessToken,
@@ -65,6 +73,7 @@ export async function POST(request: NextRequest) {
           email: user.email,
           name: user.name,
         },
+        storeId: store?.id,
       },
       "Login successful"
     );
@@ -72,5 +81,3 @@ export async function POST(request: NextRequest) {
     return handleApiError(error);
   }
 }
-
-
