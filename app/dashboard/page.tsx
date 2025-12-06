@@ -27,12 +27,17 @@ export default function Dashboard() {
       try {
         const res = await fetch("/api/products");
         const data = await res.json();
-        setProducts(data || []);
-      } catch (_) {}
+        // Ensure data is always an array
+        setProducts(Array.isArray(data) ? data : []);
+      } catch (error) {
+        console.error("Failed to fetch products:", error);
+        setProducts([]);
+      }
       setLoading(false);
     };
     load();
   }, []);
+
 
   if (status === "loading") {
     return (
@@ -46,7 +51,7 @@ export default function Dashboard() {
     redirect("/login");
   }
 
-  const filteredProducts = products.filter(p =>
+  const filteredProducts = (products || [])?.filter(p =>
     p.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
     p.sku.toLowerCase().includes(searchQuery.toLowerCase())
   );
@@ -81,7 +86,7 @@ export default function Dashboard() {
           <div className="flex items-center justify-between mb-8">
             <div>
               <h2 className="text-2xl font-bold text-[#101828]">Products</h2>
-              <p className="text-sm text-gray-600 mt-1">{filteredProducts.length} product{filteredProducts.length !== 1 ? 's' : ''}</p>
+              <p className="text-sm text-gray-600 mt-1">{filteredProducts?.length} product{filteredProducts?.length !== 1 ? 's' : ''}</p>
             </div>
             {products.length > 0 && (
               <div className="relative">
@@ -101,7 +106,7 @@ export default function Dashboard() {
             <div className="flex items-center justify-center py-12">
               <div className="animate-spin rounded-full h-8 w-8 border-2 border-gray-300 border-t-[#F75A27]"></div>
             </div>
-          ) : filteredProducts.length === 0 ? (
+          ) : filteredProducts?.length === 0 ? (
             <EmptyState router={router} />
           ) : (
             <ProductTable products={filteredProducts} router={router} />

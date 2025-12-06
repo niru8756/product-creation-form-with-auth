@@ -55,7 +55,7 @@ export const api = axios.create({
   baseURL: BASE_URL,
   headers: {
     "Content-Type": "application/json",
-    // "x-store-id": getStoreId(),
+    "x-store-id": "113947194574972928",
   },
   withCredentials: true,
 });
@@ -107,7 +107,7 @@ export const support = axios.create({
 const requestConfig = (config: InternalAxiosRequestConfig<any>) => {
   if (accessToken) {
     config.headers.Authorization = `Bearer ${accessToken}`;
-    config.headers["x-store-id"] = getStoreId();
+    config.headers["x-store-id"] = "113947194574972928";
   }
   return config;
 };

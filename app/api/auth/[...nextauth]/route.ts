@@ -1,69 +1,42 @@
 // import NextAuth from "next-auth";
-// import CredentialsProvider from "next-auth/providers/credentials";
+// import { authOptions } from "@/lib/auth-config";
 
-// const handler = NextAuth({
-//   providers: [
-//     CredentialsProvider({
-//       name: "Credentials",
-//       credentials: {
-//         email: { label: "Email", type: "text" },
-//         password: { label: "Password", type: "password" },
-//       },
+// const handler = NextAuth(authOptions);
 
-//       async authorize(credentials) {
-//         if (!credentials) return null;
+// // export { handler as GET, handler as POST };
 
-//         const res = await fetch("https://your-api.com/login", {
-//           method: "POST",
-//           headers: { "Content-Type": "application/json" },
-//           body: JSON.stringify({
-//             email: credentials.email,
-//             password: credentials.password,
-//           }),
-//         });
 
-//         const user = await res.json();
-
-//         if (!res.ok || !user) return null;
-
-//         return {
-//           id: user.id,
-//           email: user.email,
-//           accessToken: user.accessToken,
-//         };
-//       },
-//     }),
-//   ],
-
-//   session: { strategy: "jwt" },
-
-//   callbacks: {
-//     async jwt({ token, user }) {
-//       if (user) {
-//         token.id = user.id;
-//         token.email = user.email ?? undefined;
-//         token.accessToken = user.accessToken ?? undefined;
-//       }
-//       return token;
-//     },
-
-//     async session({ session, token }) {
-//       session.user = {
-//         id: token.id,
-//         email: token.email,
-//       };
-//       session.accessToken = token.accessToken;
-//       return session;
-//     },
-//   },
-// });
+// // app/api/auth/[...nextauth]/route.ts
+// // app/api/auth/[...nextauth]/route.ts
 
 // export { handler as GET, handler as POST };
 
-
 // app/api/auth/[...nextauth]/route.ts
-// app/api/auth/[...nextauth]/route.ts
+import NextAuth from "next-auth";
+import Google from "next-auth/providers/google";
 
-import { handlers } from "@/auth";
-console.log("handlers: ", handlers);
-export const { GET, POST } = handlers;
+export const authOptions = {
+  providers: [
+    Google({
+      clientId: process.env.AUTH_GOOGLE_ID ?? "",
+      clientSecret: process.env.AUTH_GOOGLE_SECRET ?? "",
+    }),
+  ],
+  callbacks: {
+    async jwt({ token, account }) {
+      if (account) {
+        token.accessToken = account.access_token;
+      }
+      return token;
+    },
+    async session({ session, token }) {
+      if (session.user) {
+        session.accessToken = token.accessToken as string;
+      }
+      return session;
+    },
+  },
+};
+
+const handler = NextAuth(authOptions);
+export { handler as GET, handler as POST };

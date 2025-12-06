@@ -74,7 +74,7 @@ const ProductDescriptionSchema = z.object({
 // category fetch
 
 const categoryFetch = async () => {
-  const { data } = await productApi.get("/category");
+  const { data } = await productApi.get("/api/category");
   return data;
 };
 
