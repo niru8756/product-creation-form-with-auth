@@ -15,7 +15,6 @@ const extractBucketNameAndKey = (uri: string) => {
   return { bucket, key };
 };
 
-
 export const getPreSignedUrl = async (key: string): Promise<string> => {
   const command = new PutObjectCommand({
     Bucket: env.S3_BUCKET_NAME,
@@ -26,6 +25,10 @@ export const getPreSignedUrl = async (key: string): Promise<string> => {
   const presignedUrl = await getSignedUrl(
     new S3Client({
       region: env.AWS_REGION,
+      credentials: {
+        accessKeyId: env.AWS_ACCESS_KEY_ID,
+        secretAccessKey: env.AWS_SECRET_ACCESS_KEY,
+      },
     }),
     command,
     {
@@ -34,11 +37,11 @@ export const getPreSignedUrl = async (key: string): Promise<string> => {
   );
 
   return presignedUrl;
-}
+};
 
 export const getFileUrl = async (uri: string) => {
   const httpsRegex = /^https?:\/\/[\w\-]+(\.[\w\-]+)+[/#?]?.*$/;
-  
+
   if (httpsRegex.test(uri)) {
     return uri; // No need to sign for HTTP(S) URLs.
   } else if (uri.includes("s3://")) {
@@ -48,6 +51,10 @@ export const getFileUrl = async (uri: string) => {
     const presignedUrl = await getSignedUrl(
       new S3Client({
         region: env.AWS_REGION,
+        credentials: {
+          accessKeyId: env.AWS_ACCESS_KEY_ID,
+          secretAccessKey: env.AWS_SECRET_ACCESS_KEY,
+        },
       }),
       command,
       {

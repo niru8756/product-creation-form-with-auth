@@ -1,0 +1,974 @@
+{
+    "FRAGRANCE": {
+        "category": "Fragrance",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "BATH_SOAPS_AND_GELS": {
+        "category": "Bath Soaps and Gels",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "HAIR_OILS_CARE_AND_STYLING": {
+        "category": "Hair Oils, Care, and Styling",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "SHAMPOOS_AND_CONDITIONERS": {
+        "category": "Shampoos and Conditioners",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "SHAVING_AND_GROOMING": {
+        "category": "Shaving and Grooming",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "BEARD_CARE_AND_TOOLS": {
+        "category": "Beard Care and Tools",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "GROOMING_TOOLS_AND_ACCESSORIES": {
+        "category": "Grooming Tools and Accessories",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "MAKEUP_NAIL_CARE": {
+        "category": "Makeup - Nail Care",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "MAKEUP_EYES": {
+        "category": "Makeup - Eyes",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "MAKEUP_FACE": {
+        "category": "Makeup - Face",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "MAKEUP_LIPS": {
+        "category": "Makeup - Lips",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "MAKEUP_BODY": {
+        "category": "Makeup - Body",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "MAKEUP_REMOVER": {
+        "category": "Makeup - Remover",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "MAKEUP_SETS_AND_KITS": {
+        "category": "Makeup - Sets and Kits",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "MAKEUP_TOOLS_AND_BRUSHES": {
+        "category": "Makeup - Tools and Brushes",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "MAKEUP_KITS_AND_COMBOS": {
+        "category": "Makeup - Kits and Combos",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "SKIN_CARE_FACE_CLEANSERS": {
+        "category": "Skin Care - Face Cleansers",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "SKIN_CARE_HAND_AND_FEET": {
+        "category": "Skin Care - Hand and Feet",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "BODY_CARE_CLEANSERS": {
+        "category": "Body Care - Cleansers",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "BODY_CARE_MOISTURIZERS": {
+        "category": "Body Care - Moisturizers",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "BODY_CARE_LOOFAH_AND_OTHER_TOOLS": {
+        "category": "Body Care - Loofah and Other Tools",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "BODY_CARE_BATH_SALT_AND_ADDITIVES": {
+        "category": "Body Care - Bath Salt and Additives",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "HAIR_CARE_SHAMPOO_OILS_CONDITIONERS": {
+        "category": "Hair Care - Shampoo, Oils, Conditioners",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "SKIN_CARE_LOTIONS_MOISTURISERS_AND_CREAMS": {
+        "category": "Skin Care - Lotions, Moisturisers, and Creams",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "SKIN_CARE_OILS_AND_SERUMS": {
+        "category": "Skin Care - Oils and Serums",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    },
+    "TRIMMER": {
+        "category": "Trimmer",
+        "required": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "battery",
+            "power_input",
+            "warranty",
+            "wattage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "SHAVER": {
+        "category": "Shaver",
+        "required": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "battery",
+            "power_input",
+            "warranty",
+            "wattage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "EPILATOR": {
+        "category": "Epilator",
+        "required": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "battery",
+            "power_input",
+            "warranty",
+            "wattage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "HAIR_STRAIGHTENER": {
+        "category": "Hair Straightener",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "HAIR_DRYER": {
+        "category": "Hair Dryer",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "power_input",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "HAIR_CURLER": {
+        "category": "Hair Curler",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "power_input",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "HAIR_CRIMPER": {
+        "category": "Hair Crimper",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "power_input",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "HAIR_CARE_COLOUR": {
+        "category": "Hair Care - Colour",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ],
+        "enum_properties": [
+            "colour",
+            "gender",
+            "concern",
+            "ingredient",
+            "conscious",
+            "preference",
+            "formulation",
+            "skin_type"
+        ]
+    }
+}

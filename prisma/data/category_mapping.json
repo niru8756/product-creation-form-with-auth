@@ -1,0 +1,4773 @@
+[
+  {
+    "category": "Appliances",
+    "sub_category": "Air Conditioner",
+    "ondc_domain": "RET15",
+    "ondc_category": "AIR_CONDITIONER",
+    "amazon_product_type": "AIR_CONDITIONER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-9-1-1",
+      "category_name": "Air Conditioners",
+      "category_breadcrumb": "Home & Garden > Household Appliances > Climate Control Appliances > Air Conditioners"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Air Cooler",
+    "ondc_domain": "RET15",
+    "ondc_category": "AIR_COOLER",
+    "amazon_product_type": "AIR_COOLER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-9-1-5-3",
+      "category_name": "Portable Evaporative Coolers",
+      "category_breadcrumb": "Home & Garden > Household Appliances > Climate Control Appliances > Evaporative Coolers > Portable Evaporative Coolers"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Air Heater",
+    "ondc_domain": "RET15",
+    "ondc_category": "AIR_HEATER",
+    "amazon_product_type": "SPACE_HEATER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-9-1-12",
+      "category_name": "Space Heaters",
+      "category_breadcrumb": "Home & Garden > Household Appliances > Climate Control Appliances > Space Heaters"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Air Purifier",
+    "ondc_domain": "RET15",
+    "ondc_category": "AIR_PURIFIER",
+    "amazon_product_type": "AIR_PURIFIER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-9-1-2",
+      "category_name": "Air Purifiers",
+      "category_breadcrumb": "Home & Garden > Household Appliances > Climate Control Appliances > Air Purifiers"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Coffee Maker",
+    "ondc_domain": "RET15",
+    "ondc_category": "COFFEE_MAKER",
+    "amazon_product_type": "COFFEE_MAKER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-7-4",
+      "category_name": "Coffee Makers & Espresso Machines",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Kitchen Appliances > Coffee Makers & Espresso Machines"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Dehumidifier",
+    "ondc_domain": "RET15",
+    "ondc_category": "DEHUMIDIFIER",
+    "amazon_product_type": "DEHUMIDIFIER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-9-1-3",
+      "category_name": "Dehumidifiers",
+      "category_breadcrumb": "Home & Garden > Household Appliances > Climate Control Appliances > Dehumidifiers"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Dishwasher Accessories",
+    "ondc_domain": "RET15",
+    "ondc_category": "DISHWASHER_ACCESSORIES",
+    "amazon_product_type": "DISHWASHER_DETERGENT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-6-6",
+      "category_name": "Dishwasher Parts & Accessories",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Kitchen Appliance Accessories > Dishwasher Parts & Accessories"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Electric Coffee Grinder",
+    "ondc_domain": "RET15",
+    "ondc_category": "COFFEE_GRINDER",
+    "amazon_product_type": "ELECTRIC_FOOD_MILL_GRINDER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-7-16-1",
+      "category_name": "Food Grinders",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Kitchen Appliances > Food Grinders & Mills > Food Grinders"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Electric Iron",
+    "ondc_domain": "RET15",
+    "ondc_category": "ELECTRIC_IRON",
+    "amazon_product_type": "TEXTILE_IRON",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-9-8-3-2",
+      "category_name": "Irons",
+      "category_breadcrumb": "Home & Garden > Household Appliances > Laundry Appliances > Irons & Ironing Systems > Irons"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Food Blender",
+    "ondc_domain": "RET15",
+    "ondc_category": "MIXER_GRINDER",
+    "amazon_product_type": "FOOD_BLENDER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-7-17-1",
+      "category_name": "Food Blenders",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Kitchen Appliances > Food Mixers & Blenders > Food Blenders"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Food Processor",
+    "ondc_domain": "RET15",
+    "ondc_category": "FOOD_PROCESSOR",
+    "amazon_product_type": "FOOD_PROCESSOR",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-7-54",
+      "category_name": "Food Processors",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Kitchen Appliances > Food Processors"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Home Theatre Projector",
+    "ondc_domain": "RET15",
+    "ondc_category": "HOME_THEATRE_PROJECTOR",
+    "amazon_product_type": "VIDEO_PROJECTOR",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-17-2",
+      "category_name": "Projectors",
+      "category_breadcrumb": "Electronics > Video > Projectors"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Humidifier",
+    "ondc_domain": "RET15",
+    "ondc_category": "HUMIDIFIER",
+    "amazon_product_type": "HUMIDIFIER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-9-1-9",
+      "category_name": "Humidifiers",
+      "category_breadcrumb": "Home & Garden > Household Appliances > Climate Control Appliances > Humidifiers"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Juicer",
+    "ondc_domain": "RET15",
+    "ondc_category": "JUICER",
+    "amazon_product_type": "JUICER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-7-29",
+      "category_name": "Juicers",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Kitchen Appliances > Juicers"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Manual Coffee Grinder",
+    "ondc_domain": "RET15",
+    "ondc_category": "COFFEE_GRINDER",
+    "amazon_product_type": "MANUAL_FOOD_MILL_GRINDER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-7-16-1",
+      "category_name": "Food Grinders",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Kitchen Appliances > Food Grinders & Mills > Food Grinders"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Mixer Grinder",
+    "ondc_domain": "RET15",
+    "ondc_category": "MIXER_GRINDER",
+    "amazon_product_type": "FOOD_MIXER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-7-17-2",
+      "category_name": "Food Mixers",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Kitchen Appliances > Food Mixers & Blenders > Food Mixers"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Pasta Maker",
+    "ondc_domain": "RET15",
+    "ondc_category": "PASTA_MAKER",
+    "amazon_product_type": "PASTA_MAKER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-7-36",
+      "category_name": "Pasta Makers",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Kitchen Appliances > Pasta Makers"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Remote",
+    "ondc_domain": "RET15",
+    "ondc_category": "REMOTE",
+    "amazon_product_type": "REMOTE_CONTROL",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-7-16",
+      "category_name": "Remote Controls",
+      "category_breadcrumb": "Electronics > Electronics Accessories > Remote Controls"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Set Top Box",
+    "ondc_domain": "RET15",
+    "ondc_category": "SET_TOP_BOX",
+    "amazon_product_type": "SATELLITE_RECEIVER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-17-3",
+      "category_name": "Satellite & Cable TV",
+      "category_breadcrumb": "Electronics > Video > Satellite & Cable TV"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Smart TV",
+    "ondc_domain": "RET15",
+    "ondc_category": "SMART_TV",
+    "amazon_product_type": "TELEVISION",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-17-4",
+      "category_name": "Televisions",
+      "category_breadcrumb": "Electronics > Video > Televisions"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Standard TV",
+    "ondc_domain": "RET15",
+    "ondc_category": "STANDARD_TV",
+    "amazon_product_type": "TELEVISION",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-17-4",
+      "category_name": "Televisions",
+      "category_breadcrumb": "Electronics > Video > Televisions"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Streaming Device",
+    "ondc_domain": "RET15",
+    "ondc_category": "STREAMING_DEVICE",
+    "amazon_product_type": "STANDALONE_STREAMING_MEDIA_PLAYER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-17-8-4",
+      "category_name": "Streaming & Home Media Players",
+      "category_breadcrumb": "Electronics > Video > Video Players & Recorders > Streaming & Home Media Players"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "TV Mount",
+    "ondc_domain": "RET15",
+    "ondc_category": "TV_MOUNT",
+    "amazon_product_type": "FLAT_SCREEN_DISPLAY_MOUNT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-17-5-5-1",
+      "category_name": "TV & Monitor Mounts",
+      "category_breadcrumb": "Electronics > Video > Video Accessories > Television Parts & Accessories > TV & Monitor Mounts"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "TV Part",
+    "ondc_domain": "RET15",
+    "ondc_category": "TV_PART",
+    "amazon_product_type": "FLAT_SCREEN_DISPLAY_MOUNT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-17-5-5",
+      "category_name": "Television Parts & Accessories",
+      "category_breadcrumb": "Electronics > Video > Video Accessories > Television Parts & Accessories"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "TV Remote",
+    "ondc_domain": "RET15",
+    "ondc_category": "TV_REMOTE",
+    "amazon_product_type": "REMOTE_CONTROL",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-7-16",
+      "category_name": "Remote Controls",
+      "category_breadcrumb": "Electronics > Electronics Accessories > Remote Controls"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Vacuum Cleaner",
+    "ondc_domain": "RET15",
+    "ondc_category": "VACUUM_CLEANER",
+    "amazon_product_type": "VACUUM_CLEANER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-9-10",
+      "category_name": "Vacuums",
+      "category_breadcrumb": "Home & Garden > Household Appliances > Vacuums"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Washing Machine",
+    "ondc_domain": "RET15",
+    "ondc_category": "WASHING_MACHINE",
+    "amazon_product_type": "WASHER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-9-8-6",
+      "category_name": "Washing Machines",
+      "category_breadcrumb": "Home & Garden > Household Appliances > Laundry Appliances > Washing Machines"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Washing Machine with Dryer",
+    "ondc_domain": "RET15",
+    "ondc_category": "WASHING_MACHINE",
+    "amazon_product_type": "WASHER_DRYER_COMBINATION",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-9-8-4",
+      "category_name": "Laundry Combo Units",
+      "category_breadcrumb": "Home & Garden > Household Appliances > Laundry Appliances > Laundry Combo Units"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Water Cooler",
+    "ondc_domain": "RET15",
+    "ondc_category": "WATER_COOLER",
+    "amazon_product_type": "WATER_DISPENSER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-9-12",
+      "category_name": "Water Heaters",
+      "category_breadcrumb": "Home & Garden > Household Appliances > Water Heaters"
+    }
+  },
+  {
+    "category": "Appliances",
+    "sub_category": "Water Heater",
+    "ondc_domain": "RET15",
+    "ondc_category": "WATER_HEATER",
+    "amazon_product_type": "WATER_HEATER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-9-12",
+      "category_name": "Water Heaters",
+      "category_breadcrumb": "Home & Garden > Household Appliances > Water Heaters"
+    }
+  },
+  {
+    "category": "BPC",
+    "sub_category": "Body Care - Moisturizers",
+    "ondc_domain": "RET13",
+    "ondc_category": "BODY_CARE_MOISTURIZERS",
+    "amazon_product_type": "SKIN_MOISTURIZER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-2-9-10",
+      "category_name": "Lotions & Moisturizers",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotions & Moisturizers"
+    }
+  },
+  {
+    "category": "BPC",
+    "sub_category": "Conditioners",
+    "ondc_domain": "RET13",
+    "ondc_category": "SHAMPOOS_AND_CONDITIONERS",
+    "amazon_product_type": "CONDITIONER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-10-13",
+      "category_name": "Shampoo & Conditioner",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Hair Care > Shampoo & Conditioner"
+    }
+  },
+  {
+    "category": "BPC",
+    "sub_category": "Gels",
+    "ondc_domain": "RET13",
+    "ondc_category": "BATH_SOAPS_AND_GELS",
+    "amazon_product_type": "NUTRITIONAL_SUPPLEMENT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-10-10",
+      "category_name": "Hair Styling Products",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Hair Care > Hair Styling Products"
+    }
+  },
+  {
+    "category": "BPC",
+    "sub_category": "Hair Care - Shampoo",
+    "ondc_domain": "RET13",
+    "ondc_category": "HAIR_CARE_SHAMPOO_OILS_CONDITIONERS",
+    "amazon_product_type": "SHAMPOO",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-10-13",
+      "category_name": "Shampoo & Conditioner",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Hair Care > Shampoo & Conditioner"
+    }
+  },
+  {
+    "category": "BPC",
+    "sub_category": "Makeup - Body",
+    "ondc_domain": "RET13",
+    "ondc_category": "MAKEUP_BODY",
+    "amazon_product_type": "SKIN_FOUNDATION_CONCEALER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-2-6-1",
+      "category_name": "Body Makeup",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Cosmetics > Makeup > Body Makeup"
+    }
+  },
+  {
+    "category": "BPC",
+    "sub_category": "Makeup - Brushes",
+    "ondc_domain": "RET13",
+    "ondc_category": "MAKEUP_TOOLS_AND_BRUSHES",
+    "amazon_product_type": "COSMETIC_BRUSH",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-2-5-1-9",
+      "category_name": "Makeup Brushes",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Cosmetics > Cosmetic Tools > Makeup Tools > Makeup Brushes"
+    }
+  },
+  {
+    "category": "BPC",
+    "sub_category": "Makeup - Remover",
+    "ondc_domain": "RET13",
+    "ondc_category": "MAKEUP_REMOVER",
+    "amazon_product_type": "SKIN_CLEANING_AGENT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-2",
+      "category_name": "Cosmetics",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Cosmetics"
+    }
+  },
+  {
+    "category": "BPC",
+    "sub_category": "Shampoos",
+    "ondc_domain": "RET13",
+    "ondc_category": "SHAMPOOS_AND_CONDITIONERS",
+    "amazon_product_type": "SHAMPOO",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-10-13",
+      "category_name": "Shampoo & Conditioner",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Hair Care > Shampoo & Conditioner"
+    }
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "sub_category": "Bath Soaps and Gels",
+    "ondc_domain": "RET13",
+    "ondc_category": "BATH_SOAPS_AND_GELS",
+    "amazon_product_type": "SKIN CLEANING AGENT",
+    "variant_attr": ["scent", "size"],
+    "shopify": {
+      "category_name": "Bar Soap",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Cosmetics > Bath & Body > Bar Soap",
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-2-1-1"
+    }
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "sub_category": "Body Care - Bath Salt and Additives",
+    "ondc_domain": "RET13",
+    "ondc_category": "BODY_CARE_BATH_SALT_AND_ADDITIVES",
+    "amazon_product_type": "BATHWATER ADDITIVE",
+    "variant_attr": ["color", "scent", "size"],
+    "shopify": {
+      "category_name": "Bath Additives",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Cosmetics > Bath & Body > Bath Additives",
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-2-1-2"
+    }
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "sub_category": "Body Care - Loofah and Other Tools",
+    "ondc_domain": "RET13",
+    "ondc_category": "BODY_CARE_LOOFAH_AND_OTHER_TOOLS",
+    "amazon_product_type": "BATHING SPONGE",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Bath Sponges & Loofahs",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Cosmetics > Bath & Body > Bath Sponges & Loofahs",
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-2-1-4"
+    }
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "sub_category": "Body Care - Moisturizers",
+    "ondc_domain": "RET13",
+    "ondc_category": "BODY_CARE_MOISTURIZERS",
+    "amazon_product_type": "SKIN MOISTURIZER",
+    "variant_attr": ["color", "size", "scent"],
+    "shopify": {
+      "category_name": "Lotions & Moisturizers",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotions & Moisturizers",
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-2-9-10"
+    }
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "sub_category": "Conditioners",
+    "ondc_domain": "RET13",
+    "ondc_category": "SHAMPOOS_AND_CONDITIONERS",
+    "amazon_product_type": "CONDITIONER",
+    "variant_attr": ["color", "scent", "size"],
+    "shopify": {
+      "category_name": "Conditioners",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Hair Care > Shampoo & Conditioner > Conditioners",
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-10-13-1"
+    }
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "sub_category": "Epilator",
+    "ondc_domain": "RET13",
+    "ondc_category": "EPILATOR",
+    "amazon_product_type": "EPILATOR",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Epilators",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Shaving & Grooming > Hair Removal > Epilators",
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-14-7-3"
+    }
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "sub_category": "Fragrance",
+    "ondc_domain": "RET13",
+    "ondc_category": "FRAGRANCE",
+    "amazon_product_type": "PERSONAL FRAGRANCE",
+    "variant_attr": ["scent", "size"],
+    "shopify": {
+      "category_name": "Body Mists",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Cosmetics > Perfumes & Colognes > Body Mists",
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-2-8-1"
+    }
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "sub_category": "Hair Care - Colour",
+    "ondc_domain": "RET13",
+    "ondc_category": "HAIR_CARE_COLOUR",
+    "amazon_product_type": "HAIR COLORING AGENT",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Hair Color",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Hair Care > Hair Color",
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-10-2"
+    }
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "sub_category": "Hair Crimper",
+    "ondc_domain": "RET13",
+    "ondc_category": "HAIR_CRIMPER",
+    "amazon_product_type": "HAIR IRON",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Hair Styling Tool Sets",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Hair Care > Hair Styling Tools > Hair Styling Tool Sets",
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-10-12-9"
+    }
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "sub_category": "Hair Curler",
+    "ondc_domain": "RET13",
+    "ondc_category": "HAIR_CURLER",
+    "amazon_product_type": "HAIR IRON",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Hair Curlers",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Hair Care > Hair Styling Tools > Hair Curlers",
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-10-12-5"
+    }
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "sub_category": "Hair Dryer",
+    "ondc_domain": "RET13",
+    "ondc_category": "HAIR_DRYER",
+    "amazon_product_type": "HAIR DRYER",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Hair Dryers",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Hair Care > Hair Styling Tools > Hair Dryers",
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-10-12-6"
+    }
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "sub_category": "Hair Oils",
+    "ondc_domain": "RET13",
+    "ondc_category": "HAIR_OILS_CARE_AND_STYLING",
+    "amazon_product_type": "HAIR STYLING AGENT",
+    "variant_attr": ["size", "scent"],
+    "shopify": {
+      "category_name": "Hair Styling Products",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Hair Care > Hair Styling Products",
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-10-10"
+    }
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "sub_category": "Hair Straightener",
+    "ondc_domain": "RET13",
+    "ondc_category": "HAIR_STRAIGHTENER",
+    "amazon_product_type": "HAIR IRON",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Hair Straighteners",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Hair Care > Hair Styling Tools > Hair Straighteners",
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-10-12-7"
+    }
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "sub_category": "Shampoos",
+    "ondc_domain": "RET13",
+    "ondc_category": "SHAMPOOS_AND_CONDITIONERS",
+    "amazon_product_type": "SHAMPOO",
+    "variant_attr": ["color", "scent", "size"],
+    "shopify": {
+      "category_name": "Shampoo",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Hair Care > Shampoo & Conditioner > Shampoo",
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-10-13-3"
+    }
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "sub_category": "Shaver",
+    "ondc_domain": "RET13",
+    "ondc_category": "SHAVER",
+    "amazon_product_type": "ELECTRIC SHAVER",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Rotary Electric Razors",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Shaving & Grooming > Electric Razors > Rotary Electric Razors",
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-14-4-2"
+    }
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "sub_category": "Skin Care - Lotions, Moisturisers, and Creams",
+    "ondc_domain": "RET13",
+    "ondc_category": "SKIN_CARE_LOTIONS_MOISTURISERS_AND_CREAMS",
+    "amazon_product_type": "SKIN MOISTURIZER",
+    "variant_attr": ["color", "size", "scent"],
+    "shopify": {
+      "category_name": "Lotions & Moisturizers",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotions & Moisturizers",
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-2-9-10"
+    }
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "sub_category": "Skin Care - Oils and Serums",
+    "ondc_domain": "RET13",
+    "ondc_category": "SKIN_CARE_OILS_AND_SERUMS",
+    "amazon_product_type": "SKIN SERUM",
+    "variant_attr": ["size", "scent"],
+    "shopify": {
+      "category_name": "Face Serums",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Cosmetics > Skin Care > Face Serums",
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-2-9-21"
+    }
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "sub_category": "Trimmer",
+    "ondc_domain": "RET13",
+    "ondc_category": "TRIMMER",
+    "amazon_product_type": "HAIR TRIMMER",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Trimmers",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Shaving & Grooming > Electric Razors > Trimmers",
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-14-4-3"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "3D Printer",
+    "ondc_domain": "RET14",
+    "ondc_category": "PRINTER",
+    "amazon_product_type": "3D_PRINTER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-13-2",
+      "category_name": "3D Printers",
+      "category_breadcrumb": "Electronics > Print, Copy, Scan & Fax > 3D Printers"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Cable Assembly",
+    "ondc_domain": "RET14",
+    "ondc_category": "CABLE",
+    "amazon_product_type": "CABLE_ASSEMBLY",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-5-3",
+      "category_name": "Electronics Component Connectors",
+      "category_breadcrumb": "Electronics > Components > Electronics Component Connectors"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Camcorder",
+    "ondc_domain": "RET14",
+    "ondc_category": "CAMCORDER",
+    "amazon_product_type": "CAMCORDER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-17-8",
+      "category_name": "Video Players & Recorders",
+      "category_breadcrumb": "Electronics > Video > Video Players & Recorders"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Camera Bag",
+    "ondc_domain": "RET14",
+    "ondc_category": "CAMERA_BAG",
+    "amazon_product_type": "CARRIER_BAG_CASE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/co-1-4-2",
+      "category_name": "Camera Bags & Cases",
+      "category_breadcrumb": "Cameras & Optics > Camera & Optic Accessories > Camera Parts & Accessories > Camera Bags & Cases"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Camera Lens",
+    "ondc_domain": "RET14",
+    "ondc_category": "CAMERA_LENS",
+    "amazon_product_type": "CAMERA_LENSES",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/co-1-2",
+      "category_name": "Camera & Video Camera Lenses",
+      "category_breadcrumb": "Cameras & Optics > Camera & Optic Accessories > Camera & Video Camera Lenses"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Charger",
+    "ondc_domain": "RET14",
+    "ondc_category": "CHARGER",
+    "amazon_product_type": "BATTERY_CHARGER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-7-15-5",
+      "category_name": "Power Adapters & Chargers",
+      "category_breadcrumb": "Electronics > Electronics Accessories > Power > Power Adapters & Chargers"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Charger Adapter",
+    "ondc_domain": "RET14",
+    "ondc_category": "CHARGER",
+    "amazon_product_type": "CHARGING_ADAPTER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-7-15-5",
+      "category_name": "Power Adapters & Chargers",
+      "category_breadcrumb": "Electronics > Electronics Accessories > Power > Power Adapters & Chargers"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Charging Adapter",
+    "ondc_domain": "RET14",
+    "ondc_category": "ADAPTER",
+    "amazon_product_type": "CHARGING_ADAPTER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-7-15-5",
+      "category_name": "Power Adapters & Chargers",
+      "category_breadcrumb": "Electronics > Electronics Accessories > Power > Power Adapters & Chargers"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Computer Speaker",
+    "ondc_domain": "RET14",
+    "ondc_category": "SPEAKER",
+    "amazon_product_type": "COMPUTER_SPEAKER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-2-2-10",
+      "category_name": "Speakers",
+      "category_breadcrumb": "Electronics > Audio > Audio Components > Speakers"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Cooling Pad",
+    "ondc_domain": "RET14",
+    "ondc_category": "COOLING_PAD",
+    "amazon_product_type": "ELECTRONIC_DEVICE_COOLING_PAD",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-6-6",
+      "category_name": "Laptops",
+      "category_breadcrumb": "Electronics > Computers > Laptops"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Desktop",
+    "ondc_domain": "RET14",
+    "ondc_category": "DESKTOP",
+    "amazon_product_type": "PERSONAL_COMPUTER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-6-3",
+      "category_name": "Desktop Computers",
+      "category_breadcrumb": "Electronics > Computers > Desktop Computers"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Earphone",
+    "ondc_domain": "RET14",
+    "ondc_category": "EARPHONE",
+    "amazon_product_type": "HEADPHONES",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-2-1",
+      "category_name": "Audio Accessories",
+      "category_breadcrumb": "Electronics > Audio > Audio Accessories"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Ebook Reader",
+    "ondc_domain": "RET14",
+    "ondc_category": "EBOOK_READER",
+    "amazon_product_type": "ELECTRONIC_BOOK_READER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-6-4-2",
+      "category_name": "E-Book Readers",
+      "category_breadcrumb": "Electronics > Computers > Handheld Devices > E-Book Readers"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Electronic Adapter",
+    "ondc_domain": "RET14",
+    "ondc_category": "ADAPTER",
+    "amazon_product_type": "ELECTRONIC_ADAPTER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-7-1",
+      "category_name": "Adapters",
+      "category_breadcrumb": "Electronics > Electronics Accessories > Adapters"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Electronic Cable",
+    "ondc_domain": "RET14",
+    "ondc_category": "CABLE",
+    "amazon_product_type": "ELECTRONIC_CABLE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-7-7",
+      "category_name": "Cables",
+      "category_breadcrumb": "Electronics > Electronics Accessories > Cables"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Extension Cord",
+    "ondc_domain": "RET14",
+    "ondc_category": "EXTENSION_CORD",
+    "amazon_product_type": "POWER_STRIP",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-7-15-8",
+      "category_name": "Power Strips & Surge Suppressors",
+      "category_breadcrumb": "Electronics > Electronics Accessories > Power > Power Strips & Surge Suppressors"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Headset",
+    "ondc_domain": "RET14",
+    "ondc_category": "HEADSET",
+    "amazon_product_type": "HEADPHONES",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-2-1",
+      "category_name": "Audio Accessories",
+      "category_breadcrumb": "Electronics > Audio > Audio Accessories"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Home Audio",
+    "ondc_domain": "RET14",
+    "ondc_category": "HOME_AUDIO",
+    "amazon_product_type": "SPEAKERS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-2-2-1",
+      "category_name": "Audio & Video Receivers",
+      "category_breadcrumb": "Electronics > Audio > Audio Components > Audio & Video Receivers"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Intercom",
+    "ondc_domain": "RET14",
+    "ondc_category": "INTERCOM",
+    "amazon_product_type": "LANDLINE_PHONE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-4-6",
+      "category_name": "Intercoms",
+      "category_breadcrumb": "Electronics > Communications > Intercoms"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Laptop",
+    "ondc_domain": "RET14",
+    "ondc_category": "LAPTOP",
+    "amazon_product_type": "NOTEBOOK_COMPUTER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-6-6",
+      "category_name": "Laptops",
+      "category_breadcrumb": "Electronics > Computers > Laptops"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Laptop Skin",
+    "ondc_domain": "RET14",
+    "ondc_category": "LAPTOP_SKIN",
+    "amazon_product_type": "ELECTRONIC_DEVICE_SKIN",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-6-6",
+      "category_name": "Laptops",
+      "category_breadcrumb": "Electronics > Computers > Laptops"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Microphone",
+    "ondc_domain": "RET14",
+    "ondc_category": "MICROPHONE",
+    "amazon_product_type": "MICROPHONE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-2-2-8",
+      "category_name": "Microphones",
+      "category_breadcrumb": "Electronics > Audio > Audio Components > Microphones"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Mobile Mount",
+    "ondc_domain": "RET14",
+    "ondc_category": "MOBILE_MOUNT",
+    "amazon_product_type": "PORTABLE_ELECTRONIC_DEVICE_MOUNT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-7-14",
+      "category_name": "Mobile Phone & Tablet Tripods & Monopods",
+      "category_breadcrumb": "Electronics > Electronics Accessories > Mobile Phone & Tablet Tripods & Monopods"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Mobile Phone",
+    "ondc_domain": "RET14",
+    "ondc_category": "MOBILE_PHONE",
+    "amazon_product_type": "CELLULAR_PHONE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-4-8-5",
+      "category_name": "Mobile & Smart Phones",
+      "category_breadcrumb": "Electronics > Communications > Telephony > Mobile & Smart Phones"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Mobile Skin Sticker",
+    "ondc_domain": "RET14",
+    "ondc_category": "MOBILE_SKIN_STICKER",
+    "amazon_product_type": "ELECTRONIC_DEVICE_SKIN",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-7-11-2",
+      "category_name": "Electronics Stickers & Decals",
+      "category_breadcrumb": "Electronics > Electronics Accessories > Electronics Films & Shields > Electronics Stickers & Decals"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Monitor",
+    "ondc_domain": "RET14",
+    "ondc_category": "MONITOR",
+    "amazon_product_type": "MONITOR",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-17-1",
+      "category_name": "Computer Monitors",
+      "category_breadcrumb": "Electronics > Video > Computer Monitors"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Networking Device",
+    "ondc_domain": "RET14",
+    "ondc_category": "NETWORKING_DEVICE",
+    "amazon_product_type": "NETWORK_INTERFACE_CONTROLLER_ADAPTER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-12-1",
+      "category_name": "Bridges & Routers",
+      "category_breadcrumb": "Electronics > Networking > Bridges & Routers"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Networking Router",
+    "ondc_domain": "RET14",
+    "ondc_category": "NETWORKING_DEVICE",
+    "amazon_product_type": "NETWORKING_ROUTER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-12-1",
+      "category_name": "Bridges & Routers",
+      "category_breadcrumb": "Electronics > Networking > Bridges & Routers"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Onboard Camera",
+    "ondc_domain": "RET14",
+    "ondc_category": "CAMERA",
+    "amazon_product_type": "ONBOARD_CAMERA",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-17-6",
+      "category_name": "Video Editing Hardware & Production Equipment",
+      "category_breadcrumb": "Electronics > Video > Video Editing Hardware & Production Equipment"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Photo Printer",
+    "ondc_domain": "RET14",
+    "ondc_category": "PHOTO_PRINTER",
+    "amazon_product_type": "PRINTER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-13-4",
+      "category_name": "Printers, Copiers & Fax Machines",
+      "category_breadcrumb": "Electronics > Print, Copy, Scan & Fax > Printers, Copiers & Fax Machines"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Power Bank",
+    "ondc_domain": "RET14",
+    "ondc_category": "POWER_BANK",
+    "amazon_product_type": "POWER_BANK",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-7-15-5-1",
+      "category_name": "Power Banks",
+      "category_breadcrumb": "Electronics > Electronics Accessories > Power > Power Adapters & Chargers > Power Banks"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Power Converter",
+    "ondc_domain": "RET14",
+    "ondc_category": "ADAPTER",
+    "amazon_product_type": "POWER_CONVERTER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-5-2",
+      "category_name": "Converters",
+      "category_breadcrumb": "Electronics > Components > Converters"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Printer",
+    "ondc_domain": "RET14",
+    "ondc_category": "PRINTER",
+    "amazon_product_type": "PRINTER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-13-4",
+      "category_name": "Printers, Copiers & Fax Machines",
+      "category_breadcrumb": "Electronics > Print, Copy, Scan & Fax > Printers, Copiers & Fax Machines"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Printer Accessories",
+    "ondc_domain": "RET14",
+    "ondc_category": "PRINTER_ACCESSORIES",
+    "amazon_product_type": "STORAGE_COVER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-13-3",
+      "category_name": "Printer, Copier & Fax Machine Accessories",
+      "category_breadcrumb": "Electronics > Print, Copy, Scan & Fax > Printer, Copier & Fax Machine Accessories"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Projector",
+    "ondc_domain": "RET14",
+    "ondc_category": "PROJECTOR",
+    "amazon_product_type": "PHOTOGRAPHIC_PROJECTOR",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-17-2",
+      "category_name": "Projectors",
+      "category_breadcrumb": "Electronics > Video > Projectors"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Projector Mount",
+    "ondc_domain": "RET14",
+    "ondc_category": "PROJECTOR_MOUNT",
+    "amazon_product_type": "PORTABLE_ELECTRONIC_DEVICE_MOUNT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-17-5-3-4",
+      "category_name": "Projector Mounts",
+      "category_breadcrumb": "Electronics > Video > Video Accessories > Projector Accessories > Projector Mounts"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Projector Screen",
+    "ondc_domain": "RET14",
+    "ondc_category": "PROJECTOR_SCREEN",
+    "amazon_product_type": "PROJECTION_SCREEN",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-17-5-3-3",
+      "category_name": "Projection Screens",
+      "category_breadcrumb": "Electronics > Video > Video Accessories > Projector Accessories > Projection Screens"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Screen Protector",
+    "ondc_domain": "RET14",
+    "ondc_category": "SCREEN_PROTECTOR",
+    "amazon_product_type": "SCREEN_PROTECTOR",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-7-11-5",
+      "category_name": "Screen Protectors",
+      "category_breadcrumb": "Electronics > Electronics Accessories > Electronics Films & Shields > Screen Protectors"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Security Camera",
+    "ondc_domain": "RET14",
+    "ondc_category": "CAMERA",
+    "amazon_product_type": "SECURITY_CAMERA",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-17-10",
+      "category_name": "Video Transmitters",
+      "category_breadcrumb": "Electronics > Video > Video Transmitters"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Selfie Stick",
+    "ondc_domain": "RET14",
+    "ondc_category": "SELFIE_STICK",
+    "amazon_product_type": "CAMERA_SUPPORT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/co-1-7-3",
+      "category_name": "Monopods",
+      "category_breadcrumb": "Cameras & Optics > Camera & Optic Accessories > Tripods & Monopods > Monopods"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Smart Glasses",
+    "ondc_domain": "RET14",
+    "ondc_category": "SMART_GLASSES",
+    "amazon_product_type": "SUNGLASSES",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-6-7",
+      "category_name": "Smart Glasses",
+      "category_breadcrumb": "Electronics > Computers > Smart Glasses"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Smart Switch",
+    "ondc_domain": "RET14",
+    "ondc_category": "SMART_SWITCH",
+    "amazon_product_type": "ELECTRONIC_SWITCH",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-12-3-7",
+      "category_name": "Smart Switches",
+      "category_breadcrumb": "Electronics > Networking > Hubs & Switches > Smart Switches"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Speaker",
+    "ondc_domain": "RET14",
+    "ondc_category": "SPEAKER",
+    "amazon_product_type": "SPEAKERS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-2-2-10",
+      "category_name": "Speakers",
+      "category_breadcrumb": "Electronics > Audio > Audio Components > Speakers"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Tablet",
+    "ondc_domain": "RET14",
+    "ondc_category": "TABLET",
+    "amazon_product_type": "TABLET_COMPUTER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-6-8",
+      "category_name": "Tablet Computers",
+      "category_breadcrumb": "Electronics > Computers > Tablet Computers"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Tripod",
+    "ondc_domain": "RET14",
+    "ondc_category": "TRIPOD",
+    "amazon_product_type": "CAMERA_TRIPOD",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/co-1-7",
+      "category_name": "Tripods & Monopods",
+      "category_breadcrumb": "Cameras & Optics > Camera & Optic Accessories > Tripods & Monopods"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "True Wireless Stereo (TWS)",
+    "ondc_domain": "RET14",
+    "ondc_category": "TRUE_WIRELESS_STEREO_(TWS)",
+    "amazon_product_type": "HEADPHONES",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-2-1",
+      "category_name": "Audio Accessories",
+      "category_breadcrumb": "Electronics > Audio > Audio Accessories"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Vehicle Audio",
+    "ondc_domain": "RET14",
+    "ondc_category": "VEHICLE_AUDIO",
+    "amazon_product_type": "AV_RECEIVER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-2-2",
+      "category_name": "Audio Components",
+      "category_breadcrumb": "Electronics > Audio > Audio Components"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Vehicle Safety Camera",
+    "ondc_domain": "RET14",
+    "ondc_category": "CAMERA",
+    "amazon_product_type": "VEHICLE_SAFETY_CAMERA",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/co-2-5",
+      "category_name": "Surveillance Cameras",
+      "category_breadcrumb": "Cameras & Optics > Cameras > Surveillance Cameras"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Video Player",
+    "ondc_domain": "RET14",
+    "ondc_category": "VIDEO_PLAYER",
+    "amazon_product_type": "MP3_PLAYER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-17-8",
+      "category_name": "Video Players & Recorders",
+      "category_breadcrumb": "Electronics > Video > Video Players & Recorders"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Video Projector",
+    "ondc_domain": "RET14",
+    "ondc_category": "PROJECTOR",
+    "amazon_product_type": "VIDEO_PROJECTOR",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-17-2",
+      "category_name": "Projectors",
+      "category_breadcrumb": "Electronics > Video > Projectors"
+    }
+  },
+  {
+    "category": "Electronics",
+    "sub_category": "Wirless Adapter",
+    "ondc_domain": "RET14",
+    "ondc_category": "ADAPTER",
+    "amazon_product_type": "WIRELESS_AUDIO_ADAPTER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-12-6",
+      "category_name": "Network Cards & Adapters",
+      "category_breadcrumb": "Electronics > Networking > Network Cards & Adapters"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Anklets",
+    "ondc_domain": "RET12",
+    "ondc_category": "ANKLETS",
+    "amazon_product_type": "BRACELET",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-6-1",
+      "category_name": "Anklets",
+      "category_breadcrumb": "Apparel & Accessories > Jewelry > Anklets"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Bangles",
+    "ondc_domain": "RET12",
+    "ondc_category": "BANGLES_AND_BRACELETS",
+    "amazon_product_type": "BRACELET",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-6-3",
+      "category_name": "Bracelets",
+      "category_breadcrumb": "Apparel & Accessories > Jewelry > Bracelets"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Bath Robes",
+    "ondc_domain": "RET12",
+    "ondc_category": "BATH_ROBES",
+    "amazon_product_type": "ROBE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-17-5",
+      "category_name": "Robes",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Sleepwear & Loungewear > Robes"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Belts",
+    "ondc_domain": "RET12",
+    "ondc_category": "BELTS",
+    "amazon_product_type": "BELTS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-2-6",
+      "category_name": "Belts",
+      "category_breadcrumb": "Apparel & Accessories > Clothing Accessories > Belts"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Blazers",
+    "ondc_domain": "RET12",
+    "ondc_category": "BLAZERS_AND_WAISTCOATS",
+    "amazon_product_type": "BLAZER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-10-2-11",
+      "category_name": "Sport Jackets",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Outerwear > Coats & Jackets > Sport Jackets"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Blouse Pieces",
+    "ondc_domain": "RET12",
+    "ondc_category": "BLOUSE_PIECES",
+    "amazon_product_type": "UNSTITCHED_GARMENT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-13-1",
+      "category_name": "Blouses",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Clothing Tops > Blouses"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Blouses",
+    "ondc_domain": "RET12",
+    "ondc_category": "BLOUSES",
+    "amazon_product_type": "CHOLI",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-13-1",
+      "category_name": "Blouses",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Clothing Tops > Blouses"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Boots",
+    "ondc_domain": "RET12",
+    "ondc_category": "BOOTS",
+    "amazon_product_type": "BOOT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-8-3",
+      "category_name": "Boots",
+      "category_breadcrumb": "Apparel & Accessories > Shoes > Boots"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Boxers",
+    "ondc_domain": "RET12",
+    "ondc_category": "BOXERS",
+    "amazon_product_type": "UNDERPANTS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-8-3-3",
+      "category_name": "Boxer Shorts",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Men's Undergarments > Men's Underwear > Boxer Shorts"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Bra",
+    "ondc_domain": "RET12",
+    "ondc_category": "BRA",
+    "amazon_product_type": "BRA",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-6-3",
+      "category_name": "Bras",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Lingerie > Bras"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Bra and Underwear",
+    "ondc_domain": "RET12",
+    "ondc_category": "BRA",
+    "amazon_product_type": "BRA_UNDERWEAR_SET",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-6",
+      "category_name": "Lingerie",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Lingerie"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Bracelets",
+    "ondc_domain": "RET12",
+    "ondc_category": "BRACELETS",
+    "amazon_product_type": "BRACELET",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-6-3",
+      "category_name": "Bracelets",
+      "category_breadcrumb": "Apparel & Accessories > Jewelry > Bracelets"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Briefs",
+    "ondc_domain": "RET12",
+    "ondc_category": "BRIEFS",
+    "amazon_product_type": "UNDERPANTS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-8-3-4",
+      "category_name": "Briefs",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Men's Undergarments > Men's Underwear > Briefs"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Brooch",
+    "ondc_domain": "RET12",
+    "ondc_category": "BROOCH",
+    "amazon_product_type": "APPAREL_PIN",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-6-4",
+      "category_name": "Brooches & Lapel Pins",
+      "category_breadcrumb": "Apparel & Accessories > Jewelry > Brooches & Lapel Pins"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Camisoles",
+    "ondc_domain": "RET12",
+    "ondc_category": "CAMISOLES",
+    "amazon_product_type": "SHIRT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-6-4",
+      "category_name": "Camisoles",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Lingerie > Camisoles"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Capris",
+    "ondc_domain": "RET12",
+    "ondc_category": "CAPRIS",
+    "amazon_product_type": "PANTS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_name": "Clothing",
+      "category_breadcrumb": "Apparel & Accessories > Clothing",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Caps",
+    "ondc_domain": "RET12",
+    "ondc_category": "CAPS_AND_HATS",
+    "amazon_product_type": "HAT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-2-17-1",
+      "category_name": "Baseball Caps",
+      "category_breadcrumb": "Apparel & Accessories > Clothing Accessories > Hats > Baseball Caps"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Caps & Hats",
+    "ondc_domain": "RET12",
+    "ondc_category": "CAPS_AND_HATS",
+    "amazon_product_type": "HAT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_name": "Flat Caps",
+      "category_breadcrumb": "Apparel & Accessories > Clothing Accessories > Hats > Flat Caps",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-2-17-8"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Casual Shoes",
+    "ondc_domain": "RET12",
+    "ondc_category": "CASUAL_SHOES",
+    "amazon_product_type": "SHOES",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-8-8",
+      "category_name": "Sneakers",
+      "category_breadcrumb": "Apparel & Accessories > Shoes > Sneakers"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Chains",
+    "ondc_domain": "RET12",
+    "ondc_category": "CHAINS",
+    "amazon_product_type": "NECKLACE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-6-8",
+      "category_name": "Necklaces",
+      "category_breadcrumb": "Apparel & Accessories > Jewelry > Necklaces"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Charms",
+    "ondc_domain": "RET12",
+    "ondc_category": "SOLES_AND_CHARMS",
+    "amazon_product_type": "CHARM",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-6-5",
+      "category_name": "Charms & Pendants",
+      "category_breadcrumb": "Apparel & Accessories > Jewelry > Charms & Pendants"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Choli",
+    "ondc_domain": "RET12",
+    "ondc_category": "SHRUGS_AND_BLOUSES",
+    "amazon_product_type": "CHOLI",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-23-2",
+      "category_name": "Saris & Lehengas",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Traditional & Ceremonial Clothing > Saris & Lehengas"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Churidars",
+    "ondc_domain": "RET12",
+    "ondc_category": "CHURIDARS",
+    "amazon_product_type": "SALWAR_SUIT_SET",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-23-2",
+      "category_name": "Saris & Lehengas",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Traditional & Ceremonial Clothing > Saris & Lehengas"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Co-Od Set",
+    "ondc_domain": "RET12",
+    "ondc_category": "ETHNIC_WEAR",
+    "amazon_product_type": "COORDINATED_OUTFIT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-11",
+      "category_name": "Outfit Sets",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Outfit Sets"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Coin Pouch",
+    "ondc_domain": "RET12",
+    "ondc_category": "POUCH",
+    "amazon_product_type": "COIN_PURSE_POUCH",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-5-5-3",
+      "category_name": "Coin Purses",
+      "category_breadcrumb": "Apparel & Accessories > Handbags, Wallets & Cases > Wallets & Money Clips > Coin Purses"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Contact Lens Tweezers",
+    "ondc_domain": "RET12",
+    "ondc_category": "CONTACT_LENS_TWEEZERS",
+    "amazon_product_type": "CARRIER_BAG_CASE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-18",
+      "category_name": "Tweezers",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Tweezers"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Contact Lenses",
+    "ondc_domain": "RET12",
+    "ondc_category": "CONTACT_LENSES",
+    "amazon_product_type": "CONTACT_LENSES",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-19-1-4",
+      "category_name": "Contact Lenses",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Vision Care > Contact Lens Care > Contact Lenses"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Coordinates",
+    "ondc_domain": "RET12",
+    "ondc_category": "COORDINATES",
+    "amazon_product_type": "COORDINATED_OUTFIT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-11",
+      "category_name": "Outfit Sets",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Outfit Sets"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Dhoti Pants",
+    "ondc_domain": "RET12",
+    "ondc_category": "DHOTIS_AND_DHOTI_PANTS",
+    "amazon_product_type": "PANTS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-23-2",
+      "category_name": "Saris & Lehengas",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Traditional & Ceremonial Clothing > Saris & Lehengas"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Dhotis",
+    "ondc_domain": "RET12",
+    "ondc_category": "DHOTIS_AND_DHOTI_PANTS",
+    "amazon_product_type": "APPAREL",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-23",
+      "category_name": "Traditional & Ceremonial Clothing",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Traditional & Ceremonial Clothing"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Dhotis & Dhoti Pants",
+    "ondc_domain": "RET12",
+    "ondc_category": "DHOTIS_AND_DHOTI_PANTS",
+    "amazon_product_type": "ETHNIC WEAR",
+    "variant_attr": ["color", "numberOfItems", "size"],
+    "shopify": {
+      "category_name": "Traditional & Ceremonial Clothing",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Traditional & Ceremonial Clothing",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-23"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Dresses",
+    "ondc_domain": "RET12",
+    "ondc_category": "DRESSES",
+    "amazon_product_type": "DRESS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-4",
+      "category_name": "Dresses",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Dresses"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Dungarees",
+    "ondc_domain": "RET12",
+    "ondc_category": "DUNGAREES_AND_JUMPSUITS",
+    "amazon_product_type": "OVERALLS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_name": "One-Pieces",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > One-Pieces",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-9"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Dupattas",
+    "ondc_domain": "RET12",
+    "ondc_category": "DUPATTAS_AND_SHAWLS",
+    "amazon_product_type": "DUPATTA",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-23-2",
+      "category_name": "Saris & Lehengas",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Traditional & Ceremonial Clothing > Saris & Lehengas"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Earrings",
+    "ondc_domain": "RET12",
+    "ondc_category": "EARRINGS",
+    "amazon_product_type": "EARRING",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-6-6",
+      "category_name": "Earrings",
+      "category_breadcrumb": "Apparel & Accessories > Jewelry > Earrings"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Ethnic Wear",
+    "ondc_domain": "RET12",
+    "ondc_category": "ETHNIC_WEAR",
+    "amazon_product_type": "SALWAR_SUIT_SET",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-23-2",
+      "category_name": "Saris & Lehengas",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Traditional & Ceremonial Clothing > Saris & Lehengas"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Eye Glass Frames",
+    "ondc_domain": "RET12",
+    "ondc_category": "EYE_GLASS_FRAMES",
+    "amazon_product_type": "BLUE_LIGHT_BLOCKING_EYEGLASSES",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-2-27",
+      "category_name": "Sunglasses",
+      "category_breadcrumb": "Apparel & Accessories > Clothing Accessories > Sunglasses"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Eye Glasses",
+    "ondc_domain": "RET12",
+    "ondc_category": "EYE_GLASSES",
+    "amazon_product_type": "BLUE_LIGHT_BLOCKING_EYEGLASSES",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-2-27",
+      "category_name": "Sunglasses",
+      "category_breadcrumb": "Apparel & Accessories > Clothing Accessories > Sunglasses"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Eyewear Slings",
+    "ondc_domain": "RET12",
+    "ondc_category": "EYEWEAR_SLINGS",
+    "amazon_product_type": "BODY_STRAP",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-2-27",
+      "category_name": "Sunglasses",
+      "category_breadcrumb": "Apparel & Accessories > Clothing Accessories > Sunglasses"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Flip - Flops",
+    "ondc_domain": "RET12",
+    "ondc_category": "FLIP_FLOPS_AND_FLATS",
+    "amazon_product_type": "SANDAL",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-8-6",
+      "category_name": "Sandals",
+      "category_breadcrumb": "Apparel & Accessories > Shoes > Sandals"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Gloves",
+    "ondc_domain": "RET12",
+    "ondc_category": "GLOVES",
+    "amazon_product_type": "GLOVES",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-2-13",
+      "category_name": "Gloves & Mittens",
+      "category_breadcrumb": "Apparel & Accessories > Clothing Accessories > Gloves & Mittens"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Gold Coins",
+    "ondc_domain": "RET12",
+    "ondc_category": "GOLD_COINS",
+    "amazon_product_type": "BULLION",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-6-5",
+      "category_name": "Charms & Pendants",
+      "category_breadcrumb": "Apparel & Accessories > Jewelry > Charms & Pendants"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Heels",
+    "ondc_domain": "RET12",
+    "ondc_category": "HEELS",
+    "amazon_product_type": "SANDAL",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-8-10",
+      "category_name": "Heels",
+      "category_breadcrumb": "Apparel & Accessories > Shoes > Heels"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Jackets",
+    "ondc_domain": "RET12",
+    "ondc_category": "JACKETS_AND_COATS",
+    "amazon_product_type": "COAT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-10-2",
+      "category_name": "Coats & Jackets",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Outerwear > Coats & Jackets"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Jackets & Coats",
+    "ondc_domain": "RET12",
+    "ondc_category": "JACKETS_AND_COATS",
+    "amazon_product_type": "COAT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_name": "Jackets",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Activewear > Activewear Vests & Jackets > Jackets",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-1-8-2"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Jeans",
+    "ondc_domain": "RET12",
+    "ondc_category": "JEANS",
+    "amazon_product_type": "PANTS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-12-4",
+      "category_name": "Jeans",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Pants > Jeans"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Joggers",
+    "ondc_domain": "RET12",
+    "ondc_category": "JOGGERS",
+    "amazon_product_type": "PANTS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-12-7",
+      "category_name": "Joggers",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Pants > Joggers"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Jumpsuits",
+    "ondc_domain": "RET12",
+    "ondc_category": "JUMPSUITS",
+    "amazon_product_type": "ONE_PIECE_OUTFIT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-9",
+      "category_name": "One-Pieces",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > One-Pieces"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Kurtas & Kurta Sets",
+    "ondc_domain": "RET12",
+    "ondc_category": "KURTAS_AND_KURTA_SETS",
+    "amazon_product_type": "KURTA",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_name": "Saris & Lehengas",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Traditional & Ceremonial Clothing > Saris & Lehengas",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-23-2"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Kurtis",
+    "ondc_domain": "RET12",
+    "ondc_category": "KURTIS_TUNICS",
+    "amazon_product_type": "KURTA",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-23-2",
+      "category_name": "Saris & Lehengas",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Traditional & Ceremonial Clothing > Saris & Lehengas"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Laces",
+    "ondc_domain": "RET12",
+    "ondc_category": "LACES",
+    "amazon_product_type": "SHOELACE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-7-6",
+      "category_name": "Shoelaces",
+      "category_breadcrumb": "Apparel & Accessories > Shoe Accessories > Shoelaces"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Leggings & Jeggings",
+    "ondc_domain": "RET12",
+    "ondc_category": "TIGHTS_LEGGINGS_AND_JEGGINGS",
+    "amazon_product_type": "PANTS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_name": "Jeggings",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Pants > Jeggings",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-12-5"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Lehenga Cholis",
+    "ondc_domain": "RET12",
+    "ondc_category": "LEHENGA_CHOLIS",
+    "amazon_product_type": "LEHENGA_CHOLI_SET",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-23-2",
+      "category_name": "Saris & Lehengas",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Traditional & Ceremonial Clothing > Saris & Lehengas"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Mangalsutra",
+    "ondc_domain": "RET12",
+    "ondc_category": "MANGALSUTRA",
+    "amazon_product_type": "NECKLACE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-6-8",
+      "category_name": "Necklaces",
+      "category_breadcrumb": "Apparel & Accessories > Jewelry > Necklaces"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Mufflers",
+    "ondc_domain": "RET12",
+    "ondc_category": "MUFFLERS",
+    "amazon_product_type": "APPAREL_HEAD_NECK_COVERING",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-2-26",
+      "category_name": "Scarves & Shawls",
+      "category_breadcrumb": "Apparel & Accessories > Clothing Accessories > Scarves & Shawls"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Necklaces",
+    "ondc_domain": "RET12",
+    "ondc_category": "NECKLACES",
+    "amazon_product_type": "NECKLACE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-6-8",
+      "category_name": "Necklaces",
+      "category_breadcrumb": "Apparel & Accessories > Jewelry > Necklaces"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Night Suits",
+    "ondc_domain": "RET12",
+    "ondc_category": "NIGHT_SUITS",
+    "amazon_product_type": "PAJAMAS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-17-4",
+      "category_name": "Pajamas",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Sleepwear & Loungewear > Pajamas"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Nightgown & Nightshirt",
+    "ondc_domain": "RET12",
+    "ondc_category": "SLEEPWEAR_AND_LOUNGEWEAR",
+    "amazon_product_type": "NIGHTGOWN_NIGHTSHIRT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-17",
+      "category_name": "Sleepwear & Loungewear",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Sleepwear & Loungewear"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Nosepins",
+    "ondc_domain": "RET12",
+    "ondc_category": "NOSEPINS_AND_NOSERINGS",
+    "amazon_product_type": "PIERCING_JEWELRY",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-6-2",
+      "category_name": "Body Jewelry",
+      "category_breadcrumb": "Apparel & Accessories > Jewelry > Body Jewelry"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "One-Piece Outfit",
+    "ondc_domain": "RET12",
+    "ondc_category": "DUNGAREES_AND_JUMPSUITS",
+    "amazon_product_type": "ONE_PIECE_OUTFIT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-9",
+      "category_name": "One-Pieces",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > One-Pieces"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Outdoor Shoes",
+    "ondc_domain": "RET12",
+    "ondc_category": "OUTDOOR_SHOES",
+    "amazon_product_type": "SHOES",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-8-3",
+      "category_name": "Boots",
+      "category_breadcrumb": "Apparel & Accessories > Shoes > Boots"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Overalls",
+    "ondc_domain": "RET12",
+    "ondc_category": "DUNGAREES_AND_JUMPSUITS",
+    "amazon_product_type": "OVERALLS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-9",
+      "category_name": "One-Pieces",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > One-Pieces"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Pajamas",
+    "ondc_domain": "RET12",
+    "ondc_category": "SLEEPWEAR_AND_LOUNGEWEAR",
+    "amazon_product_type": "PAJAMAS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-17-4",
+      "category_name": "Pajamas",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Sleepwear & Loungewear > Pajamas"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Palazzos",
+    "ondc_domain": "RET12",
+    "ondc_category": "PALAZZOS",
+    "amazon_product_type": "PANTS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-12-11",
+      "category_name": "Trousers",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Pants > Trousers"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Pants",
+    "ondc_domain": "RET12",
+    "ondc_category": "TIGHTS_LEGGINGS_AND_JEGGINGS",
+    "amazon_product_type": "PANTS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-12",
+      "category_name": "Pants",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Pants"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Party Wear",
+    "ondc_domain": "RET12",
+    "ondc_category": "PARTY_WEAR",
+    "amazon_product_type": "DRESS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-4",
+      "category_name": "Dresses",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Dresses"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Pendants",
+    "ondc_domain": "RET12",
+    "ondc_category": "PENDANTS",
+    "amazon_product_type": "NECKLACE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-6-5",
+      "category_name": "Charms & Pendants",
+      "category_breadcrumb": "Apparel & Accessories > Jewelry > Charms & Pendants"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Playsuits",
+    "ondc_domain": "RET12",
+    "ondc_category": "PLAYSUITS",
+    "amazon_product_type": "ONE_PIECE_OUTFIT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-9",
+      "category_name": "One-Pieces",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > One-Pieces"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Pyjamas",
+    "ondc_domain": "RET12",
+    "ondc_category": "PYJAMAS",
+    "amazon_product_type": "APPAREL",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-17-4",
+      "category_name": "Pajamas",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Sleepwear & Loungewear > Pajamas"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Rings",
+    "ondc_domain": "RET12",
+    "ondc_category": "RINGS",
+    "amazon_product_type": "RING",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-6-9",
+      "category_name": "Rings",
+      "category_breadcrumb": "Apparel & Accessories > Jewelry > Rings"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Robes",
+    "ondc_domain": "RET12",
+    "ondc_category": "ROBES",
+    "amazon_product_type": "ROBE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-17-5",
+      "category_name": "Robes",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Sleepwear & Loungewear > Robes"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Safety Shoes",
+    "ondc_domain": "RET12",
+    "ondc_category": "WORK_AND_SAFETY_SHOES",
+    "amazon_product_type": "SHOE_INSERT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-8-3",
+      "category_name": "Boots",
+      "category_breadcrumb": "Apparel & Accessories > Shoes > Boots"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Salwars",
+    "ondc_domain": "RET12",
+    "ondc_category": "SALWARS",
+    "amazon_product_type": "PANTS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-23-2",
+      "category_name": "Saris & Lehengas",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Traditional & Ceremonial Clothing > Saris & Lehengas"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Sandals",
+    "ondc_domain": "RET12",
+    "ondc_category": "SANDALS_AND_FLOATERS",
+    "amazon_product_type": "SANDAL",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-8-6",
+      "category_name": "Sandals",
+      "category_breadcrumb": "Apparel & Accessories > Shoes > Sandals"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Sarees",
+    "ondc_domain": "RET12",
+    "ondc_category": "SAREES",
+    "amazon_product_type": "SAREE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-23-2",
+      "category_name": "Saris & Lehengas",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Traditional & Ceremonial Clothing > Saris & Lehengas"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Scarf",
+    "ondc_domain": "RET12",
+    "ondc_category": "STOLES_AND_SCARVES",
+    "amazon_product_type": "SCARF",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-2-26",
+      "category_name": "Scarves & Shawls",
+      "category_breadcrumb": "Apparel & Accessories > Clothing Accessories > Scarves & Shawls"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Scarves",
+    "ondc_domain": "RET12",
+    "ondc_category": "STOLES_AND_SCARVES",
+    "amazon_product_type": "SCARF",
+    "variant_attr": ["color", "numberOfItems", "size"],
+    "shopify": {
+      "category_name": "Scarves & Shawls",
+      "category_breadcrumb": "Apparel & Accessories > Clothing Accessories > Scarves & Shawls",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-2-26"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Shapewear",
+    "ondc_domain": "RET12",
+    "ondc_category": "SHAPEWEAR",
+    "amazon_product_type": "UNDERGARMENT_THIGH_SLIMMER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-6-10",
+      "category_name": "Shapewear",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Lingerie > Shapewear"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Shawls",
+    "ondc_domain": "RET12",
+    "ondc_category": "DUPATTAS_AND_SHAWLS",
+    "amazon_product_type": "APPAREL_HEAD_NECK_COVERING",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-2-26",
+      "category_name": "Scarves & Shawls",
+      "category_breadcrumb": "Apparel & Accessories > Clothing Accessories > Scarves & Shawls"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Sherwanis",
+    "ondc_domain": "RET12",
+    "ondc_category": "SHERWANIS",
+    "amazon_product_type": "APPAREL",
+    "variant_attr": ["color", "numberOfItems", "size", "itemWeight"],
+    "shopify": {
+      "category_name": "Clothing",
+      "category_breadcrumb": "Apparel & Accessories > Clothing",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Shirts",
+    "ondc_domain": "RET12",
+    "ondc_category": "SHIRTS",
+    "amazon_product_type": "SHIRT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-13-7",
+      "category_name": "Shirts",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Clothing Tops > Shirts"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Shoe Racks",
+    "ondc_domain": "RET12",
+    "ondc_category": "SHOE_RACKS_AND_ORGANISERS",
+    "amazon_product_type": "SHELF",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fr-4-12",
+      "category_name": "Storage Cabinets & Lockers",
+      "category_breadcrumb": "Furniture > Cabinets & Storage > Storage Cabinets & Lockers"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Shorts",
+    "ondc_domain": "RET12",
+    "ondc_category": "SHORTS",
+    "amazon_product_type": "SHORTS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-14",
+      "category_name": "Shorts",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Shorts"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Shrugs & Blouses",
+    "ondc_domain": "RET12",
+    "ondc_category": "SHRUGS_AND_BLOUSES",
+    "amazon_product_type": "SWEATER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_name": "Blouses",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Clothing Tops > Blouses",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-13-1"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Skirts",
+    "ondc_domain": "RET12",
+    "ondc_category": "SKIRTS",
+    "amazon_product_type": "SKIRT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-15",
+      "category_name": "Skirts",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Skirts"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Sleepwear",
+    "ondc_domain": "RET12",
+    "ondc_category": "SLEEPWEAR_AND_LOUNGEWEAR",
+    "amazon_product_type": "SLEEPWEAR",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-17-4",
+      "category_name": "Pajamas",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Sleepwear & Loungewear > Pajamas"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Socks",
+    "ondc_domain": "RET12",
+    "ondc_category": "SOCKS",
+    "amazon_product_type": "SOCKS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-18",
+      "category_name": "Socks",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Socks"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Soles",
+    "ondc_domain": "RET12",
+    "ondc_category": "SOLES_AND_CHARMS",
+    "amazon_product_type": "SHOE_INSERT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-7-5",
+      "category_name": "Shoe Inserts",
+      "category_breadcrumb": "Apparel & Accessories > Shoe Accessories > Shoe Inserts"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Sports Shoes",
+    "ondc_domain": "RET12",
+    "ondc_category": "SPORTS_SHOES",
+    "amazon_product_type": "SHOES",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-8-1",
+      "category_name": "Athletic Shoes",
+      "category_breadcrumb": "Apparel & Accessories > Shoes > Athletic Shoes"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Stockings",
+    "ondc_domain": "RET12",
+    "ondc_category": "STOCKINGS",
+    "amazon_product_type": "TIGHTS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-6-6",
+      "category_name": "Hosiery",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Lingerie > Hosiery"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Stoles",
+    "ondc_domain": "RET12",
+    "ondc_category": "STOLES_AND_SCARVES",
+    "amazon_product_type": "APPAREL HEAD NECK COVERING",
+    "variant_attr": ["color", "numberOfItems", "size", "itemWeight"],
+    "shopify": {
+      "category_name": "Scarves & Shawls",
+      "category_breadcrumb": "Apparel & Accessories > Clothing Accessories > Scarves & Shawls",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-2-26"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Suits",
+    "ondc_domain": "RET12",
+    "ondc_category": "SUITS",
+    "amazon_product_type": "SALWAR_SUIT_SET",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-19",
+      "category_name": "Suits",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Suits"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Sunglasses",
+    "ondc_domain": "RET12",
+    "ondc_category": "SUNGLASSES",
+    "amazon_product_type": "SUNGLASSES",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-2-27",
+      "category_name": "Sunglasses",
+      "category_breadcrumb": "Apparel & Accessories > Clothing Accessories > Sunglasses"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Sweaters",
+    "ondc_domain": "RET12",
+    "ondc_category": "SWEATERS",
+    "amazon_product_type": "SWEATER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_name": "Sweaters",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Clothing Tops > Sweaters",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-13-12"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Sweatshirt",
+    "ondc_domain": "RET12",
+    "ondc_category": "SWEATERS",
+    "amazon_product_type": "SWEATSHIRT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-13-14",
+      "category_name": "Sweatshirts",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Clothing Tops > Sweatshirts"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Sweatshirts",
+    "ondc_domain": "RET12",
+    "ondc_category": "SWEATSHIRTS",
+    "amazon_product_type": "SWEATSHIRT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-13-14",
+      "category_name": "Sweatshirts",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Clothing Tops > Sweatshirts"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Swim Bottoms",
+    "ondc_domain": "RET12",
+    "ondc_category": "SWIM_BOTTOMS",
+    "amazon_product_type": "SWIMWEAR",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-20",
+      "category_name": "Swimwear",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Swimwear"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Swimwear",
+    "ondc_domain": "RET12",
+    "ondc_category": "SWIMWEAR",
+    "amazon_product_type": "SWIMWEAR",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-20",
+      "category_name": "Swimwear",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Swimwear"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "T Shirts",
+    "ondc_domain": "RET12",
+    "ondc_category": "T_SHIRTS",
+    "amazon_product_type": "SHIRT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-13-8",
+      "category_name": "T-Shirts",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Clothing Tops > T-Shirts"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Thermal Wear",
+    "ondc_domain": "RET12",
+    "ondc_category": "THERMAL_WEAR",
+    "amazon_product_type": "BASE_LAYER_APPAREL_SET",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-17-1",
+      "category_name": "Long Johns",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Sleepwear & Loungewear > Long Johns"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Tights",
+    "ondc_domain": "RET12",
+    "ondc_category": "TIGHTS_LEGGINGS_AND_JEGGINGS",
+    "amazon_product_type": "TIGHTS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-6-6",
+      "category_name": "Hosiery",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Lingerie > Hosiery"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Toe Rings",
+    "ondc_domain": "RET12",
+    "ondc_category": "TOE_RINGS",
+    "amazon_product_type": "RING",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-6-9",
+      "category_name": "Rings",
+      "category_breadcrumb": "Apparel & Accessories > Jewelry > Rings"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Tops",
+    "ondc_domain": "RET12",
+    "ondc_category": "TOPS",
+    "amazon_product_type": "SHIRT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-13",
+      "category_name": "Clothing Tops",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Clothing Tops"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Towels",
+    "ondc_domain": "RET12",
+    "ondc_category": "TOWELS",
+    "amazon_product_type": "TOWEL",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-15-4",
+      "category_name": "Towels",
+      "category_breadcrumb": "Home & Garden > Linens & Bedding > Towels"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Track Pants",
+    "ondc_domain": "RET12",
+    "ondc_category": "TRACK_PANTS",
+    "amazon_product_type": "PANTS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-1-1",
+      "category_name": "Activewear Pants",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Activewear > Activewear Pants"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Track Shirts",
+    "ondc_domain": "RET12",
+    "ondc_category": "TRACK_SHIRTS",
+    "amazon_product_type": "SHIRT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-1-2",
+      "category_name": "Activewear Tops",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Activewear > Activewear Tops"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Track Suits",
+    "ondc_domain": "RET12",
+    "ondc_category": "TRACK_SUITS",
+    "amazon_product_type": "TRACK SUIT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_name": "Clothing",
+      "category_breadcrumb": "Apparel & Accessories > Clothing",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Trousers",
+    "ondc_domain": "RET12",
+    "ondc_category": "TROUSERS",
+    "amazon_product_type": "PANTS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-12-11",
+      "category_name": "Trousers",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Pants > Trousers"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Tunics",
+    "ondc_domain": "RET12",
+    "ondc_category": "KURTIS_TUNICS",
+    "amazon_product_type": "TUNIC",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-13-11",
+      "category_name": "Tunics",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Clothing Tops > Tunics"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Vests",
+    "ondc_domain": "RET12",
+    "ondc_category": "VESTS",
+    "amazon_product_type": "SHIRT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-13",
+      "category_name": "Clothing Tops",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Clothing Tops"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Waistcoats",
+    "ondc_domain": "RET12",
+    "ondc_category": "BLAZERS_AND_WAISTCOATS",
+    "amazon_product_type": "VEST",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-13",
+      "category_name": "Clothing Tops",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Clothing Tops"
+    }
+  },
+  {
+    "category": "Fashion",
+    "sub_category": "Watches",
+    "ondc_domain": "RET12",
+    "ondc_category": "WATCHES",
+    "amazon_product_type": "WATCH",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-6-11",
+      "category_name": "Watches",
+      "category_breadcrumb": "Apparel & Accessories > Jewelry > Watches"
+    }
+  },
+  {
+    "category": "Footwear",
+    "sub_category": "Boots",
+    "ondc_domain": "RET12",
+    "ondc_category": "BOOTS",
+    "amazon_product_type": "BOOT",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Boots",
+      "category_breadcrumb": "Apparel & Accessories > Shoes > Boots",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-8-3"
+    }
+  },
+  {
+    "category": "Footwear",
+    "sub_category": "Casual Shoes",
+    "ondc_domain": "RET12",
+    "ondc_category": "CASUAL_SHOES",
+    "amazon_product_type": "SHOES",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Sneakers",
+      "category_breadcrumb": "Apparel & Accessories > Shoes > Sneakers",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-8-8"
+    }
+  },
+  {
+    "category": "Footwear",
+    "sub_category": "Ethnic Shoes",
+    "ondc_domain": "RET12",
+    "ondc_category": "ETHNIC_SHOES",
+    "amazon_product_type": "SHOES",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Apparel & Accessories",
+      "category_breadcrumb": "Apparel & Accessories",
+      "category_id": "gid://shopify/TaxonomyCategory/aa"
+    }
+  },
+  {
+    "category": "Footwear",
+    "sub_category": "Flats",
+    "ondc_domain": "RET12",
+    "ondc_category": "FLIP_FLOPS_AND_FLATS",
+    "amazon_product_type": "SHOES",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Flats",
+      "category_breadcrumb": "Apparel & Accessories > Shoes > Flats",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-8-9"
+    }
+  },
+  {
+    "category": "Footwear",
+    "sub_category": "Flip-Flops",
+    "ondc_domain": "RET12",
+    "ondc_category": "FLIP_FLOPS_AND_FLATS",
+    "amazon_product_type": "SLIPPER",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Slippers",
+      "category_breadcrumb": "Apparel & Accessories > Shoes > Slippers",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-8-7"
+    }
+  },
+  {
+    "category": "Footwear",
+    "sub_category": "Formal Shoes",
+    "ondc_domain": "RET12",
+    "ondc_category": "FORMAL_SHOES",
+    "amazon_product_type": "SHOES",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Apparel & Accessories",
+      "category_breadcrumb": "Apparel & Accessories",
+      "category_id": "gid://shopify/TaxonomyCategory/aa"
+    }
+  },
+  {
+    "category": "Footwear",
+    "sub_category": "Heels",
+    "ondc_domain": "RET12",
+    "ondc_category": "HEELS",
+    "amazon_product_type": "SANDAL",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Heels",
+      "category_breadcrumb": "Apparel & Accessories > Shoes > Heels",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-8-10"
+    }
+  },
+  {
+    "category": "Footwear",
+    "sub_category": "Outdoor Shoes",
+    "ondc_domain": "RET12",
+    "ondc_category": "OUTDOOR_SHOES",
+    "amazon_product_type": "SHOES",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Boots",
+      "category_breadcrumb": "Apparel & Accessories > Shoes > Boots",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-8-3"
+    }
+  },
+  {
+    "category": "Footwear",
+    "sub_category": "Sandals & Floaters",
+    "ondc_domain": "RET12",
+    "ondc_category": "SANDALS_AND_FLOATERS",
+    "amazon_product_type": "SANDAL",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Sandals",
+      "category_breadcrumb": "Apparel & Accessories > Shoes > Sandals",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-8-6"
+    }
+  },
+  {
+    "category": "Footwear",
+    "sub_category": "Sports Shoes",
+    "ondc_domain": "RET12",
+    "ondc_category": "SPORTS_SHOES",
+    "amazon_product_type": "SHOES",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Athletic Shoes",
+      "category_breadcrumb": "Apparel & Accessories > Shoes > Athletic Shoes",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-8-1"
+    }
+  },
+  {
+    "category": "Footwear",
+    "sub_category": "Work & Safety Shoes",
+    "ondc_domain": "RET12",
+    "ondc_category": "WORK_AND_SAFETY_SHOES",
+    "amazon_product_type": "SHOES",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Boots",
+      "category_breadcrumb": "Apparel & Accessories > Shoes > Boots",
+      "category_id": "gid://shopify/TaxonomyCategory/aa-8-3"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Biscuits",
+    "ondc_domain": "RET10",
+    "ondc_category": "CHOCOLATES_AND_BISCUITS",
+    "amazon_product_type": "COOKIE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-1-6",
+      "category_name": "Cookies",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Bakery > Cookies"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Cake",
+    "ondc_domain": "RET10",
+    "ondc_category": "BAKERY_CAKES_AND_DAIRY",
+    "amazon_product_type": "CAKE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-1-4",
+      "category_name": "Cakes & Dessert Bars",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Bakery > Cakes & Dessert Bars"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Cereals",
+    "ondc_domain": "RET10",
+    "ondc_category": "CEREALS_AND_BREAKFAST",
+    "amazon_product_type": "BREAKFAST_CEREAL",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-11-4",
+      "category_name": "Cereal & Granola",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Grains, Rice & Cereal > Cereal & Granola"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Cheese",
+    "ondc_domain": "RET10",
+    "ondc_category": "BAKERY_CAKES_AND_DAIRY",
+    "amazon_product_type": "DAIRY_BASED_CHEESE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-6-2",
+      "category_name": "Cheese",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Dairy Products > Cheese"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Chocolates",
+    "ondc_domain": "RET10",
+    "ondc_category": "CHOCOLATES_AND_BISCUITS",
+    "amazon_product_type": "CHOCOLATE_CANDY",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-3-2",
+      "category_name": "Chocolate",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Candy & Chocolate > Chocolate"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Cleaning Agent",
+    "ondc_domain": "RET10",
+    "ondc_category": "DETERGENTS_AND_DISHWASH",
+    "amazon_product_type": "CLEANING_AGENT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-10-6-11-1",
+      "category_name": "All-Purpose Cleaners",
+      "category_breadcrumb": "Home & Garden > Household Supplies > Household Cleaning Supplies > Household Cleaning Products > All-Purpose Cleaners"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Coffee",
+    "ondc_domain": "RET10",
+    "ondc_category": "TEA_AND_COFFEE",
+    "amazon_product_type": "COFFEE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-1-3",
+      "category_name": "Coffee",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Beverages > Coffee"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Coffee Filter",
+    "ondc_domain": "RET10",
+    "ondc_category": "TEA_AND_COFFEE",
+    "amazon_product_type": "COFFEE_FILTER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-1-3",
+      "category_name": "Coffee",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Beverages > Coffee"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Cookie",
+    "ondc_domain": "RET10",
+    "ondc_category": "BAKERY_CAKES_AND_DAIRY",
+    "amazon_product_type": "COOKIE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-1-6",
+      "category_name": "Cookies",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Bakery > Cookies"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Cooking Oil & Fat",
+    "ondc_domain": "RET10",
+    "ondc_category": "OIL_AND_GHEE",
+    "amazon_product_type": "EDIBLE_OIL_FAT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-5-12",
+      "category_name": "Cooking Oils",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Cooking & Baking Ingredients > Cooking Oils"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Dairy Ice Cream",
+    "ondc_domain": "RET10",
+    "ondc_category": "BAKERY_CAKES_AND_DAIRY",
+    "amazon_product_type": "DAIRY_BASED_ICE_CREAM",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-9-1",
+      "category_name": "Ice Cream & Frozen Yogurt",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Frozen Desserts & Novelties > Ice Cream & Frozen Yogurt"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Dairy Pudding",
+    "ondc_domain": "RET10",
+    "ondc_category": "BAKERY_CAKES_AND_DAIRY",
+    "amazon_product_type": "DAIRY_BASED_PUDDING",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-6",
+      "category_name": "Dairy Products",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Dairy Products"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Dairy Yogurt",
+    "ondc_domain": "RET10",
+    "ondc_category": "BAKERY_CAKES_AND_DAIRY",
+    "amazon_product_type": "DAIRY_BASED_YOGURT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-6-8",
+      "category_name": "Yogurt",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Dairy Products > Yogurt"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Dals",
+    "ondc_domain": "RET10",
+    "ondc_category": "DALS_AND_PULSES",
+    "amazon_product_type": "LEGUME",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-10-6",
+      "category_name": "Dry Beans",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Fruits & Vegetables > Dry Beans"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Detergents",
+    "ondc_domain": "RET10",
+    "ondc_category": "DETERGENTS_AND_DISHWASH",
+    "amazon_product_type": "LAUNDRY_DETERGENT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-10-6",
+      "category_name": "Household Cleaning Supplies",
+      "category_breadcrumb": "Home & Garden > Household Supplies > Household Cleaning Supplies"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Dishwasher Detergent",
+    "ondc_domain": "RET10",
+    "ondc_category": "DETERGENTS_AND_DISHWASH",
+    "amazon_product_type": "DISHWASHER_DETERGENT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-10-6-11-4",
+      "category_name": "Dish Detergent & Soap",
+      "category_breadcrumb": "Home & Garden > Household Supplies > Household Cleaning Supplies > Household Cleaning Products > Dish Detergent & Soap"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Edible Animal Fat",
+    "ondc_domain": "RET10",
+    "ondc_category": "OIL_AND_GHEE",
+    "amazon_product_type": "EDIBLE_OIL_ANIMAL",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-5-28",
+      "category_name": "Shortening & Lard",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Cooking & Baking Ingredients > Shortening & Lard"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Energy",
+    "ondc_domain": "RET10",
+    "ondc_category": "ENERGY_AND_SOFT_DRINKS",
+    "amazon_product_type": "NUTRITIONAL_SUPPLEMENT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-1-13-1",
+      "category_name": "Energy Drinks",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Beverages > Sports & Energy Drinks > Energy Drinks"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Frozen Vegetables",
+    "ondc_domain": "RET10",
+    "ondc_category": "FROZEN_VEGETABLES",
+    "amazon_product_type": "VEGETABLE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-10-8-53",
+      "category_name": "Vegetable Mixes",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Fruits & Vegetables > Fresh & Frozen Vegetables > Vegetable Mixes"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Fruits",
+    "ondc_domain": "RET10",
+    "ondc_category": "FRUITS_AND_VEGETABLES",
+    "amazon_product_type": "FRUIT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-10-7",
+      "category_name": "Fresh & Frozen Fruits",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Fruits & Vegetables > Fresh & Frozen Fruits"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Ghee",
+    "ondc_domain": "RET10",
+    "ondc_category": "OIL_AND_GHEE",
+    "amazon_product_type": "DAIRY_BASED_BUTTER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-6-1",
+      "category_name": "Butter & Margarine",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Dairy Products > Butter & Margarine"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Indian Sweets",
+    "ondc_domain": "RET10",
+    "ondc_category": "INDIAN_SWEETS",
+    "amazon_product_type": "CANDY",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-3",
+      "category_name": "Candy & Chocolate",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Candy & Chocolate"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Meat",
+    "ondc_domain": "RET10",
+    "ondc_category": "READY_TO_COOK_AND_EAT",
+    "amazon_product_type": "MEAT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-12-2",
+      "category_name": "Meat",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Meat, Seafood & Eggs > Meat"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Non-Dairy Ice Cream",
+    "ondc_domain": "RET10",
+    "ondc_category": "BAKERY_CAKES_AND_DAIRY",
+    "amazon_product_type": "NON_DAIRY_ICE_CREAM",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-9-1",
+      "category_name": "Ice Cream & Frozen Yogurt",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Frozen Desserts & Novelties > Ice Cream & Frozen Yogurt"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Non-Dairy Yogurt",
+    "ondc_domain": "RET10",
+    "ondc_category": "BAKERY_CAKES_AND_DAIRY",
+    "amazon_product_type": "NON_DAIRY_YOGURT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-6",
+      "category_name": "Dairy Products",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Dairy Products"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Noodle",
+    "ondc_domain": "RET10",
+    "ondc_category": "PASTA_SOUP_AND_NOODLES",
+    "amazon_product_type": "NOODLE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-14",
+      "category_name": "Pasta & Noodles",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Pasta & Noodles"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Pet Care",
+    "ondc_domain": "RET10",
+    "ondc_category": "PET_CARE",
+    "amazon_product_type": "HAIR_BRUSH",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/ap-2-34",
+      "category_name": "Pet Medicine",
+      "category_breadcrumb": "Animals & Pet Supplies > Pet Supplies > Pet Medicine"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Pickles",
+    "ondc_domain": "RET10",
+    "ondc_category": "PICKLES_AND_CHUTNEY",
+    "amazon_product_type": "PICKLE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-4-15",
+      "category_name": "Pickled Fruits & Vegetables",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Condiments & Sauces > Pickled Fruits & Vegetables"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Rice Mix",
+    "ondc_domain": "RET10",
+    "ondc_category": "READY_TO_COOK_AND_EAT",
+    "amazon_product_type": "RICE_MIX",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-11-9",
+      "category_name": "Rice",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Grains, Rice & Cereal > Rice"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Salt",
+    "ondc_domain": "RET10",
+    "ondc_category": "SALT_SUGAR_AND_JAGGERY",
+    "amazon_product_type": "CULINARY_SALT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-16-4",
+      "category_name": "Salt",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Seasonings & Spices > Salt"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Sauce",
+    "ondc_domain": "RET10",
+    "ondc_category": "SAUCES_SPREADS_AND_DIPS",
+    "amazon_product_type": "SAUCE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-4",
+      "category_name": "Condiments & Sauces",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Condiments & Sauces"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Seasoning",
+    "ondc_domain": "RET10",
+    "ondc_category": "MASALA_AND_SEASONING",
+    "amazon_product_type": "SEASONING",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-16",
+      "category_name": "Seasonings & Spices",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Seasonings & Spices"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Snacks",
+    "ondc_domain": "RET10",
+    "ondc_category": "SNACKS_DRY_FRUITS_NUTS",
+    "amazon_product_type": "SNACK_MIX",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-17",
+      "category_name": "Snack Foods",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Snack Foods"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Soft Drinks",
+    "ondc_domain": "RET10",
+    "ondc_category": "ENERGY_AND_SOFT_DRINKS",
+    "amazon_product_type": "DRINK_FLAVORED",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-1-12",
+      "category_name": "Soda",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Beverages > Soda"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Soup",
+    "ondc_domain": "RET10",
+    "ondc_category": "PASTA_SOUP_AND_NOODLES",
+    "amazon_product_type": "PACKAGED_SOUP_AND_STEW",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-18",
+      "category_name": "Soups & Broths",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Soups & Broths"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Spice Herb",
+    "ondc_domain": "RET10",
+    "ondc_category": "MASALA_AND_SEASONING",
+    "amazon_product_type": "HERB",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-16-1",
+      "category_name": "Herbs & Spices",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Seasonings & Spices > Herbs & Spices"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Sugar",
+    "ondc_domain": "RET10",
+    "ondc_category": "SALT_SUGAR_AND_JAGGERY",
+    "amazon_product_type": "SUGAR",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-5-30",
+      "category_name": "Sugar & Sweeteners",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Cooking & Baking Ingredients > Sugar & Sweeteners"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Sugar Candy",
+    "ondc_domain": "RET10",
+    "ondc_category": "SALT_SUGAR_AND_JAGGERY",
+    "amazon_product_type": "SUGAR_CANDY",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-3-1",
+      "category_name": "Candy",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Candy & Chocolate > Candy"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Sugar Substitute",
+    "ondc_domain": "RET10",
+    "ondc_category": "SALT_SUGAR_AND_JAGGERY",
+    "amazon_product_type": "SUGAR_SUBSTITUTE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-5-30-3",
+      "category_name": "Sweeteners",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Cooking & Baking Ingredients > Sugar & Sweeteners > Sweeteners"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Tea",
+    "ondc_domain": "RET10",
+    "ondc_category": "TEA_AND_COFFEE",
+    "amazon_product_type": "TEA",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-1-14-2",
+      "category_name": "Tea",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Beverages > Tea & Infusions > Tea"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Tea Infuser",
+    "ondc_domain": "RET10",
+    "ondc_category": "TEA_AND_COFFEE",
+    "amazon_product_type": "TEA_INFUSER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-1-14",
+      "category_name": "Tea & Infusions",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Beverages > Tea & Infusions"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Teapot",
+    "ondc_domain": "RET10",
+    "ondc_category": "TEA_AND_COFFEE",
+    "amazon_product_type": "TEAPOT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-10-2",
+      "category_name": "Coffee Servers & Teapots",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Tableware > Coffee Servers & Teapots"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Vegetable Oil",
+    "ondc_domain": "RET10",
+    "ondc_category": "OIL_AND_GHEE",
+    "amazon_product_type": "EDIBLE_OIL_VEGETABLE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-5-12",
+      "category_name": "Cooking Oils",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Cooking & Baking Ingredients > Cooking Oils"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Vegetables",
+    "ondc_domain": "RET10",
+    "ondc_category": "FRUITS_AND_VEGETABLES",
+    "amazon_product_type": "VEGETABLE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-10-8",
+      "category_name": "Fresh & Frozen Vegetables",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Fruits & Vegetables > Fresh & Frozen Vegetables"
+    }
+  },
+  {
+    "category": "Grocery",
+    "sub_category": "Water",
+    "ondc_domain": "RET10",
+    "ondc_category": "WATER",
+    "amazon_product_type": "WATER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-1-16",
+      "category_name": "Water",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Beverages > Water"
+    }
+  },
+  {
+    "category": "Grocery & Gourmet Food",
+    "sub_category": "Atta, Flours and Sooji",
+    "ondc_domain": "RET10",
+    "ondc_category": "ATTA_FLOURS_AND_SOOJI",
+    "amazon_product_type": "FLOUR",
+    "variant_attr": ["size", "flavor"],
+    "shopify": {
+      "category_name": "Flour",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Cooking & Baking Ingredients > Flour",
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-5-20"
+    }
+  },
+  {
+    "category": "Grocery & Gourmet Food",
+    "sub_category": "Dals and Pulses",
+    "ondc_domain": "RET10",
+    "ondc_category": "DALS_AND_PULSES",
+    "amazon_product_type": "LEGUME",
+    "variant_attr": ["size", "flavor"],
+    "shopify": {
+      "category_name": "Dry Beans",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Fruits & Vegetables > Dry Beans",
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-10-6"
+    }
+  },
+  {
+    "category": "Grocery & Gourmet Food",
+    "sub_category": "Energy and Soft Drinks",
+    "ondc_domain": "RET10",
+    "ondc_category": "ENERGY_AND_SOFT_DRINKS",
+    "amazon_product_type": "DRINK FLAVORED",
+    "variant_attr": ["size", "flavor"],
+    "shopify": {
+      "category_name": "Sports & Energy Drinks",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Beverages > Sports & Energy Drinks",
+      "category_id": "gid://shopify/TaxonomyCategory/fb-1-13"
+    }
+  },
+  {
+    "category": "Grocery & Gourmet Food",
+    "sub_category": "Fruit Juices and Fruit Drinks",
+    "ondc_domain": "RET10",
+    "ondc_category": "FRUIT_JUICES_AND_FRUIT_DRINKS",
+    "amazon_product_type": "JUICE AND JUICE DRINK",
+    "variant_attr": ["size", "flavor"],
+    "shopify": {
+      "category_name": "Juices, Milkshakes & Smoothies",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Beverages > Juices, Milkshakes & Smoothies",
+      "category_id": "gid://shopify/TaxonomyCategory/fb-1-7"
+    }
+  },
+  {
+    "category": "Grocery & Gourmet Food",
+    "sub_category": "Ghee",
+    "ondc_domain": "RET10",
+    "ondc_category": "OIL_AND_GHEE",
+    "amazon_product_type": "DAIRY BASED BUTTER",
+    "variant_attr": ["flavor", "size"],
+    "shopify": {
+      "category_name": "Butter & Margarine",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Dairy Products > Butter & Margarine",
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-6-1"
+    }
+  },
+  {
+    "category": "Grocery & Gourmet Food",
+    "sub_category": "Masala",
+    "ondc_domain": "RET10",
+    "ondc_category": "MASALA_AND_SEASONING",
+    "amazon_product_type": "HERB",
+    "variant_attr": ["flavor", "size"],
+    "shopify": {
+      "category_name": "Herbs & Spices",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Seasonings & Spices > Herbs & Spices",
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-16-1"
+    }
+  },
+  {
+    "category": "Grocery & Gourmet Food",
+    "sub_category": "Oil",
+    "ondc_domain": "RET10",
+    "ondc_category": "OIL_AND_GHEE",
+    "amazon_product_type": "EDIBLE OIL VEGETABLE",
+    "variant_attr": ["flavor", "size"],
+    "shopify": {
+      "category_name": "Cooking Oils",
+      "category_breadcrumb": "Food, Beverages & Tobacco → Food Items → Cooking & Baking Ingredients → Cooking Oils",
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-5-12"
+    }
+  },
+  {
+    "category": "Grocery & Gourmet Food",
+    "sub_category": "Rice and Rice Products",
+    "ondc_domain": "RET10",
+    "ondc_category": "RICE_AND_RICE_PRODUCTS",
+    "amazon_product_type": "CEREAL",
+    "variant_attr": ["flavor", "size"],
+    "shopify": {
+      "category_name": "Rice",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Grains, Rice & Cereal > Rice",
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-11-9"
+    }
+  },
+  {
+    "category": "Grocery & Gourmet Food",
+    "sub_category": "Seasoning",
+    "ondc_domain": "RET10",
+    "ondc_category": "MASALA_AND_SEASONING",
+    "amazon_product_type": "SEASONING",
+    "variant_attr": ["size", "flavor"],
+    "shopify": {
+      "category_name": "Herbs & Spices",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Seasonings & Spices > Herbs & Spices",
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-16-1"
+    }
+  },
+  {
+    "category": "Grocery & Gourmet Food",
+    "sub_category": "Snacks and Namkeen",
+    "ondc_domain": "RET10",
+    "ondc_category": "SNACKS_AND_NAMKEEN",
+    "amazon_product_type": "SNACK MIX",
+    "variant_attr": ["size", "flavor"],
+    "shopify": {
+      "category_name": "Snack Foods",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Snack Foods",
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-17"
+    }
+  },
+  {
+    "category": "Grocery & Gourmet Food",
+    "sub_category": "Water",
+    "ondc_domain": "RET10",
+    "ondc_category": "WATER",
+    "amazon_product_type": "WATER",
+    "variant_attr": ["size", "flavor"],
+    "shopify": {
+      "category_name": "Water",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Beverages > Water",
+      "category_id": "gid://shopify/TaxonomyCategory/fb-1-16"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Ayurvedic",
+    "ondc_domain": "RET18",
+    "ondc_category": "AYURVEDIC",
+    "amazon_product_type": "HERBAL_SUPPLEMENT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-16",
+      "category_name": "Medicine & Drugs",
+      "category_breadcrumb": "Health & Beauty > Health Care > Medicine & Drugs"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Baby Care - Wipes",
+    "ondc_domain": "RET18",
+    "ondc_category": "BABY_CARE_WIPES_AND_BUDS",
+    "amazon_product_type": "SKIN_CLEANING_WIPE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/bt-9-2",
+      "category_name": "Baby Wipes",
+      "category_breadcrumb": "Baby & Toddler > Diapering > Baby Wipes"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Bath Safety Seating",
+    "ondc_domain": "RET18",
+    "ondc_category": "HEALTH_AND_SAFETY",
+    "amazon_product_type": "BATH_SAFETY_SEATING",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-17-3-1",
+      "category_name": "Shower Benches & Seats",
+      "category_breadcrumb": "Health & Beauty > Health Care > Mobility & Accessibility > Accessibility Furniture & Fixtures > Shower Benches & Seats"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Bra",
+    "ondc_domain": "RET18",
+    "ondc_category": "NURSING_AND_FEEDING",
+    "amazon_product_type": "BRA",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-1-6-3",
+      "category_name": "Bras",
+      "category_breadcrumb": "Apparel & Accessories > Clothing > Lingerie > Bras"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Breakfast Cereal",
+    "ondc_domain": "RET18",
+    "ondc_category": "HEALTH_FOODS_AND_DRINKS",
+    "amazon_product_type": "BREAKFAST_CEREAL",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fb-2-11-4",
+      "category_name": "Cereal & Granola",
+      "category_breadcrumb": "Food, Beverages & Tobacco > Food Items > Grains, Rice & Cereal > Cereal & Granola"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Breast Pump",
+    "ondc_domain": "RET18",
+    "ondc_category": "NURSING_AND_FEEDING",
+    "amazon_product_type": "BREAST_PUMP",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/bt-10-9",
+      "category_name": "Breast Pumps",
+      "category_breadcrumb": "Baby & Toddler > Nursing & Feeding > Breast Pumps"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Cold",
+    "ondc_domain": "RET18",
+    "ondc_category": "COLD_AND_COUGH",
+    "amazon_product_type": "THERAPEUTIC_THERMAL_COMPRESS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-16",
+      "category_name": "Medicine & Drugs",
+      "category_breadcrumb": "Health & Beauty > Health Care > Medicine & Drugs"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Contraceptives",
+    "ondc_domain": "RET18",
+    "ondc_category": "CONTRACEPTIVES",
+    "amazon_product_type": "CONDOM",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-5",
+      "category_name": "Condoms",
+      "category_breadcrumb": "Health & Beauty > Health Care > Condoms"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Cough",
+    "ondc_domain": "RET18",
+    "ondc_category": "COLD_AND_COUGH",
+    "amazon_product_type": "MEDICATION",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-16",
+      "category_name": "Medicine & Drugs",
+      "category_breadcrumb": "Health & Beauty > Health Care > Medicine & Drugs"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Diabetes Control",
+    "ondc_domain": "RET18",
+    "ondc_category": "DIABETES_CONTROL",
+    "amazon_product_type": "HERBAL_SUPPLEMENT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-4-2",
+      "category_name": "Blood Glucose Meters",
+      "category_breadcrumb": "Health & Beauty > Health Care > Biometric Monitors > Blood Glucose Meters"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Dressings",
+    "ondc_domain": "RET18",
+    "ondc_category": "WOUND_CARE_AND_DRESSINGS",
+    "amazon_product_type": "SALAD_DRESSING",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-8-6",
+      "category_name": "Medical Tape & Bandages",
+      "category_breadcrumb": "Health & Beauty > Health Care > First Aid > Medical Tape & Bandages"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Exercise Machine",
+    "ondc_domain": "RET18",
+    "ondc_category": "HEALTHCARE_AND_FITNESS_DEVICES",
+    "amazon_product_type": "EXERCISE_MACHINE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/sg-2-9",
+      "category_name": "Exercise Machine & Equipment Sets",
+      "category_breadcrumb": "Sporting Goods > Fitness & General Exercise Equipment > Exercise Machine & Equipment Sets"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Feminine Care",
+    "ondc_domain": "RET18",
+    "ondc_category": "FEMININE_CARE",
+    "amazon_product_type": "SKIN_CLEANING_AGENT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-8",
+      "category_name": "Feminine Sanitary Supplies",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Feminine Sanitary Supplies"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Furniture Edge Bumper",
+    "ondc_domain": "RET18",
+    "ondc_category": "HEALTH_AND_SAFETY",
+    "amazon_product_type": "FURNITURE_EDGE_BUMPER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/bt-4-5",
+      "category_name": "Baby Safety Locks & Guards",
+      "category_breadcrumb": "Baby & Toddler > Baby Safety > Baby Safety Locks & Guards"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Gastric Care",
+    "ondc_domain": "RET18",
+    "ondc_category": "GASTRIC_CARE",
+    "amazon_product_type": "MEDICATION",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-16",
+      "category_name": "Medicine & Drugs",
+      "category_breadcrumb": "Health & Beauty > Health Care > Medicine & Drugs"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Homeopathy",
+    "ondc_domain": "RET18",
+    "ondc_category": "HOMEOPATHY",
+    "amazon_product_type": "MEDICATION",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-16",
+      "category_name": "Medicine & Drugs",
+      "category_breadcrumb": "Health & Beauty > Health Care > Medicine & Drugs"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Massager",
+    "ondc_domain": "RET18",
+    "ondc_category": "HEALTHCARE_AND_FITNESS_DEVICES",
+    "amazon_product_type": "MASSAGER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-11-8",
+      "category_name": "Massagers",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Massage & Relaxation > Massagers"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Meal Replacement Beverage",
+    "ondc_domain": "RET18",
+    "ondc_category": "HEALTH_FOODS_AND_DRINKS",
+    "amazon_product_type": "MEAL_REPLACEMENT_BEVERAGE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-9-2",
+      "category_name": "Nutrition Drinks & Shakes",
+      "category_breadcrumb": "Health & Beauty > Health Care > Fitness & Nutrition > Nutrition Drinks & Shakes"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Mobility Aids",
+    "ondc_domain": "RET18",
+    "ondc_category": "MOBILITY_AIDS",
+    "amazon_product_type": "WALKER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-17-1",
+      "category_name": "Accessibility Equipment",
+      "category_breadcrumb": "Health & Beauty > Health Care > Mobility & Accessibility > Accessibility Equipment"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Nutritional Supplement",
+    "ondc_domain": "RET18",
+    "ondc_category": "NUTRITION_AND_FITNESS_SUPPLEMENTS",
+    "amazon_product_type": "NUTRITIONAL_SUPPLEMENT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-9-6",
+      "category_name": "Vitamins & Supplements",
+      "category_breadcrumb": "Health & Beauty > Health Care > Fitness & Nutrition > Vitamins & Supplements"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Orthopaedic Care",
+    "ondc_domain": "RET18",
+    "ondc_category": "ORTHOPAEDIC_CARE",
+    "amazon_product_type": "BODY_POSITIONER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-24",
+      "category_name": "Supports & Braces",
+      "category_breadcrumb": "Health & Beauty > Health Care > Supports & Braces"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Pain Relief",
+    "ondc_domain": "RET18",
+    "ondc_category": "PAIN_RELIEF",
+    "amazon_product_type": "MASSAGER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-16",
+      "category_name": "Medicine & Drugs",
+      "category_breadcrumb": "Health & Beauty > Health Care > Medicine & Drugs"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Protein Supplement Powder",
+    "ondc_domain": "RET18",
+    "ondc_category": "NUTRITION_AND_FITNESS_SUPPLEMENTS",
+    "amazon_product_type": "PROTEIN_SUPPLEMENT_POWDER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-9-6-8",
+      "category_name": "Protein Supplements",
+      "category_breadcrumb": "Health & Beauty > Health Care > Fitness & Nutrition > Vitamins & Supplements > Protein Supplements"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Safety Glasses",
+    "ondc_domain": "RET18",
+    "ondc_category": "HEALTH_AND_SAFETY",
+    "amazon_product_type": "SAFETY_GLASSES",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/bi-25-6-3",
+      "category_name": "Safety Glasses",
+      "category_breadcrumb": "Business & Industrial > Work Safety Protective Gear > Protective Eyewear > Safety Glasses"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Safety Harness",
+    "ondc_domain": "RET18",
+    "ondc_category": "HEALTH_AND_SAFETY",
+    "amazon_product_type": "SAFETY_HARNESS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/sg-4-3-8",
+      "category_name": "Climbing Harnesses",
+      "category_breadcrumb": "Sporting Goods > Outdoor Recreation > Climbing > Climbing Harnesses"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Safety Mask",
+    "ondc_domain": "RET18",
+    "ondc_category": "HEALTH_AND_SAFETY",
+    "amazon_product_type": "SAFETY_MASK",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-26",
+      "category_name": "Medical Face Masks",
+      "category_breadcrumb": "Health & Beauty > Health Care > Medical Face Masks"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Safety Mask Replacement Filter",
+    "ondc_domain": "RET18",
+    "ondc_category": "HEALTH_AND_SAFETY",
+    "amazon_product_type": "SAFETY_MASK_REPLACEMENT_FILTER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-26",
+      "category_name": "Medical Face Masks",
+      "category_breadcrumb": "Health & Beauty > Health Care > Medical Face Masks"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Safety Mask Strap Extender",
+    "ondc_domain": "RET18",
+    "ondc_category": "HEALTH_AND_SAFETY",
+    "amazon_product_type": "SAFETY_MASK_STRAP_EXTENDER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-26",
+      "category_name": "Medical Face Masks",
+      "category_breadcrumb": "Health & Beauty > Health Care > Medical Face Masks"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Sanitizers",
+    "ondc_domain": "RET18",
+    "ondc_category": "SANITIZERS",
+    "amazon_product_type": "HAND_SANITIZER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-8-1",
+      "category_name": "Antiseptics & Cleaning Supplies",
+      "category_breadcrumb": "Health & Beauty > Health Care > First Aid > Antiseptics & Cleaning Supplies"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Sexual Wellness",
+    "ondc_domain": "RET18",
+    "ondc_category": "SEXUAL_WELLNESS",
+    "amazon_product_type": "SEXUAL_STIMULATION_DEVICE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-5",
+      "category_name": "Condoms",
+      "category_breadcrumb": "Health & Beauty > Health Care > Condoms"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Shoe Insert",
+    "ondc_domain": "RET18",
+    "ondc_category": "HEALTH_AND_SAFETY",
+    "amazon_product_type": "SHOE_INSERT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/aa-7-5",
+      "category_name": "Shoe Inserts",
+      "category_breadcrumb": "Apparel & Accessories > Shoe Accessories > Shoe Inserts"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Sleep Mask",
+    "ondc_domain": "RET18",
+    "ondc_category": "EYE_CARE",
+    "amazon_product_type": "SLEEP_MASK",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-15-1",
+      "category_name": "Eye Masks",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Sleeping Aids > Eye Masks"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Speciality Face Cleansers",
+    "ondc_domain": "RET18",
+    "ondc_category": "SPECIALITY_FACE_CLEANSERS",
+    "amazon_product_type": "SKIN_CLEANING_AGENT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-2-9-6",
+      "category_name": "Facial Cleansers",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Cosmetics > Skin Care > Facial Cleansers"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Surgicals",
+    "ondc_domain": "RET18",
+    "ondc_category": "SURGICALS",
+    "amazon_product_type": "SCISSORS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/bi-19-6",
+      "category_name": "Medical Instruments",
+      "category_breadcrumb": "Business & Industrial > Medical > Medical Instruments"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Toothbrush",
+    "ondc_domain": "RET18",
+    "ondc_category": "ORAL_CARE",
+    "amazon_product_type": "TOOTHBRUSH",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-3-12-17",
+      "category_name": "Toothbrushes",
+      "category_breadcrumb": "Health & Beauty > Personal Care > Oral Care > Toothbrushes"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Vehicle Safety Camera",
+    "ondc_domain": "RET18",
+    "ondc_category": "HEALTH_AND_SAFETY",
+    "amazon_product_type": "VEHICLE_SAFETY_CAMERA",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/vp-1-6-4",
+      "category_name": "Vehicle Safety Equipment",
+      "category_breadcrumb": "Vehicles & Parts > Vehicle Parts & Accessories > Vehicle Safety & Security > Vehicle Safety Equipment"
+    }
+  },
+  {
+    "category": "Health & Wellness",
+    "sub_category": "Wound Care",
+    "ondc_domain": "RET18",
+    "ondc_category": "WOUND_CARE_AND_DRESSINGS",
+    "amazon_product_type": "WORKBENCH",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hb-1-8-6",
+      "category_name": "Medical Tape & Bandages",
+      "category_breadcrumb": "Health & Beauty > Health Care > First Aid > Medical Tape & Bandages"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Bathroom Container Set",
+    "ondc_domain": "RET16",
+    "ondc_category": "BINS_AND_BATHROOM",
+    "amazon_product_type": "BATHROOM_CONTAINER_SET",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-1-5",
+      "category_name": "Bathroom Accessory Sets",
+      "category_breadcrumb": "Home & Garden > Bathroom Accessories > Bathroom Accessory Sets"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Board Game",
+    "ondc_domain": "RET16",
+    "ondc_category": "TOYS_AND_GAMES",
+    "amazon_product_type": "BOARD_GAME",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/tg-2-5",
+      "category_name": "Board Games",
+      "category_breadcrumb": "Toys & Games > Games > Board Games"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Bowls",
+    "ondc_domain": "RET16",
+    "ondc_category": "SERVEWARE",
+    "amazon_product_type": "DISHWARE_BOWL",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-10-4-1",
+      "category_name": "Bowls",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Tableware > Dinnerware > Bowls"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Brushes",
+    "ondc_domain": "RET16",
+    "ondc_category": "MOPS_BRUSHES_AND_SCRUBS",
+    "amazon_product_type": "COSMETIC_BRUSH",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-8-4",
+      "category_name": "Basting Brushes",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Kitchen Tools & Utensils > Basting Brushes"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Caddy",
+    "ondc_domain": "RET16",
+    "ondc_category": "CLOSET_LAUNDRY_SHOE_ORGANIZATION",
+    "amazon_product_type": "CADDY",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-8-66",
+      "category_name": "Sink Caddies",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Kitchen Tools & Utensils > Sink Caddies"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Casseroles",
+    "ondc_domain": "RET16",
+    "ondc_category": "SERVEWARE",
+    "amazon_product_type": "CASSEROLES",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-2-3-1",
+      "category_name": "Casserole Dishes",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Cookware & Bakeware > Cookware > Casserole Dishes"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Closet/Laundry/Shoe Organization",
+    "ondc_domain": "RET16",
+    "ondc_category": "CLOSET_LAUNDRY_SHOE_ORGANIZATION",
+    "amazon_product_type": "SHELF",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/fr-4-17",
+      "category_name": "Closet Parts & Accessories",
+      "category_breadcrumb": "Furniture > Cabinets & Storage > Closet Parts & Accessories"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Cookware",
+    "ondc_domain": "RET16",
+    "ondc_category": "COOKWARE",
+    "amazon_product_type": "COOKWARE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-2",
+      "category_name": "Cookware & Bakeware",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Cookware & Bakeware"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Cookware Set",
+    "ondc_domain": "RET16",
+    "ondc_category": "COOKWARE",
+    "amazon_product_type": "COOKWARE_SET",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-2-4",
+      "category_name": "Cookware & Bakeware Combo Sets",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Cookware & Bakeware > Cookware & Bakeware Combo Sets"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Faucet",
+    "ondc_domain": "RET16",
+    "ondc_category": "BATHROOM_AND_KITCHEN_FIXTURES",
+    "amazon_product_type": "FAUCET",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/ha-10-3-3",
+      "category_name": "Faucets",
+      "category_breadcrumb": "Hardware > Plumbing > Plumbing Fixtures > Faucets"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Flowers",
+    "ondc_domain": "RET16",
+    "ondc_category": "FLOWERS",
+    "amazon_product_type": "FRESH_CUT_FLOWERS_PLANTS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-17-2",
+      "category_name": "Flowers",
+      "category_breadcrumb": "Home & Garden > Plants > Flowers"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Food Storage Container",
+    "ondc_domain": "RET16",
+    "ondc_category": "KITCHEN_STORAGE_AND_CONTAINERS",
+    "amazon_product_type": "FOOD_STORAGE_CONTAINER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-4-6",
+      "category_name": "Food Storage Containers",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Food Storage > Food Storage Containers"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Footwear Care Kit",
+    "ondc_domain": "RET16",
+    "ondc_category": "CAR_AND_SHOE_CARE",
+    "amazon_product_type": "FOOTWEAR_CARE_KIT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-10-14-4",
+      "category_name": "Shoe Care Kits",
+      "category_breadcrumb": "Home & Garden > Household Supplies > Shoe Care & Tools > Shoe Care Kits"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Fresheners",
+    "ondc_domain": "RET16",
+    "ondc_category": "FRESHENERS_AND_REPELLENTS",
+    "amazon_product_type": "AREA_DEODORIZER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-10-6",
+      "category_name": "Household Cleaning Supplies",
+      "category_breadcrumb": "Home & Garden > Household Supplies > Household Cleaning Supplies"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Garbage Bags",
+    "ondc_domain": "RET16",
+    "ondc_category": "DISPOSABLES_AND_GARBAGE_BAGS",
+    "amazon_product_type": "WASTE_BAG",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-10-5",
+      "category_name": "Garbage Bags",
+      "category_breadcrumb": "Home & Garden > Household Supplies > Garbage Bags"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Garden Edging",
+    "ondc_domain": "RET16",
+    "ondc_category": "GARDEN_AND_OUTDOOR",
+    "amazon_product_type": "GARDEN_EDGING",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-12-1-10",
+      "category_name": "Landscape Fabric",
+      "category_breadcrumb": "Home & Garden > Lawn & Garden > Gardening > Landscape Fabric"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Garden Shear Scissors",
+    "ondc_domain": "RET16",
+    "ondc_category": "GARDEN_AND_OUTDOOR",
+    "amazon_product_type": "GARDEN_SHEAR_SCISSORS",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-12-1-7-9",
+      "category_name": "Pruning Shears",
+      "category_breadcrumb": "Home & Garden > Lawn & Garden > Gardening > Gardening Tools > Pruning Shears"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Garden Tool Set",
+    "ondc_domain": "RET16",
+    "ondc_category": "GARDEN_AND_OUTDOOR",
+    "amazon_product_type": "GARDEN_TOOL_SET",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-12-1-7",
+      "category_name": "Gardening Tools",
+      "category_breadcrumb": "Home & Garden > Lawn & Garden > Gardening > Gardening Tools"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Home Furnishing - Bedding",
+    "ondc_domain": "RET16",
+    "ondc_category": "HOME_FURNISHING_BEDDING_AND_LINEN",
+    "amazon_product_type": "BED_LINEN_SET",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-15-1",
+      "category_name": "Bedding",
+      "category_breadcrumb": "Home & Garden > Linens & Bedding > Bedding"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Insect Repellent",
+    "ondc_domain": "RET16",
+    "ondc_category": "FRESHENERS_AND_REPELLENTS",
+    "amazon_product_type": "INSECT_REPELLENT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-10-11-4",
+      "category_name": "Repellents",
+      "category_breadcrumb": "Home & Garden > Household Supplies > Pest Control > Repellents"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Light Fixture",
+    "ondc_domain": "RET16",
+    "ondc_category": "BATHROOM_AND_KITCHEN_FIXTURES",
+    "amazon_product_type": "LIGHT_FIXTURE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-13-9",
+      "category_name": "Lighting Fixtures",
+      "category_breadcrumb": "Home & Garden > Lighting > Lighting Fixtures"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Lighted Outdoor Display",
+    "ondc_domain": "RET16",
+    "ondc_category": "GARDEN_AND_OUTDOOR",
+    "amazon_product_type": "LIGHTED_OUTDOOR_DISPLAY",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-13-8",
+      "category_name": "Light Ropes & Strings",
+      "category_breadcrumb": "Home & Garden > Lighting > Light Ropes & Strings"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Mop",
+    "ondc_domain": "RET16",
+    "ondc_category": "MOPS_BRUSHES_AND_SCRUBS",
+    "amazon_product_type": "MOP",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-10-6-13",
+      "category_name": "Mops",
+      "category_breadcrumb": "Home & Garden > Household Supplies > Household Cleaning Supplies > Mops"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Mop & Bucket Set",
+    "ondc_domain": "RET16",
+    "ondc_category": "MOPS_BRUSHES_AND_SCRUBS",
+    "amazon_product_type": "MOP_BUCKET_SET",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-10-6-13",
+      "category_name": "Mops",
+      "category_breadcrumb": "Home & Garden > Household Supplies > Household Cleaning Supplies > Mops"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Outdoor Living",
+    "ondc_domain": "RET16",
+    "ondc_category": "GARDEN_AND_OUTDOOR",
+    "amazon_product_type": "OUTDOOR_LIVING",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-12-2",
+      "category_name": "Outdoor Living",
+      "category_breadcrumb": "Home & Garden > Lawn & Garden > Outdoor Living"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Outdoor Recreation Product",
+    "ondc_domain": "RET16",
+    "ondc_category": "GARDEN_AND_OUTDOOR",
+    "amazon_product_type": "OUTDOOR_RECREATION_PRODUCT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-11",
+      "category_name": "Outdoor Kitchens",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Outdoor Kitchens"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Paint",
+    "ondc_domain": "RET16",
+    "ondc_category": "PAINT_AND_WALLPAPERS",
+    "amazon_product_type": "PAINT",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/ha-1-6-1",
+      "category_name": "Paint",
+      "category_breadcrumb": "Hardware > Building Consumables > Painting Consumables > Paint"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Paint Brush",
+    "ondc_domain": "RET16",
+    "ondc_category": "PAINT_AND_WALLPAPERS",
+    "amazon_product_type": "PAINT_BRUSH",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/ae-2-1-4",
+      "category_name": "Art & Crafting Tools",
+      "category_breadcrumb": "Arts & Entertainment > Hobbies & Creative Arts > Arts & Crafts > Art & Crafting Tools"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Pesticide",
+    "ondc_domain": "RET16",
+    "ondc_category": "FRESHENERS_AND_REPELLENTS",
+    "amazon_product_type": "PESTICIDE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-10-11-3",
+      "category_name": "Pesticides",
+      "category_breadcrumb": "Home & Garden > Household Supplies > Pest Control > Pesticides"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Plates",
+    "ondc_domain": "RET16",
+    "ondc_category": "SERVEWARE",
+    "amazon_product_type": "DISHWARE_PLATE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-10-4-3",
+      "category_name": "Plates",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Tableware > Dinnerware > Plates"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Pooja Needs",
+    "ondc_domain": "RET16",
+    "ondc_category": "POOJA_NEEDS",
+    "amazon_product_type": "INCENSE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/rc-2-3",
+      "category_name": "Religious Altars",
+      "category_breadcrumb": "Religious & Ceremonial > Religious Items > Religious Altars"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Power Converter",
+    "ondc_domain": "RET16",
+    "ondc_category": "ELECTRICALS",
+    "amazon_product_type": "POWER_CONVERTER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-5-2",
+      "category_name": "Converters",
+      "category_breadcrumb": "Electronics > Components > Converters"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Power Strip",
+    "ondc_domain": "RET16",
+    "ondc_category": "ELECTRICALS",
+    "amazon_product_type": "POWER_STRIP",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/el-7-15-8",
+      "category_name": "Power Strips & Surge Suppressors",
+      "category_breadcrumb": "Electronics > Electronics Accessories > Power > Power Strips & Surge Suppressors"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Scrubs",
+    "ondc_domain": "RET16",
+    "ondc_category": "MOPS_BRUSHES_AND_SCRUBS",
+    "amazon_product_type": "MEDICAL_SCRUB_SET",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-10-6-17",
+      "category_name": "Sponges & Scouring Pads",
+      "category_breadcrumb": "Home & Garden > Household Supplies > Household Cleaning Supplies > Sponges & Scouring Pads"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Serveware",
+    "ondc_domain": "RET16",
+    "ondc_category": "SERVEWARE",
+    "amazon_product_type": "SERVEWARE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-11-10-7",
+      "category_name": "Serveware",
+      "category_breadcrumb": "Home & Garden > Kitchen & Dining > Tableware > Serveware"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Storage Rack",
+    "ondc_domain": "RET16",
+    "ondc_category": "KITCHEN_STORAGE_AND_CONTAINERS",
+    "amazon_product_type": "STORAGE_RACK",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-10-16-9",
+      "category_name": "Storage Hooks & Racks",
+      "category_breadcrumb": "Home & Garden > Household Supplies > Storage & Organization > Storage Hooks & Racks"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Tabletop Game",
+    "ondc_domain": "RET16",
+    "ondc_category": "TOYS_AND_GAMES",
+    "amazon_product_type": "TABLETOP_GAME",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/tg-2-5",
+      "category_name": "Board Games",
+      "category_breadcrumb": "Toys & Games > Games > Board Games"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Toy & Game",
+    "ondc_domain": "RET16",
+    "ondc_category": "TOYS_AND_GAMES",
+    "amazon_product_type": "TOYS_AND_GAMES",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/tg-5-16-7",
+      "category_name": "Toy Kitchens & Play Food",
+      "category_breadcrumb": "Toys & Games > Toys > Pretend Play > Toy Kitchens & Play Food"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Toy Figure",
+    "ondc_domain": "RET16",
+    "ondc_category": "TOYS_AND_GAMES",
+    "amazon_product_type": "TOY_FIGURE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/tg-5-8-1",
+      "category_name": "Action & Toy Figures",
+      "category_breadcrumb": "Toys & Games > Toys > Dolls, Playsets & Toy Figures > Action & Toy Figures"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Toy Vehicle",
+    "ondc_domain": "RET16",
+    "ondc_category": "TOYS_AND_GAMES",
+    "amazon_product_type": "NON_RIDING_TOY_VEHICLE",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/tg-5-15",
+      "category_name": "Play Vehicles",
+      "category_breadcrumb": "Toys & Games > Toys > Play Vehicles"
+    }
+  },
+  {
+    "category": "Home & Kitchen",
+    "sub_category": "Wallpapers",
+    "ondc_domain": "RET16",
+    "ondc_category": "PAINT_AND_WALLPAPERS",
+    "amazon_product_type": "WALLPAPER",
+    "variant_attr": ["size", "color"],
+    "shopify": {
+      "category_id": "gid://shopify/TaxonomyCategory/hg-3-68",
+      "category_name": "Wallpaper",
+      "category_breadcrumb": "Home & Garden > Decor > Wallpaper"
+    }
+  },
+  {
+    "category": "Travel & Luggage",
+    "sub_category": "Backpacks",
+    "ondc_domain": "RET12",
+    "ondc_category": "BACKPACKS",
+    "amazon_product_type": "BACKPACK",
+    "variant_attr": ["color", "numberOfItems", "size", "itemWeight"],
+    "shopify": {
+      "category_name": "Backpacks",
+      "category_breadcrumb": "Luggage & Bags > Backpacks",
+      "category_id": "gid://shopify/TaxonomyCategory/lb-1"
+    }
+  },
+  {
+    "category": "Travel & Luggage",
+    "sub_category": "Handbags",
+    "ondc_domain": "RET12",
+    "ondc_category": "HANDBAGS",
+    "amazon_product_type": "HANDBAG",
+    "variant_attr": ["color", "size"],
+    "shopify": {
+      "category_name": "Backpacks",
+      "category_breadcrumb": "Luggage & Bags > Backpacks",
+      "category_id": "gid://shopify/TaxonomyCategory/lb-1"
+    }
+  },
+  {
+    "category": "Travel & Luggage",
+    "sub_category": "Tote Bags",
+    "ondc_domain": "RET12",
+    "ondc_category": "HANDBAGS",
+    "amazon_product_type": "TOTE BAG",
+    "variant_attr": ["color", "numberOfItems", "size"],
+    "shopify": {
+      "category_name": "Tote Bags",
+      "category_breadcrumb": "Luggage & Bags > Tote Bags",
+      "category_id": "gid://shopify/TaxonomyCategory/lb-13"
+    }
+  }
+]

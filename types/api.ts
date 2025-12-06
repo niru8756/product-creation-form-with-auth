@@ -1,4 +1,8 @@
-import { ExternalProductIdType, InventoryStrategyType, PriceStrategyType } from "@prisma/client";
+import {
+  ExternalProductIdType,
+  InventoryStrategyType,
+  PriceStrategyType,
+} from "@prisma/client";
 import { JsonValue } from "@prisma/client/runtime/client";
 
 export interface Assets {
@@ -10,7 +14,13 @@ export interface Assets {
 export interface Variant {
   id: bigint;
   sku: string;
-  externalProductIdentifier: { id: bigint; storeId: bigint; variantId: bigint; type: ExternalProductIdType; value: string; }[]
+  externalProductIdentifier: {
+    id: bigint;
+    storeId: bigint;
+    variantId: bigint;
+    type: ExternalProductIdType;
+    value: string;
+  }[];
   option: JsonValue;
   extraData: JsonValue;
   channels: string[];
@@ -54,12 +64,12 @@ export interface ProductResponse {
   id: bigint;
   title: string;
   description: string;
-  status: "ACTIVE" | "INACTIVE" | 'DELETED' | 'DRAFT'; 
+  status: "ACTIVE" | "INACTIVE" | "DELETED" | "DRAFT";
   hsnCode: string;
   storeId: bigint;
   subCategoryId: bigint;
   categoryId: bigint;
-  inventoryStrategy: InventoryStrategyType | null; 
+  inventoryStrategy: InventoryStrategyType | null;
   priceStrategy: PriceStrategyType | null;
   originCountry: string | null;
   variants: Variant[];
@@ -72,7 +82,7 @@ export interface PaginationParams {
   limit?: number;
 }
 
-export type PaginatedResponse<T, K extends string = 'data'> = {
+export type PaginatedResponse<T, K extends string = "data"> = {
   [P in K]: T[];
 } & {
   pagination: {
@@ -81,6 +91,12 @@ export type PaginatedResponse<T, K extends string = 'data'> = {
     total: number;
     totalPages: number;
   };
-}
+};
 
-
+export type VariantAttributeType =
+  | "size"
+  | "color"
+  | "flavor"
+  | "numberOfItems"
+  | "itemWeight"
+  | "scent";

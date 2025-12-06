@@ -1,0 +1,1998 @@
+{
+    "MOBILE_PHONE": {
+        "category": "Mobile Phone",
+        "required": [
+            "brand",
+            "model",
+            "colour",
+            "colour_name",
+            "ram",
+            "ram_unit",
+            "storage",
+            "storage_unit",
+            "os_type",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "model_year",
+            "colour",
+            "colour_name",
+            "ram",
+            "ram_unit",
+            "rom",
+            "rom_unit",
+            "storage",
+            "storage_unit",
+            "screen_size",
+            "primary_camera",
+            "secondary_camera",
+            "cpu",
+            "gpu",
+            "battery_capacity",
+            "os_type",
+            "os_version",
+            "connectivity",
+            "form_factor",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "refurbished",
+            "resolution",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "ram_unit",
+            "rom_unit",
+            "storage_unit",
+            "connectivity"
+        ]
+    },
+    "SMART_WATCH": {
+        "category": "Smart Watch",
+        "required": [
+            "brand",
+            "model",
+            "colour",
+            "colour_name",
+            "screen_size",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "model_year",
+            "colour",
+            "colour_name",
+            "screen_size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "refurbished",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour"
+        ]
+    },
+    "HEADSET": {
+        "category": "Headset",
+        "required": [
+            "brand",
+            "model",
+            "connectivity",
+            "form_factor",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "model_year",
+            "connectivity",
+            "form_factor",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "refurbished",
+            "warranty"
+        ],
+        "enum_properties": [
+            "connectivity"
+        ]
+    },
+    "LAPTOP": {
+        "category": "Laptop",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "ram",
+            "ram_unit",
+            "storage",
+            "storage_unit",
+            "storage_type",
+            "screen_size",
+            "cpu",
+            "os_type",
+            "os_version",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "model_year",
+            "colour",
+            "colour_name",
+            "ram",
+            "ram_unit",
+            "rom",
+            "rom_unit",
+            "storage",
+            "storage_unit",
+            "storage_type",
+            "screen_size",
+            "cpu",
+            "gpu",
+            "battery_capacity",
+            "os_type",
+            "os_version",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "refurbished",
+            "resolution",
+            "series",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "ram_unit",
+            "rom_unit",
+            "storage_unit",
+            "storage_type"
+        ]
+    },
+    "DESKTOP": {
+        "category": "Desktop",
+        "required": [
+            "brand",
+            "model",
+            "ram",
+            "ram_unit",
+            "storage",
+            "storage_unit",
+            "storage_type",
+            "screen_size",
+            "cpu",
+            "os_type",
+            "os_version",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "model_year",
+            "ram",
+            "ram_unit",
+            "rom",
+            "rom_unit",
+            "storage",
+            "storage_unit",
+            "storage_type",
+            "screen_size",
+            "cpu",
+            "gpu",
+            "battery_capacity",
+            "os_type",
+            "os_version",
+            "form_factor",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "refurbished",
+            "resolution",
+            "warranty"
+        ],
+        "enum_properties": [
+            "ram_unit",
+            "rom_unit",
+            "storage_unit",
+            "storage_type"
+        ]
+    },
+    "TABLET": {
+        "category": "Tablet",
+        "required": [
+            "brand",
+            "model",
+            "ram",
+            "ram_unit",
+            "storage",
+            "storage_unit",
+            "storage_type",
+            "screen_size",
+            "cpu",
+            "os_type",
+            "os_version",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "model_year",
+            "ram",
+            "ram_unit",
+            "rom",
+            "rom_unit",
+            "storage",
+            "storage_unit",
+            "storage_type",
+            "screen_size",
+            "cpu",
+            "gpu",
+            "battery_capacity",
+            "os_type",
+            "os_version",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "refurbished",
+            "resolution",
+            "warranty"
+        ],
+        "enum_properties": [
+            "ram_unit",
+            "rom_unit",
+            "storage_unit",
+            "storage_type"
+        ]
+    },
+    "KEYBOARD": {
+        "category": "Keyboard",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "connectivity",
+            "compatible_devices",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "connectivity",
+            "compatible_devices",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "refurbished"
+        ],
+        "enum_properties": [
+            "colour",
+            "connectivity",
+            "compatible_devices"
+        ]
+    },
+    "MONITOR": {
+        "category": "Monitor",
+        "required": [
+            "brand",
+            "screen_size",
+            "special_feature",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "screen_size",
+            "special_feature",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "refurbished",
+            "resolution"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "MOUSE": {
+        "category": "Mouse",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "connectivity",
+            "special_feature",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "connectivity",
+            "special_feature",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "refurbished"
+        ],
+        "enum_properties": [
+            "colour",
+            "connectivity",
+            "special_feature"
+        ]
+    },
+    "POWER_BANK": {
+        "category": "Power Bank",
+        "required": [
+            "brand",
+            "model",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "model_year",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "refurbished"
+        ],
+        "enum_properties": []
+    },
+    "EARPHONE": {
+        "category": "Earphone",
+        "required": [
+            "brand",
+            "model",
+            "colour",
+            "colour_name",
+            "connectivity",
+            "includes",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "colour",
+            "colour_name",
+            "connectivity",
+            "special_feature",
+            "includes",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "connectivity",
+            "special_feature"
+        ]
+    },
+    "TRUE_WIRELESS_STEREO_(TWS)": {
+        "category": "True Wireless Stereo (TWS)",
+        "required": [
+            "brand",
+            "model",
+            "colour",
+            "colour_name",
+            "connectivity",
+            "includes",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "colour",
+            "colour_name",
+            "battery_capacity",
+            "playtime",
+            "connectivity",
+            "special_feature",
+            "includes",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "connectivity",
+            "special_feature"
+        ]
+    },
+    "ADAPTER": {
+        "category": "Adapter",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "CABLE": {
+        "category": "Cable",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "EXTENSION_CORD": {
+        "category": "Extension Cord",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "AUDIO_ACCESSORIES": {
+        "category": "Audio Accessories",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "connectivity"
+        ],
+        "enum_properties": [
+            "connectivity"
+        ]
+    },
+    "HOME_AUDIO": {
+        "category": "Home Audio",
+        "required": [
+            "brand",
+            "model",
+            "colour",
+            "colour_name",
+            "connectivity",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "colour",
+            "colour_name",
+            "connectivity",
+            "compatible_devices",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "series",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "connectivity",
+            "compatible_devices",
+            "special_feature"
+        ]
+    },
+    "MICROPHONE": {
+        "category": "Microphone",
+        "required": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "connectivity",
+            "special_feature",
+            "includes"
+        ],
+        "enum_properties": [
+            "connectivity",
+            "special_feature"
+        ]
+    },
+    "SPEAKER": {
+        "category": "Speaker",
+        "required": [
+            "brand",
+            "model",
+            "colour",
+            "colour_name",
+            "connectivity",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "colour",
+            "colour_name",
+            "connectivity",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "connectivity",
+            "special_feature"
+        ]
+    },
+    "VEHICLE_AUDIO": {
+        "category": "Vehicle Audio",
+        "required": [
+            "brand",
+            "model",
+            "connectivity",
+            "special_feature",
+            "includes"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "connectivity",
+            "special_feature",
+            "includes"
+        ],
+        "enum_properties": [
+            "connectivity",
+            "special_feature"
+        ]
+    },
+    "CAMCORDER": {
+        "category": "Camcorder",
+        "required": [
+            "brand",
+            "model",
+            "storage_type",
+            "screen_size",
+            "primary_camera",
+            "connectivity",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "model_year",
+            "colour",
+            "colour_name",
+            "storage_unit",
+            "storage_type",
+            "screen_size",
+            "primary_camera",
+            "connectivity",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "series",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "storage_unit",
+            "storage_type",
+            "connectivity",
+            "special_feature"
+        ]
+    },
+    "CAMERA": {
+        "category": "Camera",
+        "required": [
+            "brand",
+            "model",
+            "storage_type",
+            "primary_camera",
+            "battery_capacity",
+            "connectivity",
+            "compatible_devices",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "model_year",
+            "colour",
+            "colour_name",
+            "storage_unit",
+            "storage_type",
+            "primary_camera",
+            "battery_capacity",
+            "connectivity",
+            "compatible_devices",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "series",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "storage_unit",
+            "storage_type",
+            "connectivity",
+            "compatible_devices",
+            "special_feature"
+        ]
+    },
+    "CAMERA_BAG": {
+        "category": "Camera Bag",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "enum_properties": [
+            "colour"
+        ]
+    },
+    "BATTERIES": {
+        "category": "Batteries",
+        "required": [
+            "brand",
+            "battery_capacity"
+        ],
+        "properties": [
+            "brand",
+            "battery_capacity"
+        ],
+        "enum_properties": []
+    },
+    "CHARGER": {
+        "category": "Charger",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "CAMERA_LENS": {
+        "category": "Camera Lens",
+        "required": [
+            "brand",
+            "model",
+            "primary_camera",
+            "special_feature",
+            "includes"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "primary_camera",
+            "special_feature",
+            "includes"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "PHOTO_PRINTER": {
+        "category": "Photo Printer",
+        "required": [
+            "brand",
+            "model",
+            "connectivity",
+            "special_feature",
+            "includes"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "connectivity",
+            "special_feature",
+            "includes"
+        ],
+        "enum_properties": [
+            "connectivity",
+            "special_feature"
+        ]
+    },
+    "TRIPOD": {
+        "category": "Tripod",
+        "required": [
+            "brand",
+            "includes"
+        ],
+        "properties": [
+            "brand",
+            "includes"
+        ],
+        "enum_properties": []
+    },
+    "CAMERA_ACCESSORIES": {
+        "category": "Camera Accessories",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "UPS": {
+        "category": "UPS",
+        "required": [
+            "brand",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "NETWORKING_DEVICE": {
+        "category": "Networking Device",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "model"
+        ],
+        "enum_properties": []
+    },
+    "PRINTER": {
+        "category": "Printer",
+        "required": [
+            "brand",
+            "model",
+            "connectivity",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "printer_output",
+            "printer_speed",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "connectivity",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "printer_output",
+            "printer_speed",
+            "warranty"
+        ],
+        "enum_properties": [
+            "connectivity",
+            "special_feature",
+            "printer_output"
+        ]
+    },
+    "PRINTER_ACCESSORIES": {
+        "category": "Printer Accessories",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes"
+        ],
+        "properties": [
+            "brand",
+            "special_feature",
+            "includes"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "STORAGE_DRIVE": {
+        "category": "Storage Drive",
+        "required": [
+            "brand",
+            "storage_unit",
+            "connectivity",
+            "special_feature",
+            "includes"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "storage_unit",
+            "connectivity",
+            "special_feature",
+            "includes"
+        ],
+        "enum_properties": [
+            "colour",
+            "storage_unit",
+            "connectivity",
+            "special_feature"
+        ]
+    },
+    "PEN_DRIVE": {
+        "category": "Pen Drive",
+        "required": [
+            "brand",
+            "storage_unit",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "storage_unit",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "colour",
+            "storage_unit",
+            "special_feature"
+        ]
+    },
+    "MEMORY_CARD": {
+        "category": "Memory Card",
+        "required": [
+            "brand",
+            "storage_unit"
+        ],
+        "properties": [
+            "brand",
+            "storage_unit"
+        ],
+        "enum_properties": [
+            "storage_unit"
+        ]
+    },
+    "COMPUTER_COMPONENT": {
+        "category": "Computer Component",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "COOLING_PAD": {
+        "category": "Cooling Pad",
+        "required": [
+            "brand",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "DOCKING_STATION": {
+        "category": "Docking Station",
+        "required": [
+            "brand",
+            "model",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "colour",
+            "colour_name",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "KEYBOARD_GUARD": {
+        "category": "Keyboard Guard",
+        "required": [
+            "brand",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "LAPTOP_SKIN": {
+        "category": "Laptop Skin",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "enum_properties": [
+            "colour"
+        ]
+    },
+    "LAPTOP_STAND": {
+        "category": "Laptop Stand",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "enum_properties": [
+            "colour"
+        ]
+    },
+    "MOUSEPAD": {
+        "category": "Mousepad",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "enum_properties": [
+            "colour"
+        ]
+    },
+    "LAPTOP_BAG": {
+        "category": "Laptop Bag",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "SCREEN_PROTECTOR": {
+        "category": "Screen Protector",
+        "required": [
+            "brand",
+            "screen_size",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "screen_size",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "enum_properties": []
+    },
+    "COMPUTER_ACCESSORIES": {
+        "category": "Computer Accessories",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "COMPUTER_SOFTWARE": {
+        "category": "Computer Software",
+        "required": [
+            "brand",
+            "model",
+            "model_year",
+            "ram",
+            "ram_unit",
+            "special_feature",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "model_year",
+            "ram",
+            "ram_unit",
+            "storage_type",
+            "special_feature",
+            "warranty"
+        ],
+        "enum_properties": [
+            "ram_unit",
+            "storage_type",
+            "special_feature"
+        ]
+    },
+    "EBOOK_READER": {
+        "category": "Ebook Reader",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "ram",
+            "cpu",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "model_year",
+            "colour",
+            "colour_name",
+            "ram",
+            "primary_camera",
+            "cpu",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "resolution",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "TABLET_ACCESSORIES": {
+        "category": "Tablet Accessories ",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "GAMING_CONTROLLER": {
+        "category": "Gaming Controller",
+        "required": [
+            "brand",
+            "model",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "model_year",
+            "special_feature",
+            "includes"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "GAMING_CHAIR": {
+        "category": "Gaming Chair",
+        "required": [
+            "brand",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "GAMING_ACCESSORIES": {
+        "category": "Gaming Accessories",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "GAMING_CONSOLE": {
+        "category": "Gaming Console",
+        "required": [
+            "brand",
+            "model",
+            "ram",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "colour",
+            "colour_name",
+            "ram",
+            "storage_unit",
+            "screen_size",
+            "battery_capacity",
+            "connectivity",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "storage_unit",
+            "connectivity",
+            "special_feature"
+        ]
+    },
+    "VIDEO_GAMES": {
+        "category": "Video Games",
+        "required": [
+            "brand",
+            "model",
+            "model_year",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "model_year",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "MOBILE_COVER": {
+        "category": "Mobile Cover",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "MOBILE_MOUNT": {
+        "category": "Mobile Mount",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "enum_properties": [
+            "colour"
+        ]
+    },
+    "MOBILE_SCREEN_GUARD": {
+        "category": "Mobile Screen Guard",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "SELFIE_STICK": {
+        "category": "Selfie Stick",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "MOBILE_SKIN_STICKER": {
+        "category": "Mobile Skin Sticker",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "enum_properties": [
+            "colour"
+        ]
+    },
+    "BIOMETRICS": {
+        "category": "Biometrics",
+        "required": [
+            "brand",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "primary_camera",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "HOME_ALARM": {
+        "category": "Home Alarm",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes",
+            "warranty"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "HOME_AUTOMATION": {
+        "category": "Home Automation",
+        "required": [
+            "brand",
+            "compatible_devices",
+            "special_feature",
+            "includes",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "compatible_devices",
+            "special_feature",
+            "includes",
+            "warranty"
+        ],
+        "enum_properties": [
+            "compatible_devices",
+            "special_feature"
+        ]
+    },
+    "SMART_SWITCH": {
+        "category": "Smart Switch",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes"
+        ],
+        "properties": [
+            "brand",
+            "special_feature",
+            "includes"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "SMART_LIGHTING": {
+        "category": "Smart Lighting",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes"
+        ],
+        "properties": [
+            "brand",
+            "special_feature",
+            "includes",
+            "warranty"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "HOME_SAFE": {
+        "category": "Home Safe",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "INTERCOM": {
+        "category": "Intercom",
+        "required": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "SENSOR": {
+        "category": "Sensor",
+        "required": [
+            "brand",
+            "model"
+        ],
+        "properties": [
+            "brand",
+            "model"
+        ],
+        "enum_properties": []
+    },
+    "SMART_TV": {
+        "category": "Smart TV",
+        "required": [
+            "brand",
+            "model",
+            "os_type",
+            "os_version",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "primary_camera",
+            "os_type",
+            "os_version",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "STANDARD_TV": {
+        "category": "Standard TV",
+        "required": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "TV_MOUNT": {
+        "category": "TV Mount",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "REMOTE": {
+        "category": "Remote",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "STREAMING_DEVICE": {
+        "category": "Streaming Device",
+        "required": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "TV_ACCESSORIES": {
+        "category": "TV Accessories",
+        "required": [
+            "brand",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "VIRTUAL_REALITY_HEADSET": {
+        "category": "Virtual Reality Headset",
+        "required": [
+            "brand",
+            "model",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "3D_GLASSES": {
+        "category": "3D Glasses",
+        "required": [
+            "brand",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "3D_MODULATOR": {
+        "category": "3D Modulator",
+        "required": [
+            "brand",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "PROJECTOR": {
+        "category": "Projector",
+        "required": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes",
+            "warranty"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "PROJECTOR_SCREEN": {
+        "category": "Projector Screen",
+        "required": [
+            "brand",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "enum_properties": []
+    },
+    "PROJECTOR_MOUNT": {
+        "category": "Projector Mount",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "PROJECTOR_ACCESSORIES": {
+        "category": "Projector Accessories",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "TV_PART": {
+        "category": "TV Part",
+        "required": [
+            "brand",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "TV_REMOTE": {
+        "category": "TV Remote",
+        "required": [
+            "brand",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "SET_TOP_BOX": {
+        "category": "Set Top Box",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "special_feature",
+            "includes",
+            "warranty"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "TV_STAND": {
+        "category": "TV Stand",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "VIDEO_PLAYER": {
+        "category": "Video Player",
+        "required": [
+            "brand",
+            "connectivity",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "connectivity",
+            "compatible_devices",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "enum_properties": [
+            "connectivity",
+            "compatible_devices",
+            "special_feature"
+        ]
+    },
+    "DIGITAL_PHOTO_FRAME": {
+        "category": "Digital Photo Frame",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "connectivity",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "colour",
+            "colour_name",
+            "battery_capacity",
+            "connectivity",
+            "compatible_devices",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "connectivity",
+            "compatible_devices",
+            "special_feature"
+        ]
+    },
+    "HOME_THEATRE_PROJECTOR": {
+        "category": "Home Theatre Projector",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes",
+            "warranty"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "VIDEO_PLAYER_ACCESSORIES": {
+        "category": "Video Player Accessories",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "SMART_BAND": {
+        "category": "Smart Band",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "SMART_GLASSES": {
+        "category": "Smart Glasses",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "WATCH_STRAP_BAND": {
+        "category": "Watch Strap Band",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "WEARABLE_ACCESSORIES": {
+        "category": "Wearable Accessories",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "enum_properties": [
+            "colour"
+        ]
+    },
+    "SMART_RING": {
+        "category": "Smart Ring",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "TRACKER_DEVICES": {
+        "category": "Tracker Devices",
+        "required": [
+            "brand",
+            "model",
+            "os_type",
+            "connectivity",
+            "series",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "model_year",
+            "colour",
+            "colour_name",
+            "ram",
+            "ram_unit",
+            "rom",
+            "rom_unit",
+            "storage",
+            "storage_unit",
+            "screen_size",
+            "primary_camera",
+            "secondary_camera",
+            "cpu",
+            "gpu",
+            "battery_capacity",
+            "os_type",
+            "os_version",
+            "connectivity",
+            "form_factor",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "refurbished",
+            "resolution",
+            "series",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "ram_unit",
+            "rom_unit",
+            "storage_unit",
+            "connectivity"
+        ]
+    }
+}

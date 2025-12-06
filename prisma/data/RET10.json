@@ -1,0 +1,296 @@
+{
+    "FRUITS_AND_VEGETABLES": {
+        "category": "Fruits and Vegetables",
+        "required": [],
+        "properties": [],
+        "enum_properties": []
+    },
+    "MASALA_AND_SEASONING": {
+        "category": "Masala & Seasoning",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "OIL_AND_GHEE": {
+        "category": "Oil & Ghee",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "EGGS_MEAT_AND_FISH": {
+        "category": "Eggs, Meat & Fish",
+        "required": [],
+        "properties": [],
+        "enum_properties": []
+    },
+    "CLEANING_AND_HOUSEHOLD": {
+        "category": "Cleaning & Household",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "BAKERY_CAKES_AND_DAIRY": {
+        "category": "Bakery, Cakes & Dairy",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "PET_CARE": {
+        "category": "Pet Care",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "STATIONERY": {
+        "category": "Stationery",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "DETERGENTS_AND_DISHWASH": {
+        "category": "Detergents and Dishwash",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "DAIRY_AND_CHEESE": {
+        "category": "Dairy and Cheese",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "SNACKS_DRY_FRUITS_NUTS": {
+        "category": "Snacks, Dry Fruits, Nuts",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "PASTA_SOUP_AND_NOODLES": {
+        "category": "Pasta, Soup and Noodles",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "CEREALS_AND_BREAKFAST": {
+        "category": "Cereals and Breakfast",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "SAUCES_SPREADS_AND_DIPS": {
+        "category": "Sauces, Spreads and Dips",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "CHOCOLATES_AND_BISCUITS": {
+        "category": "Chocolates and Biscuits",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "COOKING_AND_BAKING_NEEDS": {
+        "category": "Cooking and Baking Needs",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "TINNED_AND_PROCESSED_FOOD": {
+        "category": "Tinned and Processed Food",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "ATTA_FLOURS_AND_SOOJI": {
+        "category": "Atta, Flours and Sooji",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "RICE_AND_RICE_PRODUCTS": {
+        "category": "Rice and Rice Products",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "DALS_AND_PULSES": {
+        "category": "Dals and Pulses",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "SALT_SUGAR_AND_JAGGERY": {
+        "category": "Salt, Sugar and Jaggery",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "ENERGY_AND_SOFT_DRINKS": {
+        "category": "Energy and Soft Drinks",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "WATER": {
+        "category": "Water",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "TEA_AND_COFFEE": {
+        "category": "Tea and Coffee",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "FRUIT_JUICES_AND_FRUIT_DRINKS": {
+        "category": "Fruit Juices and Fruit Drinks",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "SNACKS_AND_NAMKEEN": {
+        "category": "Snacks and Namkeen",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "READY_TO_COOK_AND_EAT": {
+        "category": "Ready to Cook and Eat",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "PICKLES_AND_CHUTNEY": {
+        "category": "Pickles and Chutney",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "INDIAN_SWEETS": {
+        "category": "Indian Sweets",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "FROZEN_VEGETABLES": {
+        "category": "Frozen Vegetables",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "FROZEN_SNACKS": {
+        "category": "Frozen Snacks",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "GIFT_VOUCHER": {
+        "category": "Gift Voucher",
+        "required": [],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "GOURMET_AND_WORLD_FOODS": {
+        "category": "Gourmet & World Foods",
+        "required": [],
+        "properties": [],
+        "enum_properties": []
+    },
+    "FOODGRAINS": {
+        "category": "Foodgrains",
+        "required": [],
+        "properties": [],
+        "enum_properties": []
+    },
+    "BEVERAGES": {
+        "category": "Beverages",
+        "required": [],
+        "properties": [],
+        "enum_properties": []
+    },
+    "BEAUTY_AND_HYGIENE": {
+        "category": "Beauty & Hygiene",
+        "required": [],
+        "properties": [],
+        "enum_properties": []
+    },
+    "KITCHEN_ACCESSORIES": {
+        "category": "Kitchen Accessories",
+        "required": [],
+        "properties": [],
+        "enum_properties": []
+    },
+    "BABY_CARE": {
+        "category": "Baby Care",
+        "required": [],
+        "properties": [],
+        "enum_properties": []
+    },
+    "SNACKS_AND_BRANDED_FOODS": {
+        "category": "Snacks & Branded Foods",
+        "required": [],
+        "properties": [],
+        "enum_properties": []
+    }
+}

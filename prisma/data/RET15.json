@@ -1,0 +1,1948 @@
+{
+    "AIR_PURIFIER": {
+        "category": "Air Purifier",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "energy_rating",
+            "warranty",
+            "extended_warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "DEHUMIDIFIER": {
+        "category": "Dehumidifier",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "energy_rating",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "HUMIDIFIER": {
+        "category": "Humidifier",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "energy_rating",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "AIR_CLEANER_ACCESSORIES": {
+        "category": "Air Cleaner Accessories",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "energy_rating",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "AIR_CONDITIONER": {
+        "category": "Air Conditioner",
+        "required": [
+            "brand",
+            "type",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "type",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "energy_rating",
+            "warranty",
+            "extended_warranty",
+            "installation_detail",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "type",
+            "special_feature"
+        ]
+    },
+    "AIR_CONDITIONER_ACCESSORIES": {
+        "category": "Air Conditioner Accessories",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "AIR_COOLER": {
+        "category": "Air Cooler",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "energy_rating",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "TRIMMER": {
+        "category": "Trimmer",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "battery",
+            "power_input",
+            "warranty",
+            "wattage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "SHAVER": {
+        "category": "Shaver",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "battery",
+            "power_input",
+            "warranty",
+            "wattage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "EPILATOR": {
+        "category": "Epilator",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "battery",
+            "power_input",
+            "warranty",
+            "wattage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "HAIR_STRAIGHTENER": {
+        "category": "Hair Straightener",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "HAIR_DRYER": {
+        "category": "Hair Dryer",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "power_input",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "HAIR_CURLER": {
+        "category": "Hair Curler",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "power_input",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "HAIR_CRIMPER": {
+        "category": "Hair Crimper",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "power_input",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "SMART_TV": {
+        "category": "Smart TV",
+        "required": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty",
+            "os_type",
+            "os_version"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty",
+            "primary_camera",
+            "os_type",
+            "os_version"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "STANDARD_TV": {
+        "category": "Standard TV",
+        "required": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "TV_MOUNT": {
+        "category": "TV Mount",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "REMOTE": {
+        "category": "Remote",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "STREAMING_DEVICE": {
+        "category": "Streaming Device",
+        "required": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "TV_ACCESSORIES": {
+        "category": "TV Accessories",
+        "required": [
+            "brand",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "HOME_THEATRE_PROJECTOR": {
+        "category": "Home Theatre Projector",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "special_feature",
+            "includes",
+            "warranty"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "TV_PART": {
+        "category": "TV Part",
+        "required": [
+            "brand",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "model",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "TV_REMOTE": {
+        "category": "TV Remote",
+        "required": [
+            "brand",
+            "special_feature"
+        ],
+        "properties": [
+            "brand",
+            "special_feature"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "SET_TOP_BOX": {
+        "category": "Set Top Box",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "warranty"
+        ],
+        "properties": [
+            "brand",
+            "special_feature",
+            "includes",
+            "warranty"
+        ],
+        "enum_properties": [
+            "special_feature"
+        ]
+    },
+    "TV_STAND": {
+        "category": "TV Stand",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand"
+        ],
+        "enum_properties": []
+    },
+    "ELECTRIC_BRUSH": {
+        "category": "Electric Brush",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "power_input",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "ELECTRIC_IRON": {
+        "category": "Electric Iron",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "energy_rating",
+            "power_input",
+            "warranty",
+            "extended_warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "ELECTRIC_SEWING_MACHINE": {
+        "category": "Electric Sewing Machine",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "WATER_HEATER": {
+        "category": "Water Heater",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "energy_rating",
+            "warranty",
+            "installation_detail",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "HEATER_CABLES": {
+        "category": "Heater Cables",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "power_input",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "AIR_HEATER": {
+        "category": "Air Heater",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "energy_rating",
+            "power_input",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "COFFEE_MAKER": {
+        "category": "Coffee Maker",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "BEVERAGE_MAKER": {
+        "category": "Beverage Maker",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "ROTI_MAKER": {
+        "category": "Roti Maker",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "INDUCTION_COOKTOP": {
+        "category": "Induction Cooktop",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty",
+            "installation_detail",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "SANDWICH_MAKER": {
+        "category": "Sandwich Maker",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "ELECTRIC_COOKER": {
+        "category": "Electric Cooker",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "ELECTRIC_KETTLE": {
+        "category": "Electric Kettle",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "MICROWAVE_OVEN": {
+        "category": "Microwave Oven",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "energy_rating",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "OTG": {
+        "category": "OTG",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "energy_rating",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "TOASTER": {
+        "category": "Toaster",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "ELECTRIC_AIR_FRYER": {
+        "category": "Electric Air Fryer",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "COOKING_APPLIANCE_ACCESSORIES": {
+        "category": "Cooking Appliance Accessories ",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "COFFEE_GRINDER": {
+        "category": "Coffee Grinder",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "FOOD_PROCESSOR": {
+        "category": "Food Processor",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty",
+            "wattage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "PASTA_MAKER": {
+        "category": "Pasta Maker",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "FOOD_PROCESSOR_ACCESSORIES": {
+        "category": "Food Processor Accessories",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "BLENDER": {
+        "category": "Blender",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "JUICER": {
+        "category": "Juicer",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "MIXER_GRINDER": {
+        "category": "Mixer Grinder",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty",
+            "extended_warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "WET_GRINDER": {
+        "category": "Wet Grinder",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "DISHWASHER": {
+        "category": "Dishwasher",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "energy_rating",
+            "warranty",
+            "extended_warranty",
+            "installation_detail",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "DISHWASHER_ACCESSORIES": {
+        "category": "Dishwasher Accessories",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "ELECTRIC_CHIMNEY": {
+        "category": "Electric Chimney",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "warranty",
+            "installation_detail",
+            "wattage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "KITCHEN_ACCESSORIES": {
+        "category": "Kitchen Accessories",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "FREEZER": {
+        "category": "Freezer",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "warranty",
+            "extended_warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "REFRIGERATOR": {
+        "category": "Refrigerator",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "type",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "type",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "energy_rating",
+            "warranty",
+            "extended_warranty",
+            "installation_detail",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "type",
+            "special_feature"
+        ]
+    },
+    "REFRIGERATOR_ACCESSORIES": {
+        "category": "Refrigerator Accessories",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "VACUUM_CLEANER": {
+        "category": "Vacuum Cleaner",
+        "required": [
+            "brand",
+            "type",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "type",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty",
+            "wattage"
+        ],
+        "enum_properties": [
+            "colour",
+            "type",
+            "special_feature"
+        ]
+    },
+    "VACUUM_CLEANER_PARTS_AND_ACCESSORIES": {
+        "category": "Vacuum Cleaner Parts and Accessories",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "WASHING_MACHINE": {
+        "category": "Washing Machine",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "type",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "type",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "energy_rating",
+            "warranty",
+            "installation_detail",
+            "wattage",
+            "voltage"
+        ],
+        "enum_properties": [
+            "colour",
+            "type",
+            "special_feature"
+        ]
+    },
+    "WASHING_MACHINE_ACCESSORIES": {
+        "category": "Washing Machine Accessories",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "WATER_PURIFIER": {
+        "category": "Water Purifier",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "WATER_COOLER": {
+        "category": "Water Cooler",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "WATER_DISPENSER": {
+        "category": "Water Dispenser",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "WATER_PURIFIER_SERVICE_KIT": {
+        "category": "Water Purifier Service Kit",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "WATER_PURIFIER_FILTER": {
+        "category": "Water Purifier Filter",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "WATER_PURIFIER_CANDLE": {
+        "category": "Water Purifier Candle",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "WATER_PURIFIER_PIPE": {
+        "category": "Water Purifier Pipe",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "WATER_PURIFIER_ACCESSORIES": {
+        "category": "Water Purifier Accessories",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "WATER_COOLER_ACCESSORIES": {
+        "category": "Water Cooler Accessories",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "INVERTER": {
+        "category": "Inverter",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "INVERTER_BATTERIES": {
+        "category": "Inverter Batteries",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "BATTERY_TRAY": {
+        "category": "Battery tray",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    },
+    "VOLTAGE_STABILIZER": {
+        "category": "Voltage Stabilizer",
+        "required": [
+            "brand",
+            "special_feature",
+            "includes",
+            "weight"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "special_feature",
+            "includes",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "warranty"
+        ],
+        "enum_properties": [
+            "colour",
+            "special_feature"
+        ]
+    }
+}

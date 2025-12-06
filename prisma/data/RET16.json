@@ -1,0 +1,685 @@
+{
+    "HOME_DECOR": {
+        "category": "Home Decor",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "FURNITURE": {
+        "category": "Furniture",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "assembly_required"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "HOME_FURNISHING_BEDDING_AND_LINEN": {
+        "category": "Home Furnishing - Bedding and Linen",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "BINS_AND_BATHROOM": {
+        "category": "Bins and Bathroom",
+        "required": [
+            "brand",
+            "material"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "CAR_AND_SHOE_CARE": {
+        "category": "Car and Shoe Care",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "DISPOSABLES_AND_GARBAGE_BAGS": {
+        "category": "Disposables and Garbage Bags",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "FRESHENERS_AND_REPELLENTS": {
+        "category": "Fresheners and Repellents",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "MOPS_BRUSHES_AND_SCRUBS": {
+        "category": "Mops, Brushes and Scrubs",
+        "required": [
+            "brand",
+            "material"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "PARTY_AND_FESTIVE_NEEDS": {
+        "category": "Party and Festive Needs",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "FLOWERS": {
+        "category": "Flowers",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "POOJA_NEEDS": {
+        "category": "Pooja Needs",
+        "required": [
+            "brand"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "PAINT_AND_WALLPAPERS": {
+        "category": "Paint and Wallpapers",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "HARDWARE_TOOLS_AND_HOME_SAFETY": {
+        "category": "Hardware, Tools and Home Safety",
+        "required": [
+            "brand",
+            "material"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "ELECTRICALS": {
+        "category": "Electricals",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "assembly_required"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "BATHROOM_AND_KITCHEN_FIXTURES": {
+        "category": "Bathroom and Kitchen fixtures",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "GARDEN_AND_OUTDOOR": {
+        "category": "Garden & Outdoor",
+        "required": [
+            "brand",
+            "material"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "SPORTS_AND_FITNESS_EQUIPMENT": {
+        "category": "Sports and Fitness Equipment",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "COOKWARE": {
+        "category": "Cookware",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "SERVEWARE": {
+        "category": "Serveware",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "KITCHEN_STORAGE_AND_CONTAINERS": {
+        "category": "Kitchen Storage and Containers",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "KITCHEN_TOOLS": {
+        "category": "Kitchen Tools",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "CLOSET_LAUNDRY_SHOE_ORGANIZATION": {
+        "category": "Closet/Laundry/Shoe Organization",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "TOYS_AND_GAMES": {
+        "category": "Toys and Games",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "STATIONERY": {
+        "category": "Stationery",
+        "required": [
+            "brand",
+            "colour",
+            "colour_name"
+        ],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    },
+    "BOOKS": {
+        "category": "Books",
+        "required": [],
+        "properties": [
+            "brand",
+            "colour",
+            "colour_name",
+            "material",
+            "size",
+            "weight",
+            "length",
+            "breadth",
+            "height",
+            "model",
+            "assembly_required",
+            "care_instructions",
+            "special_features"
+        ],
+        "enum_properties": [
+            "colour",
+            "material"
+        ]
+    }
+}

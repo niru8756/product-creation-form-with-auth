@@ -1,0 +1,248 @@
+{
+  "PAIN_RELIEF": {
+    "category": "Pain Relief",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "NUTRITION_AND_FITNESS_SUPPLEMENTS": {
+    "category": "Nutrition and Fitness Supplements",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "SPECIALITY_CARE": {
+    "category": "Speciality Care",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "COVID_ESSENTIALS": {
+    "category": "Covid Essentials",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "DIABETES_CONTROL": {
+    "category": "Diabetes Control",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "HEALTHCARE_AND_FITNESS_DEVICES": {
+    "category": "Healthcare & Fitness Devices",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "AYURVEDIC": {
+    "category": "Ayurvedic",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "HOMEOPATHY": {
+    "category": "Homeopathy",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "UNANI_AND_SIDDHA": {
+    "category": "Unani and Siddha",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "ELDER_CARE": {
+    "category": "Elder Care",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "BABY_CARE": {
+    "category": "Baby Care",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "ORTHOPAEDIC_CARE": {
+    "category": "Orthopaedic Care",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "MOBILITY_AIDS": {
+    "category": "Mobility Aids",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "MEDICATED_HAIR_CARE": {
+    "category": "Medicated Hair Care",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "MEDICATED_SKIN_CARE": {
+    "category": "Medicated Skin Care",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "SPECIALITY_FACE_CLEANSERS": {
+    "category": "Speciality Face Cleansers",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "GASTRIC_CARE": {
+    "category": "Gastric Care",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "ENT_CARE": {
+    "category": "ENT Care",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "EYE_CARE": {
+    "category": "Eye Care",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "COLD_AND_COUGH": {
+    "category": "Cold and Cough",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "SEXUAL_WELLNESS": {
+    "category": "Sexual Wellness",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "FEMININE_CARE": {
+    "category": "Feminine Care",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "MATERNITY_CARE": {
+    "category": "Maternity Care",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "NURSING_AND_FEEDING": {
+    "category": "Nursing and Feeding",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "HAND_WASH": {
+    "category": "Hand Wash",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "SANITIZERS": {
+    "category": "Sanitizers",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "BABY_CARE_WIPES_AND_BUDS": {
+    "category": "Baby Care - Wipes and Buds",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "BABY_CARE_RASH_CREAMS": {
+    "category": "Baby Care - Rash Creams",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "BABY_CARE_DIAPERS_AND_ACCESSORIES": {
+    "category": "Baby Care - Diapers and Accessories",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "HEALTH_AND_SAFETY": {
+    "category": "Health and Safety",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "ORAL_CARE": {
+    "category": "Oral Care",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "CONTRACEPTIVES": {
+    "category": "Contraceptives",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "BREATHE_EASY": {
+    "category": "Breathe Easy",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "HEALTH_FOODS_AND_DRINKS": {
+    "category": "Health Foods and Drinks",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "WOUND_CARE_AND_DRESSINGS": {
+    "category": "Wound Care and Dressings",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "SURGICALS": {
+    "category": "Surgicals",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "MENTAL_WELLNESS": {
+    "category": "Mental Wellness",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "GIFT_VOUCHER": {
+    "category": "Gift Voucher",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "PERSONAL_CARE": {
+    "category": "Personal Care",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "HEALTHCARE_DEVICES": {
+    "category": "Healthcare Devices",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  },
+  "AYUSH": {
+    "category": "Ayush",
+    "required": ["brand", "prescription_required"],
+    "properties": ["brand", "prescription_required", "usage_instruction"],
+    "enum_properties": ["prescription_required"]
+  }
+}

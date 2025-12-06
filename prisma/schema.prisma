@@ -1,6 +1,3 @@
-
-
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -10,12 +7,12 @@ datasource db {
 }
 
 model User {
-  id        BigInt    @id @default(dbgenerated("public.next_id()"))
-  email     String    @unique
-  password  String
-  name      String?
-  createdAt DateTime  @default(now())
-  updatedAt DateTime  @updatedAt
+  id            BigInt         @id @default(dbgenerated("public.next_id()"))
+  email         String         @unique
+  password      String
+  name          String?
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
   refreshTokens RefreshToken[]
 }
 
@@ -86,15 +83,15 @@ enum AssetType {
 }
 
 enum InventoryStrategyType {
-  UNIFIED 
-  SPLIT 
+  UNIFIED
+  SPLIT
 
   @@map("inventory_strategy_type")
 }
 
 enum PriceStrategyType {
-  UNIFIED 
-  SPLIT 
+  UNIFIED
+  SPLIT
 
   @@map("price_strategy_type")
 }
@@ -194,11 +191,11 @@ model SalesChannelProvider {
   name           String
   shortDesc      String      @map("short_desc")
   longDesc       String      @map("long_desc")
-  logoUri        String      @map("logo_uri") 
+  logoUri        String      @map("logo_uri")
   infoUrl        String      @map("info_url")
   integrationUrl String      @map("integration_url")
   active         Boolean     @default(false)
-  createdBy      String      @map("created_by") 
+  createdBy      String      @map("created_by")
 
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
@@ -212,11 +209,11 @@ model LogisticsProvider {
   name           String
   shortDesc      String                @map("short_desc")
   longDesc       String                @map("long_desc")
-  logoUri        String                @map("logo_uri") 
+  logoUri        String                @map("logo_uri")
   infoUrl        String                @map("info_url")
   integrationUrl String                @map("integration_url")
   active         Boolean               @default(false)
-  createdBy      String                @map("created_by") 
+  createdBy      String                @map("created_by")
 
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
@@ -230,11 +227,11 @@ model PaymentGatewayProvider {
   name           String
   shortDesc      String                     @map("short_desc")
   longDesc       String                     @map("long_desc")
-  logoUri        String                     @map("logo_uri") 
+  logoUri        String                     @map("logo_uri")
   infoUrl        String                     @map("info_url")
   integrationUrl String                     @map("integration_url")
   active         Boolean                    @default(false)
-  createdBy      String                     @map("created_by") 
+  createdBy      String                     @map("created_by")
 
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
@@ -246,13 +243,13 @@ model Category {
   id          BigInt        @id @default(dbgenerated("public.next_id()"))
   name        String
   active      Boolean       @default(false)
-  storeId     BigInt?       @map("store_id") 
+  storeId     BigInt?       @map("store_id")
   subCategory SubCategory[]
 
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
-  @@unique([name, storeId]) 
+  @@unique([name, storeId])
   @@map("category")
 }
 
@@ -286,11 +283,9 @@ model VariantOptionOnSubCategory {
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
-  
   subCategory   SubCategory?  @relation(fields: [typeName, storeId], references: [name, storeId])
   variantOption VariantOption @relation(fields: [variantOptionId], references: [id])
 
-  
   @@unique([typeName, variantOptionId, storeId])
   @@map("variant_option_on_sub_category")
 }
@@ -314,30 +309,28 @@ model VariantOption {
   @@map("variant_option")
 }
 
-
 model Store {
-  id                    BigInt                @id @default(dbgenerated("public.next_id()"))
-  title                 String
-  description           String?
-  email                 String
-  phone                 String?
-  status                StoreStatus           @default(ACTIVE)
-  image                 String?
-  billingAddress        Json?                 @map("billing_address") @db.JsonB()
-  pickupAddress         Json?                 @map("pickup_address") @db.JsonB()
-  inventoryStrategy     InventoryStrategyType @default(UNIFIED) @map("inventory_strategy")
-  priceStrategy         PriceStrategyType     @default(UNIFIED) @map("price_strategy")
-  createdAt             DateTime              @default(now()) @map("created_at")
-  updatedAt             DateTime              @updatedAt @map("updated_at")
-  enabledChannels       ChannelType[]         @map("enabled_channels")
-  selectedSalesChannels ChannelType[]         @map("selected_sales_channels")  
-  enabledPaymentGateways PaymentGatewayProviderType[] @map("enabled_payment_gateways")
-  enabledLogisticsProviders LogisticsProviderType[] @map("enabled_logistics_providers")
-  metadata Json? @db.JsonB
+  id                        BigInt                       @id @default(dbgenerated("public.next_id()"))
+  title                     String
+  description               String?
+  email                     String
+  phone                     String?
+  status                    StoreStatus                  @default(ACTIVE)
+  image                     String?
+  billingAddress            Json?                        @map("billing_address") @db.JsonB()
+  pickupAddress             Json?                        @map("pickup_address") @db.JsonB()
+  inventoryStrategy         InventoryStrategyType        @default(UNIFIED) @map("inventory_strategy")
+  priceStrategy             PriceStrategyType            @default(UNIFIED) @map("price_strategy")
+  createdAt                 DateTime                     @default(now()) @map("created_at")
+  updatedAt                 DateTime                     @updatedAt @map("updated_at")
+  enabledChannels           ChannelType[]                @map("enabled_channels")
+  selectedSalesChannels     ChannelType[]                @map("selected_sales_channels")
+  enabledPaymentGateways    PaymentGatewayProviderType[] @map("enabled_payment_gateways")
+  enabledLogisticsProviders LogisticsProviderType[]      @map("enabled_logistics_providers")
+  metadata                  Json?                        @db.JsonB
 
   @@map("store_setting")
 }
-
 
 model Asset {
   storeId   BigInt  @map("store_id")
@@ -353,7 +346,6 @@ model Asset {
   updatedAt DateTime  @updatedAt @map("updated_at")
   deletedAt DateTime? @map("deleted_at")
 
-  
   product Product? @relation(fields: [productId], references: [id])
   variant Variant? @relation(fields: [variantId], references: [id])
 
@@ -365,7 +357,7 @@ model Product {
   id                 BigInt                 @id @default(dbgenerated("public.next_id()"))
   title              String
   description        String
-  slug               String 
+  slug               String
   status             ProductStatus          @default(DRAFT)
   hsnCode            String                 @map("hsn_code")
   subCategoryId      BigInt                 @map("sub_category_id")
@@ -375,12 +367,12 @@ model Product {
   variationAttribute String[]               @map("variation_attribute")
   brandName          String                 @map("brand_name")
   productMeasurement Json                   @map("product_measurement") @db.JsonB()
-  
-  manufacturingInfo  Json                   @map("manufacturing_info") @db.JsonB()
-  
-  originCountry      String?                @map("origin_country")
-  createdAt          DateTime               @default(now()) @map("created_at")
-  updatedAt          DateTime               @updatedAt @map("updated_at")
+
+  manufacturingInfo Json @map("manufacturing_info") @db.JsonB()
+
+  originCountry String?  @map("origin_country")
+  createdAt     DateTime @default(now()) @map("created_at")
+  updatedAt     DateTime @updatedAt @map("updated_at")
 
   assets   Asset[]
   variants Variant[]
@@ -393,17 +385,17 @@ model Variant {
   storeId   BigInt        @map("store_id")
   productId BigInt        @map("product_id")
   sku       String
-  option    Json          @db.JsonB 
+  option    Json          @db.JsonB
   extraData Json?         @db.JsonB
   createdAt DateTime      @default(now()) @map("created_at")
   updatedAt DateTime      @updatedAt @map("updated_at")
   assets    Asset[]
-  channels  ChannelType[] 
+  channels  ChannelType[]
   product   Product       @relation(fields: [productId], references: [id])
 
   externalProductIdentifier ExternalProductIdentifier[]
 
-  @@unique([storeId, sku]) 
+  @@unique([storeId, sku])
   @@map("variant")
 }
 
@@ -416,7 +408,7 @@ model ExternalProductIdentifier {
 
   variant Variant @relation(fields: [variantId], references: [id])
 
-  @@unique([storeId, type, value]) 
+  @@unique([storeId, type, value])
   @@map("external_product_identifier")
 }
 
@@ -551,7 +543,7 @@ model InventoryTransaction {
   quantity    Int
   type        InventoryTransactionType
   inventoryId BigInt                   @map("inventory_id")
-  metadata    Json                     @db.JsonB 
+  metadata    Json                     @db.JsonB
   inventory   Inventory                @relation(fields: [inventoryId], references: [id])
   createdAt   DateTime                 @default(now()) @map("created_at")
   updatedAt   DateTime                 @updatedAt @map("updated_at")
@@ -591,4 +583,31 @@ model PriceUpdate {
   priceEntity Price @relation(fields: [priceId], references: [id])
 
   @@map("price_update")
+}
+
+model CategoryAttribute {
+  id             BigInt   @id @default(dbgenerated("public.next_id()"))
+  code           String   @unique
+  domain         String
+  name           String
+  required       String[]
+  properties     String[]
+  enumProperties String[] @map("enum_properties")
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  @@map("category_attribute")
+}
+
+model CategoryAttributeEnumValue {
+  id     BigInt   @id @default(dbgenerated("public.next_id()"))
+  code   String
+  name   String
+  values String[]
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@unique([code, name])
+  @@map("category_attribute_enum_value")
 }
